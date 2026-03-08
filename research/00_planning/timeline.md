@@ -8,6 +8,7 @@ phase_5: Build framework and draft findings
 phase_6: Finalize paper and presentation materials
 phase_7: Validate claims and revise precision
 phase_8: Refocus the study and add evidence-tier logic
+phase_9: Strengthen the evidence base for high-stakes domains
 
 ## Tracking
 
@@ -21,3 +22,4 @@ phase_8: Refocus the study and add evidence-tier logic
 | Final drafting | Completed | Draft paper assembled from all prior phases |
 | Validation | Completed | Three reviewer personas tested defensibility and triggered precision revisions |
 | Refocus and narrowing | Completed | Research question, case set, framework, and draft narrowed toward high-stakes human-AI collaboration |
+| Evidence strengthening | Completed | Added EEOC and stronger domain evidence, and updated case interpretation by evidence tier |

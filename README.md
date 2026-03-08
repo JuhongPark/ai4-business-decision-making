@@ -4,11 +4,11 @@ This repository is organized as a research workspace for a study on how firms sh
 
 ## Current Status
 
-phase: 8
-phase_name: Research Refocus
+phase: 9
+phase_name: Evidence Strengthening
 status: completed
-current_output: [research/06_output/final-paper.md](research/06_output/final-paper.md)
-next_step: choose the next revision set based on the refocused scope and evidence-tier method
+current_output: [research/09_research/evidence-strengthening.md](research/09_research/evidence-strengthening.md)
+next_step: choose the next revision set based on the strengthened evidence base
 
 ## Research Workflow
 
@@ -22,6 +22,7 @@ The project follows this sequence:
 6. Produce final outputs
 7. Validate claims and revise precision
 8. Refocus the study around high-stakes human-AI collaboration
+9. Strengthen the evidence base for high-stakes domains
 
 ## Folder Structure
 
@@ -51,6 +52,7 @@ templates/          reusable note and draft templates
 - Phase 6: assemble the final paper
 - Phase 7: validate claims and revise the draft
 - Phase 8: narrow the study and add evidence-tier logic
+- Phase 9: strengthen primary and regulator-backed evidence
 
 ## Working Rules
 
@@ -68,6 +70,7 @@ templates/          reusable note and draft templates
 - [research/03_cases/cross-case-comparison.md](research/03_cases/cross-case-comparison.md)
 - [research/04_framework/evaluation-framework.md](research/04_framework/evaluation-framework.md)
 - [research/08_expansion/evidence-tier-method.md](research/08_expansion/evidence-tier-method.md)
+- [research/09_research/evidence-strengthening.md](research/09_research/evidence-strengthening.md)
 - [research/06_output/final-paper.md](research/06_output/final-paper.md)
 - [research/07_validation/final-validation.md](research/07_validation/final-validation.md)
 - [research/01_questions/research-question.md](research/01_questions/research-question.md)
