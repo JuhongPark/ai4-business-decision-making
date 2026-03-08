@@ -1,4 +1,4 @@
-# Cycle 01: Scenario Decision Matrix
+# Revision Stage 01: Scenario Decision Matrix
 
 status: completed
 purpose: Convert scenario pack findings into a decision matrix that can drive report conclusions and recommendations.

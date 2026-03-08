@@ -1,4 +1,4 @@
-# Cycle 01 Risk Auditor Review
+# Revision Stage 01 Risk Auditor Review
 
 reviewer: Priya Raman
 target: research/06_output/thinktank-report.md
