@@ -4,11 +4,11 @@ This repository is organized as a research workspace for a study on how AI affec
 
 ## Current Status
 
-phase: 6
-phase_name: Drafting
+phase: 7
+phase_name: Validation
 status: completed
-current_output: [research/06_output/final-paper.md](research/06_output/final-paper.md)
-next_step: revise draft and strengthen sourcing where needed
+current_output: [research/07_validation/final-validation.md](research/07_validation/final-validation.md)
+next_step: revise citations further or prepare submission version
 
 ## Research Workflow
 
@@ -20,6 +20,7 @@ The project follows this sequence:
 4. Build an analytical framework
 5. Draft sections of the paper
 6. Produce final outputs
+7. Validate claims and revise precision
 
 ## Folder Structure
 
@@ -47,6 +48,7 @@ templates/          reusable note and draft templates
 - Phase 4: compare representative cases
 - Phase 5: develop an analytical framework
 - Phase 6: assemble the final paper
+- Phase 7: validate claims and revise the draft
 
 ## Working Rules
 
@@ -64,6 +66,7 @@ templates/          reusable note and draft templates
 - [research/03_cases/cross-case-comparison.md](research/03_cases/cross-case-comparison.md)
 - [research/04_framework/evaluation-framework.md](research/04_framework/evaluation-framework.md)
 - [research/06_output/final-paper.md](research/06_output/final-paper.md)
+- [research/07_validation/final-validation.md](research/07_validation/final-validation.md)
 - [research/01_questions/research-question.md](research/01_questions/research-question.md)
 - [research/02_literature/sources.md](research/02_literature/sources.md)
 
