@@ -11,5 +11,5 @@ status: active
 - [x] evidence-to-claim linkage tightened
 - [x] conclusion and limitations revised
 - [x] executive summary aligned
-- [ ] final validation completed
-- [ ] version 1 frozen
+- [x] final validation completed
+- [x] version 1 frozen

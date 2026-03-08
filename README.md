@@ -4,11 +4,11 @@ This repository is organized as a research workspace for a study on how firms sh
 
 ## Current Status
 
-phase: 19
-phase_name: Submission-Ready Planning
+phase: 20
+phase_name: Submission-Ready Freeze
 status: completed
-current_output: [research/19_submission-ready/finish-plan.md](research/19_submission-ready/finish-plan.md)
-next_step: execute the submission-ready finish plan end to end
+current_output: [research/19_submission-ready/final-validation.md](research/19_submission-ready/final-validation.md)
+next_step: optional future work only; version 1 is complete
 
 ## Research Workflow
 
@@ -33,6 +33,7 @@ The project follows this sequence:
 17. Integrate taxonomy into the report and decision tools
 18. Prepare publication-grade tables and evidence notes
 19. Formalize the submission-ready finish plan
+20. Complete final validation and freeze version 1
 
 ## Folder Structure
 
@@ -73,6 +74,7 @@ templates/          reusable note and draft templates
 - Phase 17: integrate taxonomy into the report and practical tools
 - Phase 18: prepare publication-grade tables and evidence notes
 - Phase 19: formalize the submission-ready finish plan
+- Phase 20: complete final validation and freeze version 1
 
 ## Working Rules
 
@@ -114,6 +116,8 @@ templates/          reusable note and draft templates
 - [research/18_publication-prep/evidence-register.md](research/18_publication-prep/evidence-register.md)
 - [research/18_publication-prep/domain-recommendation-table.md](research/18_publication-prep/domain-recommendation-table.md)
 - [research/19_submission-ready/finish-plan.md](research/19_submission-ready/finish-plan.md)
+- [research/19_submission-ready/final-validation.md](research/19_submission-ready/final-validation.md)
+- [research/19_submission-ready/freeze-note.md](research/19_submission-ready/freeze-note.md)
 - [research/06_output/thinktank-report.md](research/06_output/thinktank-report.md)
 - [research/06_output/executive-summary.md](research/06_output/executive-summary.md)
 - [research/06_output/final-paper.md](research/06_output/final-paper.md)
