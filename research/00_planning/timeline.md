@@ -16,6 +16,7 @@ phase_13: Execute first-wave scenario packs
 phase_14: Assemble think-tank report and executive summary
 phase_15: Complete first full research cycle
 phase_16: Formalize taxonomy and usage rules
+phase_17: Integrate taxonomy into report and decision tools
 
 ## Tracking
 
@@ -37,3 +38,4 @@ phase_16: Formalize taxonomy and usage rules
 | Think-tank report assembly | Completed | Assembled long-form report draft and executive summary from scenario findings |
 | Cycle 01 completion | Completed | Converted scenario results into a decision matrix, validated the report, and revised the main narrative |
 | Taxonomy and usage rules | Completed | Formalized the category system and decision rules for when and how AI should be used |
+| Taxonomy integration | Completed | Integrated taxonomy into the report and added decision-tree and scoring-sheet tools |
