@@ -4,11 +4,11 @@ This repository is organized as a research workspace for a study on how firms sh
 
 ## Current Status
 
-phase: 10
-phase_name: Cross-Domain Analysis
+phase: 11
+phase_name: Scenario-Based Research Design
 status: completed
-current_output: [research/10_domain-analysis/analysis.md](research/10_domain-analysis/analysis.md)
-next_step: decide which domains should receive deeper case-by-case follow-up
+current_output: [research/11_scenario-design/design.md](research/11_scenario-design/design.md)
+next_step: build domain-specific scenario packs for operations, finance, and healthcare
 
 ## Research Workflow
 
@@ -24,6 +24,7 @@ The project follows this sequence:
 8. Refocus the study around high-stakes human-AI collaboration
 9. Strengthen the evidence base for high-stakes domains
 10. Compare AI use across major business domains
+11. Redesign the study around scenario-based AI roles
 
 ## Folder Structure
 
@@ -55,6 +56,7 @@ templates/          reusable note and draft templates
 - Phase 8: narrow the study and add evidence-tier logic
 - Phase 9: strengthen primary and regulator-backed evidence
 - Phase 10: compare strategy, operations, finance, healthcare, investment, product, marketing, and market research
+- Phase 11: build a scenario-based research design and dataset shortlist
 
 ## Working Rules
 
@@ -75,6 +77,9 @@ templates/          reusable note and draft templates
 - [research/09_research/evidence-strengthening.md](research/09_research/evidence-strengthening.md)
 - [research/10_domain-analysis/plan.md](research/10_domain-analysis/plan.md)
 - [research/10_domain-analysis/analysis.md](research/10_domain-analysis/analysis.md)
+- [research/11_scenario-design/plan.md](research/11_scenario-design/plan.md)
+- [research/11_scenario-design/design.md](research/11_scenario-design/design.md)
+- [research/11_scenario-design/dataset-shortlist.md](research/11_scenario-design/dataset-shortlist.md)
 - [research/06_output/final-paper.md](research/06_output/final-paper.md)
 - [research/07_validation/final-validation.md](research/07_validation/final-validation.md)
 - [research/01_questions/research-question.md](research/01_questions/research-question.md)
