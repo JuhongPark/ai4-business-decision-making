@@ -2,11 +2,13 @@
 
 title: AI in Business Decision-Making
 subtitle: Executive Summary
-status: draft_v1
+status: draft_v2_after_cycle_01
 
 ## Core Message
 
 AI should not be deployed with one fixed autonomy model across all business decisions. The right role for AI depends on domain risk, scenario condition, evidence quality, and governance burden.
+
+The executive rule is simple: AI authority must be adaptive.
 
 ## Main Findings
 
@@ -18,6 +20,8 @@ AI should not be deployed with one fixed autonomy model across all business deci
 ## Strategic Implication
 
 The most important organizational decision is not whether to adopt AI. It is how much authority to delegate to AI under specific conditions.
+
+The second most important decision is when to reduce that authority.
 
 ## Policy Implication
 

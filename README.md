@@ -4,11 +4,11 @@ This repository is organized as a research workspace for a study on how firms sh
 
 ## Current Status
 
-phase: 14
-phase_name: Think-Tank Report Assembly
+phase: 15
+phase_name: Cycle 01 Completed
 status: completed
-current_output: [research/06_output/thinktank-report.md](research/06_output/thinktank-report.md)
-next_step: deepen evidence and expand the report into a more publication-ready version
+current_output: [research/15_cycle-01/final-review.md](research/15_cycle-01/final-review.md)
+next_step: start cycle 02 with deeper evidence, tables, and publication-grade report revision
 
 ## Research Workflow
 
@@ -28,6 +28,7 @@ The project follows this sequence:
 12. Build a 3-month think-tank research program
 13. Execute first-wave scenario research
 14. Assemble the think-tank report and executive summary
+15. Complete one full research cycle: synthesis, validation, revision
 
 ## Folder Structure
 
@@ -63,6 +64,7 @@ templates/          reusable note and draft templates
 - Phase 12: formalize the 3-month think-tank research program
 - Phase 13: execute scenario packs for operations, finance, and healthcare
 - Phase 14: assemble the first think-tank report draft
+- Phase 15: complete the first full research cycle
 
 ## Working Rules
 
@@ -93,6 +95,9 @@ templates/          reusable note and draft templates
 - [research/13_scenario-packs/finance-scenarios.md](research/13_scenario-packs/finance-scenarios.md)
 - [research/13_scenario-packs/healthcare-scenarios.md](research/13_scenario-packs/healthcare-scenarios.md)
 - [research/13_scenario-packs/cross-scenario-synthesis.md](research/13_scenario-packs/cross-scenario-synthesis.md)
+- [research/15_cycle-01/scenario-decision-matrix.md](research/15_cycle-01/scenario-decision-matrix.md)
+- [research/15_cycle-01/governance-memo.md](research/15_cycle-01/governance-memo.md)
+- [research/15_cycle-01/final-review.md](research/15_cycle-01/final-review.md)
 - [research/06_output/thinktank-report.md](research/06_output/thinktank-report.md)
 - [research/06_output/executive-summary.md](research/06_output/executive-summary.md)
 - [research/06_output/final-paper.md](research/06_output/final-paper.md)

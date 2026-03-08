@@ -2,13 +2,15 @@
 
 title: AI in Business Decision-Making
 subtitle: A Scenario-Based Study of Human-AI Collaboration Across High-Stakes and Operational Domains
-status: draft_v1
+status: draft_v2_after_cycle_01
 
 ## Introduction
 
 Artificial intelligence is increasingly embedded in business decision processes, but adoption debates remain too broad to guide real institutional design. The central challenge is not whether AI can support decisions in the abstract. The real question is when organizations should use AI to assist, recommend, or automate decisions under different business conditions.
 
 This report argues that AI should be studied by decision role and scenario condition rather than by hype-driven sector generalization. The suitability of AI depends on decision structure, evidence quality, downside risk, and governance burden. As a result, the same domain may tolerate higher AI autonomy under stable conditions but require stronger human control under stress or edge-case conditions.
+
+The central principle of this report is simple: AI authority should be adaptive, not fixed. Organizations need escalation rules for when autonomy can increase and fallback rules for when autonomy must shrink.
 
 ## Why Role Matters More Than Hype
 
@@ -23,6 +25,14 @@ This study uses three core AI roles:
 - `automate with guardrails`: AI executes bounded decisions while humans monitor exceptions, audits, and drift
 
 The framework evaluates these roles against decision structure, evidence strength, explainability needs, downside risk, and governance burden.
+
+## Decision Matrix
+
+| Domain | Baseline | Stress | Edge Case | Core Rule |
+| --- | --- | --- | --- | --- |
+| Operations | automate with guardrails | recommend or automate with guardrails | assist | automate only while data quality and routing stability hold |
+| Finance | assist or tightly governed recommend | assist | assist | reduce autonomy when drift, subgroup impact, or macro instability rises |
+| Healthcare | assist or tightly governed recommend | recommend | assist | reduce autonomy when safety uncertainty or incomplete information rises |
 
 ## Cross-Domain Comparison
 
@@ -51,30 +61,33 @@ Operations is the strongest automation candidate in the study. Under baseline co
 
 ## Finance Findings
 
-Finance is a high-value but restriction-heavy AI domain. Under baseline conditions, AI assist and tightly governed recommend can improve consistency and analytical capacity in underwriting and risk review. Under stress conditions, however, fairness exposure, macro uncertainty, and model-risk become more salient. In edge cases involving drift or subgroup impact, the preferred mode returns to assist because governance and accountability requirements dominate speed gains.
+Finance is a high-value but restriction-heavy AI domain. Under baseline conditions, AI assist and tightly governed recommend can improve consistency and analytical capacity in underwriting and risk review. Under stress conditions, however, fairness exposure, macro uncertainty, and model-risk become more salient. In edge cases involving drift or subgroup impact, the preferred mode returns to assist because governance and accountability requirements dominate speed gains. The main fallback triggers in this domain are subgroup anomalies, drift signals, and unstable macro conditions that make historical patterning less trustworthy.
 
 ## Healthcare Findings
 
-Healthcare demonstrates the strongest governance burden in the report. AI can support triage and clinical prioritization, especially under routine conditions or surge pressure. However, the domain remains safety-critical, and edge cases with incomplete information or unusual presentation justify a strong return to clinician-led judgment. The preferred mode is therefore assist or tightly governed recommend, not broad automation.
+Healthcare demonstrates the strongest governance burden in the report. AI can support triage and clinical prioritization, especially under routine conditions or surge pressure. However, the domain remains safety-critical, and edge cases with incomplete information or unusual presentation justify a strong return to clinician-led judgment. The preferred mode is therefore assist or tightly governed recommend, not broad automation. Surge conditions justify stronger recommendation support, not full automation. The main fallback triggers are incomplete information, atypical presentation, and uncertainty about signal reliability.
 
 ## Cross-Scenario Findings
 
 Three patterns recur across domains. First, baseline conditions tolerate more AI autonomy than stress or edge-case conditions. Second, stress conditions increase both the value of AI support and the cost of hidden model failure. Third, edge cases reverse the autonomy logic by making human-led judgment more valuable than automated consistency.
 
-The strongest analytical result of the study is that AI autonomy should be scenario-sensitive rather than domain-static.
+The strongest analytical result of the study is that AI autonomy should be scenario-sensitive rather than domain-static. Domain type matters, but scenario conditions decide whether authority should escalate or fall back.
 
 ## Governance and Restriction Logic
 
 The report recommends a governance-first approach in high-stakes domains. Organizations should require stronger evidence before deployment, keep accountability clearly assigned, and define explicit fallback rules for stress and edge-case conditions. High-impact adoption claims should rely on regulator-backed, audited, or peer-reviewed evidence whenever possible.
+
+Fallback planning should be treated as a managerial obligation. A system that performs well in baseline conditions but lacks a clear fallback design is not governance-ready.
 
 ## Strategic Recommendations
 
 - Treat AI role selection as a governance decision, not only a technical decision
 - Use bounded automation mainly in repeated, measurable, lower-risk environments
 - Default to assist or tightly governed recommend in finance and healthcare
+- Define escalation triggers and fallback triggers before deployment
 - Build fallback logic for stress and edge-case scenarios before scaling autonomy
 - Distinguish design claims from outcome claims and label evidence strength explicitly
 
 ## Conclusion
 
-The report concludes that AI is most useful when organizations match autonomy level to domain structure, scenario condition, and governance capacity. The key question is not whether AI can be used. The key question is what role AI should play under what conditions.
+The report concludes that AI is most useful when organizations match autonomy level to domain structure, scenario condition, and governance capacity. This remains a scenario-analytic study rather than a live experimental proof of business performance. Its contribution is to show that the key question is not whether AI can be used, but what role AI should play under what conditions and when that role should be reduced.
