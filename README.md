@@ -4,11 +4,11 @@ This repository is organized as a research workspace for a study on how firms sh
 
 ## Current Status
 
-phase: 17
-phase_name: Taxonomy Integration
+phase: 18
+phase_name: Publication Preparation
 status: completed
 current_output: [research/06_output/thinktank-report.md](research/06_output/thinktank-report.md)
-next_step: begin the next revision stage with deeper evidence, tables, and publication-grade report development
+next_step: add explicit in-text source mapping and presentation visuals for a publication-ready package
 
 ## Research Workflow
 
@@ -31,6 +31,7 @@ The project follows this sequence:
 15. Complete one full research revision stage: synthesis, validation, revision
 16. Formalize taxonomy and usage rules
 17. Integrate taxonomy into the report and decision tools
+18. Prepare publication-grade tables and evidence notes
 
 ## Folder Structure
 
@@ -69,6 +70,7 @@ templates/          reusable note and draft templates
 - Phase 15: complete the first full research revision stage
 - Phase 16: formalize category taxonomy and AI usage rules
 - Phase 17: integrate taxonomy into the report and practical tools
+- Phase 18: prepare publication-grade tables and evidence notes
 
 ## Working Rules
 
@@ -107,6 +109,8 @@ templates/          reusable note and draft templates
 - [research/16_taxonomy/scoring-sheet.md](research/16_taxonomy/scoring-sheet.md)
 - [research/16_taxonomy/usage-matrix.md](research/16_taxonomy/usage-matrix.md)
 - [research/16_taxonomy/summary.md](research/16_taxonomy/summary.md)
+- [research/18_publication-prep/evidence-register.md](research/18_publication-prep/evidence-register.md)
+- [research/18_publication-prep/domain-recommendation-table.md](research/18_publication-prep/domain-recommendation-table.md)
 - [research/06_output/thinktank-report.md](research/06_output/thinktank-report.md)
 - [research/06_output/executive-summary.md](research/06_output/executive-summary.md)
 - [research/06_output/final-paper.md](research/06_output/final-paper.md)
