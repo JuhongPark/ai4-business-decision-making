@@ -10,6 +10,7 @@ phase_7: Validate claims and revise precision
 phase_8: Refocus the study and add evidence-tier logic
 phase_9: Strengthen the evidence base for high-stakes domains
 phase_10: Compare AI use across major business domains
+phase_11: Build scenario-based research design and dataset shortlist
 
 ## Tracking
 
@@ -25,3 +26,4 @@ phase_10: Compare AI use across major business domains
 | Refocus and narrowing | Completed | Research question, case set, framework, and draft narrowed toward high-stakes human-AI collaboration |
 | Evidence strengthening | Completed | Added EEOC and stronger domain evidence, and updated case interpretation by evidence tier |
 | Cross-domain analysis | Completed | Compared eight business fields using a common decision-governance framework |
+| Scenario design | Completed | Built scenario-based research design, dataset shortlist, and reusable template |
