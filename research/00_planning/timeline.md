@@ -11,6 +11,7 @@ phase_8: Refocus the study and add evidence-tier logic
 phase_9: Strengthen the evidence base for high-stakes domains
 phase_10: Compare AI use across major business domains
 phase_11: Build scenario-based research design and dataset shortlist
+phase_12: Formalize 3-month think-tank research program
 
 ## Tracking
 
@@ -27,3 +28,4 @@ phase_11: Build scenario-based research design and dataset shortlist
 | Evidence strengthening | Completed | Added EEOC and stronger domain evidence, and updated case interpretation by evidence tier |
 | Cross-domain analysis | Completed | Compared eight business fields using a common decision-governance framework |
 | Scenario design | Completed | Built scenario-based research design, dataset shortlist, and reusable template |
+| Think-tank planning | Completed | Formalized the 3-month research program, weekly roadmap, and report architecture |
