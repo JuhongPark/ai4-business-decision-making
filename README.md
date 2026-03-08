@@ -4,11 +4,11 @@ This repository is organized as a research workspace for a study on how firms sh
 
 ## Current Status
 
-phase: 12
-phase_name: Think-Tank Program Planning
+phase: 13
+phase_name: Scenario Pack Research
 status: completed
-current_output: [research/12_thinktank-program/master-plan.md](research/12_thinktank-program/master-plan.md)
-next_step: execute the first research work packages under the 3-month program
+current_output: [research/13_scenario-packs/cross-scenario-synthesis.md](research/13_scenario-packs/cross-scenario-synthesis.md)
+next_step: integrate scenario findings into the long-form report and executive summary
 
 ## Research Workflow
 
@@ -26,6 +26,7 @@ The project follows this sequence:
 10. Compare AI use across major business domains
 11. Redesign the study around scenario-based AI roles
 12. Build a 3-month think-tank research program
+13. Execute first-wave scenario research
 
 ## Folder Structure
 
@@ -59,6 +60,7 @@ templates/          reusable note and draft templates
 - Phase 10: compare strategy, operations, finance, healthcare, investment, product, marketing, and market research
 - Phase 11: build a scenario-based research design and dataset shortlist
 - Phase 12: formalize the 3-month think-tank research program
+- Phase 13: execute scenario packs for operations, finance, and healthcare
 
 ## Working Rules
 
@@ -85,6 +87,10 @@ templates/          reusable note and draft templates
 - [research/12_thinktank-program/master-plan.md](research/12_thinktank-program/master-plan.md)
 - [research/12_thinktank-program/weekly-roadmap.md](research/12_thinktank-program/weekly-roadmap.md)
 - [research/12_thinktank-program/report-architecture.md](research/12_thinktank-program/report-architecture.md)
+- [research/13_scenario-packs/operations-scenarios.md](research/13_scenario-packs/operations-scenarios.md)
+- [research/13_scenario-packs/finance-scenarios.md](research/13_scenario-packs/finance-scenarios.md)
+- [research/13_scenario-packs/healthcare-scenarios.md](research/13_scenario-packs/healthcare-scenarios.md)
+- [research/13_scenario-packs/cross-scenario-synthesis.md](research/13_scenario-packs/cross-scenario-synthesis.md)
 - [research/06_output/final-paper.md](research/06_output/final-paper.md)
 - [research/07_validation/final-validation.md](research/07_validation/final-validation.md)
 - [research/01_questions/research-question.md](research/01_questions/research-question.md)
