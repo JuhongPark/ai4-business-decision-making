@@ -4,8 +4,9 @@ title: AI for Business Decision-Making
 status: active
 research_goal: Produce an evidence-based analysis of how AI changes business decision-making and identify the conditions under which AI improves organizational performance.
 research_approach: Structured literature review, comparative case analysis, and synthesis of a practical analytical framework.
-current_phase: 1
+current_phase: 2
 phase_1_output: research/00_planning/phase-01-scoping.md
+phase_2_output: research/02_literature/literature-review-summary.md
 
 ## Current Workflow
 
@@ -20,6 +21,7 @@ phase_1_output: research/00_planning/phase-01-scoping.md
 ## Current Deliverables
 
 - Phase 1 scoping document
+- Phase 2 literature review summary
 - Refined research question
 - Literature review
 - Case comparison
