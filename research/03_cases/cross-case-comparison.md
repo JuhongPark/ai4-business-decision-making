@@ -33,7 +33,7 @@ Prediction, ranking, and optimization are not inherently beneficial. Their effec
 
 ### Finding 4: Evidence quality should shape how strongly each case is interpreted
 
-Upstart can support stronger claims because it includes regulator-backed material. UPS is informative mainly for design logic and company-reported outcomes. Amazon is best used as a warning example rather than a fully verified internal record.
+Upstart can support stronger claims because it includes regulator-backed material. UPS is informative mainly for design logic and company-reported outcomes. Amazon is best used as a warning example rather than a fully verified internal record, while EEOC guidance supplies the stronger primary basis for claims about hiring-domain risk.
 
 ## Evidence Quality Note
 

@@ -4,6 +4,7 @@ case_name: Upstart AI lending and credit underwriting
 industry: financial services
 decision_area: finance and risk assessment
 ai_role: underwriting and pricing support
+evidence_tier: Tier 1 plus Tier 2
 source_links:
 - https://www.consumerfinance.gov/about-us/newsroom/cfpb-announces-first-no-action-letter-upstart-network/
 - https://www.consumerfinance.gov/about-us/newsroom/consumer-financial-protection-bureau-issues-no-action-letter-facilitate-use-artificial-intelligence-pricing-and-underwriting-loans/
@@ -24,7 +25,7 @@ The system supports loan approval, underwriting, and pricing decisions.
 
 ## Reported Outcomes
 
-CFPB described the platform as using alternative data to expand access to credit and required regular reporting to monitor consumer risk. Upstart also reports strong transaction growth and positions its AI marketplace as improving conversion and lending efficiency.
+CFPB materials described the platform as using alternative data to expand access to credit and required regular reporting to monitor consumer risk. Upstart investor materials also report transaction growth and position the platform as improving lending efficiency, but those company-reported outcomes should be interpreted separately from regulator-backed evidence.
 
 ## Risks or Limitations
 
@@ -32,4 +33,4 @@ This case shows that high-impact decisions require regulatory scrutiny. The CFPB
 
 ## Relevance to Framework
 
-This is a strong high-oversight case. It shows that business value and governance pressure rise together when AI influences consequential financial decisions.
+This is the strongest high-oversight case in the project because it combines direct regulatory evidence with company-reported business claims. It shows that business value and governance pressure rise together when AI influences consequential financial decisions.
