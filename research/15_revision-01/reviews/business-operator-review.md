@@ -1,4 +1,4 @@
-# Cycle 01 Business Operator Review
+# Revision Stage 01 Business Operator Review
 
 reviewer: Marcus Hale
 target: research/06_output/thinktank-report.md

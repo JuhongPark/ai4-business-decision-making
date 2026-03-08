@@ -8,7 +8,7 @@ phase: 17
 phase_name: Taxonomy Integration
 status: completed
 current_output: [research/06_output/thinktank-report.md](research/06_output/thinktank-report.md)
-next_step: begin cycle 02 with deeper evidence, tables, and publication-grade report revision
+next_step: begin the next revision stage with deeper evidence, tables, and publication-grade report development
 
 ## Research Workflow
 
@@ -28,7 +28,7 @@ The project follows this sequence:
 12. Build a 3-month think-tank research program
 13. Execute first-wave scenario research
 14. Assemble the think-tank report and executive summary
-15. Complete one full research cycle: synthesis, validation, revision
+15. Complete one full research revision stage: synthesis, validation, revision
 16. Formalize taxonomy and usage rules
 17. Integrate taxonomy into the report and decision tools
 
@@ -66,7 +66,7 @@ templates/          reusable note and draft templates
 - Phase 12: formalize the 3-month think-tank research program
 - Phase 13: execute scenario packs for operations, finance, and healthcare
 - Phase 14: assemble the first think-tank report draft
-- Phase 15: complete the first full research cycle
+- Phase 15: complete the first full research revision stage
 - Phase 16: formalize category taxonomy and AI usage rules
 - Phase 17: integrate taxonomy into the report and practical tools
 
@@ -99,9 +99,9 @@ templates/          reusable note and draft templates
 - [research/13_scenario-packs/finance-scenarios.md](research/13_scenario-packs/finance-scenarios.md)
 - [research/13_scenario-packs/healthcare-scenarios.md](research/13_scenario-packs/healthcare-scenarios.md)
 - [research/13_scenario-packs/cross-scenario-synthesis.md](research/13_scenario-packs/cross-scenario-synthesis.md)
-- [research/15_cycle-01/scenario-decision-matrix.md](research/15_cycle-01/scenario-decision-matrix.md)
-- [research/15_cycle-01/governance-memo.md](research/15_cycle-01/governance-memo.md)
-- [research/15_cycle-01/final-review.md](research/15_cycle-01/final-review.md)
+- [research/15_revision-01/scenario-decision-matrix.md](research/15_revision-01/scenario-decision-matrix.md)
+- [research/15_revision-01/governance-memo.md](research/15_revision-01/governance-memo.md)
+- [research/15_revision-01/final-review.md](research/15_revision-01/final-review.md)
 - [research/16_taxonomy/category-system.md](research/16_taxonomy/category-system.md)
 - [research/16_taxonomy/decision-tree.md](research/16_taxonomy/decision-tree.md)
 - [research/16_taxonomy/scoring-sheet.md](research/16_taxonomy/scoring-sheet.md)

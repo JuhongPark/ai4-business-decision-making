@@ -1,4 +1,4 @@
-# Cycle 01 Academic Review
+# Revision Stage 01 Academic Review
 
 reviewer: Dr. Elena Park
 target: research/06_output/thinktank-report.md

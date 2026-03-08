@@ -2,7 +2,7 @@
 
 title: AI in Business Decision-Making
 subtitle: Executive Summary
-status: draft_v2_after_cycle_01
+status: draft_v2_after_revision_01
 
 ## Core Message
 
