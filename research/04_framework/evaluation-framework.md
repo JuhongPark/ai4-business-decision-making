@@ -1,18 +1,111 @@
-# Evaluation Framework
+# Phase 5: Evaluation Framework
 
-This file will capture the framework used to evaluate AI in business decision-making.
+status: completed
+phase_goal: Build a practical framework for evaluating when AI should be used in business decision-making and under what conditions it is likely to improve performance.
 
-## Core Dimensions
+## Core Principle
 
-- Decision type
-- Degree of AI involvement
-- Data readiness
-- Explainability requirement
-- Human oversight requirement
-- Risk level
-- Expected business value
-- Governance requirement
+AI should be evaluated as a decision-support capability embedded in organizational workflows, incentives, and accountability structures rather than as an isolated technical model.
 
-## Working Principle
+## Evaluation Dimensions
 
-AI should be evaluated as a decision-support capability, not only as a technical model.
+### 1. Decision Structure
+
+- low: ambiguous, infrequent, weakly measurable decisions
+- medium: partially structured decisions with some repeated patterns
+- high: repeated, measurable, rules-influenced decisions
+
+### 2. Data Readiness
+
+- low: sparse, noisy, fragmented, or weakly relevant data
+- medium: usable data with quality gaps or integration limits
+- high: rich historical data with clear feedback loops
+
+### 3. Stakes and External Impact
+
+- low: limited external harm if the recommendation is wrong
+- medium: meaningful business cost but limited rights impact
+- high: decisions affecting fairness, compliance, access, safety, or reputation
+
+### 4. Degree of AI Autonomy
+
+- low: AI provides signals only
+- medium: AI recommends actions that humans approve
+- high: AI directly triggers actions with limited human intervention
+
+### 5. Explainability Requirement
+
+- low: limited need for detailed reasoning
+- medium: internal explainability needed for management use
+- high: explanation needed for legal, ethical, or stakeholder accountability
+
+### 6. Human Oversight Requirement
+
+- low: humans monitor aggregate performance
+- medium: humans approve exceptions or sensitive cases
+- high: humans retain final authority over decisions
+
+### 7. Governance Requirement
+
+- low: basic monitoring and performance review
+- medium: documented controls, auditing, and escalation paths
+- high: formal governance, traceability, fairness review, and accountability assignment
+
+## Decision Logic
+
+### Good Fit for AI Support
+
+AI is most likely to improve business decision-making when:
+
+- the decision is frequent and sufficiently structured
+- the organization has strong and relevant data
+- outcomes can be measured and fed back into the system
+- human roles in review and exception handling are clearly defined
+- governance is proportional to the stakes of the decision
+
+### Weak Fit for AI Automation
+
+AI should not be highly automated when:
+
+- the decision is ambiguous and context-heavy
+- data quality is weak or historically biased
+- the decision affects rights, fairness, or legitimacy
+- objective functions are poorly specified
+- the organization cannot explain or govern the system effectively
+
+## Framework Matrix
+
+| Dimension | Favorable Condition | Warning Condition |
+| --- | --- | --- |
+| Decision structure | repeated and measurable | ambiguous and one-off |
+| Data readiness | high-quality and relevant | sparse, biased, or fragmented |
+| Stakes | limited harm from error | high external or ethical impact |
+| AI autonomy | support with controlled escalation | direct action without review |
+| Explainability | sufficient for the use case | opaque in sensitive contexts |
+| Human oversight | explicit role design | unclear accountability |
+| Governance | active monitoring and audit | weak controls or ownership |
+
+## Adoption Modes
+
+### Mode 1: Assist
+
+Use when the decision is complex or high-stakes. AI generates signals, summaries, or forecasts, while humans retain decision authority.
+
+### Mode 2: Recommend
+
+Use when the decision is moderately structured and the organization can review outputs effectively. AI recommends actions, and humans confirm or override.
+
+### Mode 3: Automate with Guardrails
+
+Use when the decision is highly structured, data-rich, low to moderate in harm potential, and easy to monitor. Humans focus on exceptions, audits, and drift detection.
+
+## Framework Implications
+
+- Marketing and operations often fit `recommend` or `automate with guardrails`.
+- Finance often fits `recommend`, with some narrow automation only under strong governance.
+- Human resources generally requires `assist` or tightly constrained `recommend`.
+- Strategy is usually an `assist` domain because contextual judgment remains central.
+
+## Final Working Proposition
+
+AI-supported decisions are most likely to improve organizational performance when the decision environment is structured, the data are reliable, the oversight model is explicit, and governance intensity matches decision risk.

@@ -15,5 +15,5 @@ phase_6: Finalize paper and presentation materials
 | Literature review | Completed | Core literature reviewed and synthesized into key themes |
 | Application analysis | Completed | Business functions mapped by decision type, value, risk, and oversight |
 | Case comparison | Completed | Four cross-functional cases compared for value, risk, and oversight |
-| Framework development | Not started | |
+| Framework development | Completed | Evaluation framework built from literature and case findings |
 | Final drafting | Not started | |
