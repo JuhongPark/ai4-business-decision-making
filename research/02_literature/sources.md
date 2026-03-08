@@ -68,4 +68,25 @@ citation: Consumer Financial Protection Bureau. (2020-2024). Upstart no-action l
 relevance: Provides primary regulatory evidence for governance, monitoring, and model-risk questions in AI-supported lending.
 status: reviewed
 link: https://www.consumerfinance.gov/about-us/newsroom/cfpb-issues-order-to-terminate-upstart-no-action-letter/
+
+id: fda2025aimd
+type: regulatory_guidance
+citation: U.S. Food and Drug Administration. (2025). Artificial Intelligence in Software as a Medical Device and related AI-enabled medical device guidance pages.
+relevance: Provides primary regulatory context for safety, effectiveness, transparency, and lifecycle governance in healthcare AI.
+status: reviewed
+link: https://www.fda.gov/medical-devices/software-medical-device-samd/artificial-intelligence-software-medical-device
+
+id: sec2017robo
+type: investor_bulletin
+citation: U.S. Securities and Exchange Commission, Office of Investor Education and Advocacy. (2017). Investor Bulletin: Robo-Advisers.
+relevance: Provides primary investor-protection guidance relevant to AI-supported investment advice and automation.
+status: reviewed
+link: https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-45
+
+id: sec2015automated
+type: investor_alert
+citation: U.S. Securities and Exchange Commission and FINRA. (2015). Investor Alert: Automated Investment Tools.
+relevance: Supports the investment-domain analysis by highlighting benefits, limits, and disclosure concerns in automated investing tools.
+status: reviewed
+link: https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-alerts/investor-56
 ```
