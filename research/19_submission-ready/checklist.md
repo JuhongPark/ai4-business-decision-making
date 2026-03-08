@@ -8,8 +8,8 @@ status: active
 - [ ] taxonomy fixed
 - [ ] scenario domains complete
 - [x] core tables finalized
-- [ ] evidence-to-claim linkage tightened
-- [ ] conclusion and limitations revised
-- [ ] executive summary aligned
+- [x] evidence-to-claim linkage tightened
+- [x] conclusion and limitations revised
+- [x] executive summary aligned
 - [ ] final validation completed
 - [ ] version 1 frozen

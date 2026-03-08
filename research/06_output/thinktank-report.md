@@ -2,7 +2,7 @@
 
 title: AI in Business Decision-Making
 subtitle: A Scenario-Based Study of Human-AI Collaboration Across High-Stakes and Operational Domains
-status: draft_v3_publication_preparation
+status: draft_v4_submission_ready_candidate
 
 ## Introduction
 
@@ -11,6 +11,8 @@ Artificial intelligence is increasingly embedded in business decision processes,
 This report argues that AI should be studied by decision role and scenario condition rather than by hype-driven sector generalization. The suitability of AI depends on decision structure, evidence quality, downside risk, and governance burden. As a result, the same domain may tolerate higher AI autonomy under stable conditions but require stronger human control under stress or edge-case conditions.
 
 The central principle of this report is simple: AI authority should be adaptive, not fixed. Organizations need escalation rules for when autonomy can increase and fallback rules for when autonomy must shrink.
+
+This report should be read as a structured decision-governance study. It does not claim to provide universal empirical proof of return on investment across all domains. Its stronger contribution is to identify which category combinations justify which level of AI authority.
 
 ## Why Role Matters More Than Hype
 
@@ -71,6 +73,15 @@ The research supports seven practical rules.
 7. strong evidence is necessary but not sufficient in high-risk domains
 
 These rules make the report usable beyond the three scenario packs because they provide a transfer mechanism across domains.
+
+## Evidence and Claim Discipline
+
+The report distinguishes between:
+
+- governance claims supported by regulatory frameworks, peer-reviewed work, and stronger scenario logic
+- design claims supported by official company materials and workflow examples
+
+This distinction matters because high-confidence claims in the report concern governance burden, restriction logic, and fallback design, not universal business impact.
 
 ## Cross-Domain Comparison
 
@@ -147,4 +158,8 @@ The report draws on mixed evidence types. Stronger evidence supports the claims 
 
 ## Conclusion
 
-The report concludes that AI is most useful when organizations match autonomy level to domain structure, scenario condition, and governance capacity. This remains a scenario-analytic study rather than a live experimental proof of business performance. Its contribution is to show that the key question is not whether AI can be used, but what role AI should play under what conditions and when that role should be reduced.
+The report concludes that AI is most useful when organizations match autonomy level to domain structure, scenario condition, evidence quality, and governance capacity. Its central contribution is not a general claim that AI improves business outcomes everywhere. Its stronger and more defensible contribution is to show how organizations should decide when AI should assist, recommend, or automate, and when authority should be reduced again.
+
+The scope boundary is important. This report does not offer live experimental validation across all domains, nor does it claim that the same autonomy logic should apply unchanged in every organization. The analysis is strongest where governance burden, restriction logic, and fallback design can be grounded in stronger regulatory and conceptual evidence.
+
+The practical conclusion is therefore conservative by design: if a category combination does not clearly justify greater autonomy, organizations should keep AI at a lower authority level.
