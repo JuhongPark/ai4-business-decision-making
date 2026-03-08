@@ -19,7 +19,7 @@ phase_11_output: research/11_scenario-design/design.md
 phase_12_output: research/12_thinktank-program/master-plan.md
 phase_13_output: research/13_scenario-packs/cross-scenario-synthesis.md
 phase_14_output: research/06_output/thinktank-report.md
-phase_15_output: research/15_cycle-01/final-review.md
+phase_15_output: research/15_revision-01/final-review.md
 phase_16_output: research/16_taxonomy/summary.md
 phase_17_output: research/06_output/thinktank-report.md
 
@@ -49,7 +49,7 @@ phase_17_output: research/06_output/thinktank-report.md
 - Phase 12 think-tank program plan
 - Phase 13 scenario pack research
 - Phase 14 think-tank report draft
-- Phase 15 full research cycle completion
+- Phase 15 full research revision completion
 - Phase 16 taxonomy and usage rules
 - Phase 17 taxonomy integration and decision tools
 - Refined research question

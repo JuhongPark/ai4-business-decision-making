@@ -2,7 +2,7 @@
 
 title: AI in Business Decision-Making
 subtitle: A Scenario-Based Study of Human-AI Collaboration Across High-Stakes and Operational Domains
-status: draft_v2_after_cycle_01
+status: draft_v2_after_revision_01
 
 ## Introduction
 

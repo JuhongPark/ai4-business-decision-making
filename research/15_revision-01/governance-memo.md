@@ -1,7 +1,7 @@
-# Cycle 01: Governance Memo
+# Revision Stage 01: Governance Memo
 
 status: completed
-purpose: Derive governance implications from the first scenario research cycle.
+purpose: Derive governance implications from the first scenario research revision stage.
 
 ## Main Governance Lessons
 

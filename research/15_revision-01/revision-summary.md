@@ -1,9 +1,9 @@
-# Cycle 01 Summary
+# Revision Stage 01 Summary
 
 status: completed
-scope: first end-to-end cycle after think-tank plan formalization
+scope: first end-to-end revision stage after think-tank plan formalization
 
-## What This Cycle Did
+## What This Revision Stage Did
 
 1. executed first-wave scenario packs
 2. synthesized cross-scenario findings

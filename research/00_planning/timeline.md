@@ -14,7 +14,7 @@ phase_11: Build scenario-based research design and dataset shortlist
 phase_12: Formalize 3-month think-tank research program
 phase_13: Execute first-wave scenario packs
 phase_14: Assemble think-tank report and executive summary
-phase_15: Complete first full research cycle
+phase_15: Complete first full research revision stage
 phase_16: Formalize taxonomy and usage rules
 phase_17: Integrate taxonomy into report and decision tools
 
@@ -36,6 +36,6 @@ phase_17: Integrate taxonomy into report and decision tools
 | Think-tank planning | Completed | Formalized the 3-month research program, weekly roadmap, and report architecture |
 | Scenario pack research | Completed | Built operations, finance, and healthcare scenario packs and synthesized cross-scenario findings |
 | Think-tank report assembly | Completed | Assembled long-form report draft and executive summary from scenario findings |
-| Cycle 01 completion | Completed | Converted scenario results into a decision matrix, validated the report, and revised the main narrative |
+| Revision stage 01 completion | Completed | Converted scenario results into a decision matrix, validated the report, and revised the main narrative |
 | Taxonomy and usage rules | Completed | Formalized the category system and decision rules for when and how AI should be used |
 | Taxonomy integration | Completed | Integrated taxonomy into the report and added decision-tree and scoring-sheet tools |
