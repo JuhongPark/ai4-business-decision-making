@@ -4,11 +4,11 @@ This repository is organized as a research workspace for a study on how AI affec
 
 ## Current Status
 
-phase: 5
-phase_name: Analytical Framework
+phase: 6
+phase_name: Drafting
 status: completed
-current_output: [research/04_framework/evaluation-framework.md](research/04_framework/evaluation-framework.md)
-next_step: phase 6 drafting
+current_output: [research/06_output/final-paper.md](research/06_output/final-paper.md)
+next_step: revise draft and strengthen sourcing where needed
 
 ## Research Workflow
 
@@ -63,6 +63,7 @@ templates/          reusable note and draft templates
 - [research/03_cases/application-map.md](research/03_cases/application-map.md)
 - [research/03_cases/cross-case-comparison.md](research/03_cases/cross-case-comparison.md)
 - [research/04_framework/evaluation-framework.md](research/04_framework/evaluation-framework.md)
+- [research/06_output/final-paper.md](research/06_output/final-paper.md)
 - [research/01_questions/research-question.md](research/01_questions/research-question.md)
 - [research/02_literature/sources.md](research/02_literature/sources.md)
 
