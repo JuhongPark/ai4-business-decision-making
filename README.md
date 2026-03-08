@@ -1,14 +1,14 @@
-# AI for Business Decision-Making
+# Human-AI Collaboration in High-Stakes Business Decision-Making
 
-This repository is organized as a research workspace for a study on how AI affects business decision-making.
+This repository is organized as a research workspace for a study on how firms should use AI to assist, recommend, or automate high-stakes business decisions.
 
 ## Current Status
 
-phase: 7
-phase_name: Validation
+phase: 8
+phase_name: Research Refocus
 status: completed
-current_output: [research/07_validation/final-validation.md](research/07_validation/final-validation.md)
-next_step: revise citations further or prepare submission version
+current_output: [research/06_output/final-paper.md](research/06_output/final-paper.md)
+next_step: choose the next revision set based on the refocused scope and evidence-tier method
 
 ## Research Workflow
 
@@ -21,6 +21,7 @@ The project follows this sequence:
 5. Draft sections of the paper
 6. Produce final outputs
 7. Validate claims and revise precision
+8. Refocus the study around high-stakes human-AI collaboration
 
 ## Folder Structure
 
@@ -49,6 +50,7 @@ templates/          reusable note and draft templates
 - Phase 5: develop an analytical framework
 - Phase 6: assemble the final paper
 - Phase 7: validate claims and revise the draft
+- Phase 8: narrow the study and add evidence-tier logic
 
 ## Working Rules
 
@@ -65,6 +67,7 @@ templates/          reusable note and draft templates
 - [research/03_cases/application-map.md](research/03_cases/application-map.md)
 - [research/03_cases/cross-case-comparison.md](research/03_cases/cross-case-comparison.md)
 - [research/04_framework/evaluation-framework.md](research/04_framework/evaluation-framework.md)
+- [research/08_expansion/evidence-tier-method.md](research/08_expansion/evidence-tier-method.md)
 - [research/06_output/final-paper.md](research/06_output/final-paper.md)
 - [research/07_validation/final-validation.md](research/07_validation/final-validation.md)
 - [research/01_questions/research-question.md](research/01_questions/research-question.md)

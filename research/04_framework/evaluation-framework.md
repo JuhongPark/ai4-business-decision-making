@@ -63,6 +63,15 @@ AI is most likely to improve business decision-making when:
 - human roles in review and exception handling are clearly defined
 - governance is proportional to the stakes of the decision
 
+### Restriction Defaults for High-Stakes Domains
+
+In finance, hiring, and similarly sensitive domains:
+
+- default first to `assist`
+- move to `recommend` only when oversight, explainability, and accountability are demonstrably strong
+- avoid meaningful automation unless the decision is narrowly bounded, auditable, and supported by strong evidence
+- treat weak evidence or unresolved fairness concerns as a reason to restrict deployment rather than expand it
+
 ### Weak Fit for AI Automation
 
 AI should not be highly automated when:
@@ -85,6 +94,16 @@ AI should not be highly automated when:
 | Human oversight | explicit role design | unclear accountability |
 | Governance | active monitoring and audit | weak controls or ownership |
 
+## Evidence Strength Layer
+
+The framework should be applied with an explicit evidence tier:
+
+- strong: regulator-backed, audited, or peer-reviewed support
+- moderate: official company documentation and technical disclosures
+- weak: reported or secondary evidence without direct primary confirmation
+
+High-impact adoption claims should not rely on weak evidence alone.
+
 ## Adoption Modes
 
 ### Mode 1: Assist
@@ -102,10 +121,10 @@ Use when the decision is highly structured, data-rich, low to moderate in harm p
 ## Framework Implications
 
 - Marketing and operations often fit `recommend` or `automate with guardrails`.
-- Finance often fits `recommend`, with some narrow automation only under strong governance.
-- Human resources generally requires `assist` or tightly constrained `recommend`.
+- Finance should default to `assist` or tightly governed `recommend`, with only narrow automation under strong governance and strong evidence.
+- Human resources should generally remain `assist` or tightly constrained `recommend`, and restriction is often more appropriate than automation.
 - Strategy is usually an `assist` domain because contextual judgment remains central.
 
 ## Final Working Proposition
 
-AI-supported decisions are most likely to improve organizational performance when the decision environment is structured, the data are reliable, the oversight model is explicit, and governance intensity matches decision risk.
+AI-supported decisions are most defensibly useful when the decision environment is structured, the data are reliable, the oversight model is explicit, governance intensity matches decision risk, and the claims supporting deployment are backed by appropriately strong evidence.
