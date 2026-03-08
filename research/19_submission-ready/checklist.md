@@ -7,7 +7,7 @@ status: active
 - [ ] main question fixed
 - [ ] taxonomy fixed
 - [ ] scenario domains complete
-- [ ] core tables finalized
+- [x] core tables finalized
 - [ ] evidence-to-claim linkage tightened
 - [ ] conclusion and limitations revised
 - [ ] executive summary aligned
