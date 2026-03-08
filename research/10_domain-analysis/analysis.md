@@ -79,3 +79,7 @@ These areas benefit most from AI as a synthesis and insight-support tool rather 
 ## Final Interpretation
 
 The broad field comparison reinforces the core logic of the research: AI readiness is not determined by enthusiasm or technical capability alone. It is determined by the structure of the decision, the quality of evidence available, the severity of downside risk, and the organization’s ability to govern the system responsibly.
+
+## Related Casebook
+
+See `research/10_domain-analysis/cases/` and `research/10_domain-analysis/casebook-summary.md` for one representative case study per field.
