@@ -16,4 +16,4 @@ phase_6: Finalize paper and presentation materials
 | Application analysis | Completed | Business functions mapped by decision type, value, risk, and oversight |
 | Case comparison | Completed | Four cross-functional cases compared for value, risk, and oversight |
 | Framework development | Completed | Evaluation framework built from literature and case findings |
-| Final drafting | Not started | |
+| Final drafting | Completed | Draft paper assembled from all prior phases |

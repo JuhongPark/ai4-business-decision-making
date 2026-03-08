@@ -1,0 +1,7 @@
+# Case Analysis Draft
+
+The case analysis reveals that AI creates the strongest value in structured and data-rich environments, but it becomes more difficult to justify as decision stakes and fairness risks increase. Netflix and UPS illustrate favorable conditions for AI-supported decision-making. In both cases, decisions are repeated, measurable, and supported by strong operational or behavioral data. Recommendation and route optimization systems can therefore generate visible efficiency and service improvements.
+
+By contrast, Upstart and Amazon show that high-impact decisions require more than predictive capability. Upstart demonstrates how AI can expand analytical capacity in lending, but it also shows how governance pressure increases when AI influences consequential financial outcomes. Fairness, compliance, and model change risk become central design concerns. The Amazon recruiting case demonstrates an even stronger warning: AI-supported screening can fail when historical data encode structural bias and the organization cannot justify the system's outputs in socially sensitive contexts.
+
+Across the cases, the same underlying capabilities of prediction, ranking, and optimization produce different outcomes depending on data quality, objective design, oversight structure, and domain sensitivity. This supports the argument that AI effectiveness is conditional rather than universal.
