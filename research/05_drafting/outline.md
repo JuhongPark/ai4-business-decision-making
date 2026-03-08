@@ -2,9 +2,9 @@
 
 1. Introduction
 2. Literature Review
-3. AI Applications in Business Decision-Making
-4. Benefits of AI-Supported Decisions
-5. Risks and Limitations
-6. Comparative Case Analysis
-7. Framework for Responsible AI Adoption
+3. High-Stakes Business Decision Contexts
+4. Modes of Human-AI Collaboration
+5. Comparative Case Analysis with Evidence Tiers
+6. Restriction Logic and Governance Requirements
+7. Framework for High-Stakes AI Adoption
 8. Conclusion
