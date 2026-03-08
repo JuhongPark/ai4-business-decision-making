@@ -4,11 +4,11 @@ This repository is organized as a research workspace for a study on how firms sh
 
 ## Current Status
 
-phase: 13
-phase_name: Scenario Pack Research
+phase: 14
+phase_name: Think-Tank Report Assembly
 status: completed
-current_output: [research/13_scenario-packs/cross-scenario-synthesis.md](research/13_scenario-packs/cross-scenario-synthesis.md)
-next_step: integrate scenario findings into the long-form report and executive summary
+current_output: [research/06_output/thinktank-report.md](research/06_output/thinktank-report.md)
+next_step: deepen evidence and expand the report into a more publication-ready version
 
 ## Research Workflow
 
@@ -27,6 +27,7 @@ The project follows this sequence:
 11. Redesign the study around scenario-based AI roles
 12. Build a 3-month think-tank research program
 13. Execute first-wave scenario research
+14. Assemble the think-tank report and executive summary
 
 ## Folder Structure
 
@@ -61,4 +62,5 @@ templates/          reusable note and draft templates
 - Phase 11: build a scenario-based research design and dataset shortlist
 - Phase 12: formalize the 3-month think-tank research program
 - Phase 13: execute scenario packs for operations, finance, and healthcare
+- Phase 14: assemble the first think-tank report draft
 
