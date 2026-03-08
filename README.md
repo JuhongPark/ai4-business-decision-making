@@ -4,11 +4,11 @@ This repository is organized as a research workspace for a study on how firms sh
 
 ## Current Status
 
-phase: 9
-phase_name: Evidence Strengthening
+phase: 10
+phase_name: Cross-Domain Analysis
 status: completed
-current_output: [research/09_research/evidence-strengthening.md](research/09_research/evidence-strengthening.md)
-next_step: choose the next revision set based on the strengthened evidence base
+current_output: [research/10_domain-analysis/analysis.md](research/10_domain-analysis/analysis.md)
+next_step: decide which domains should receive deeper case-by-case follow-up
 
 ## Research Workflow
 
@@ -23,6 +23,7 @@ The project follows this sequence:
 7. Validate claims and revise precision
 8. Refocus the study around high-stakes human-AI collaboration
 9. Strengthen the evidence base for high-stakes domains
+10. Compare AI use across major business domains
 
 ## Folder Structure
 
@@ -53,6 +54,7 @@ templates/          reusable note and draft templates
 - Phase 7: validate claims and revise the draft
 - Phase 8: narrow the study and add evidence-tier logic
 - Phase 9: strengthen primary and regulator-backed evidence
+- Phase 10: compare strategy, operations, finance, healthcare, investment, product, marketing, and market research
 
 ## Working Rules
 
@@ -71,6 +73,8 @@ templates/          reusable note and draft templates
 - [research/04_framework/evaluation-framework.md](research/04_framework/evaluation-framework.md)
 - [research/08_expansion/evidence-tier-method.md](research/08_expansion/evidence-tier-method.md)
 - [research/09_research/evidence-strengthening.md](research/09_research/evidence-strengthening.md)
+- [research/10_domain-analysis/plan.md](research/10_domain-analysis/plan.md)
+- [research/10_domain-analysis/analysis.md](research/10_domain-analysis/analysis.md)
 - [research/06_output/final-paper.md](research/06_output/final-paper.md)
 - [research/07_validation/final-validation.md](research/07_validation/final-validation.md)
 - [research/01_questions/research-question.md](research/01_questions/research-question.md)
