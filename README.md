@@ -4,11 +4,11 @@ This repository is organized as a research workspace for a study on how AI affec
 
 ## Current Status
 
-phase: 1
-phase_name: Research Problem and Scope Definition
+phase: 2
+phase_name: Core Literature Review
 status: completed
-current_output: [research/00_planning/phase-01-scoping.md](research/00_planning/phase-01-scoping.md)
-next_step: phase 2 literature review
+current_output: [research/02_literature/literature-review-summary.md](research/02_literature/literature-review-summary.md)
+next_step: phase 3 business application mapping
 
 ## Research Workflow
 
@@ -59,6 +59,7 @@ templates/          reusable note and draft templates
 
 - [README.md](README.md)
 - [research/00_planning/phase-01-scoping.md](research/00_planning/phase-01-scoping.md)
+- [research/02_literature/literature-review-summary.md](research/02_literature/literature-review-summary.md)
 - [research/01_questions/research-question.md](research/01_questions/research-question.md)
 - [research/02_literature/sources.md](research/02_literature/sources.md)
 
