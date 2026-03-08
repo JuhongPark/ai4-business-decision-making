@@ -17,6 +17,7 @@ phase_14: Assemble think-tank report and executive summary
 phase_15: Complete first full research revision stage
 phase_16: Formalize taxonomy and usage rules
 phase_17: Integrate taxonomy into report and decision tools
+phase_18: Prepare publication-grade tables and evidence notes
 
 ## Tracking
 
@@ -39,3 +40,4 @@ phase_17: Integrate taxonomy into report and decision tools
 | Revision stage 01 completion | Completed | Converted scenario results into a decision matrix, validated the report, and revised the main narrative |
 | Taxonomy and usage rules | Completed | Formalized the category system and decision rules for when and how AI should be used |
 | Taxonomy integration | Completed | Integrated taxonomy into the report and added decision-tree and scoring-sheet tools |
+| Publication preparation | Completed | Added evidence register, domain recommendation table, and publication notes |

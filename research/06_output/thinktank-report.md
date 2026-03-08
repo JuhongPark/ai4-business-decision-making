@@ -2,7 +2,7 @@
 
 title: AI in Business Decision-Making
 subtitle: A Scenario-Based Study of Human-AI Collaboration Across High-Stakes and Operational Domains
-status: draft_v2_after_revision_01
+status: draft_v3_publication_preparation
 
 ## Introduction
 
@@ -45,6 +45,19 @@ This taxonomy matters because it prevents the research from collapsing into vagu
 | Finance | assist or tightly governed recommend | assist | assist | reduce autonomy when drift, subgroup impact, or macro instability rises |
 | Healthcare | assist or tightly governed recommend | recommend | assist | reduce autonomy when safety uncertainty or incomplete information rises |
 
+## Domain Recommendation Table
+
+| Domain | Default Role | Escalation Condition | Fallback Trigger |
+| --- | --- | --- | --- |
+| Strategy | assist | bounded scope and stronger evidence | ambiguity and low measurability |
+| Operations | automate with guardrails | stable data and bounded objectives | degraded telemetry or conflicting service goals |
+| Finance | assist or tightly governed recommend | strong fairness controls and auditability | drift, subgroup anomaly, macro instability |
+| Healthcare | assist or tightly governed recommend | clinician override and validated workflow support | incomplete information, atypical presentation |
+| Investment | assist or tightly governed recommend | clear disclosure and suitability controls | suitability ambiguity or disclosure weakness |
+| Product | assist or recommend | stable experimentation logic | ambiguous tradeoffs or weak signal quality |
+| Marketing | recommend | bounded optimization and privacy controls | short-term optimization bias or privacy conflict |
+| Market Research | assist | strong analyst review and transparency | weak sampling or hallucinated synthesis |
+
 ## Taxonomy-Based Usage Rules
 
 The research supports seven practical rules.
@@ -62,6 +75,8 @@ These rules make the report usable beyond the three scenario packs because they 
 ## Cross-Domain Comparison
 
 The broader field comparison shows that AI readiness is uneven across domains. Operations and marketing are the strongest candidates for bounded automation because their decisions are often repeated, measurable, and feedback-rich. Finance, healthcare, and investment offer high analytical upside but require governance-first deployment because decisions in these domains affect fairness, safety, access, and compliance. Strategy, product, and market research are strongest as augmentation domains where AI supports synthesis rather than replacing judgment.
+
+This distinction should be interpreted carefully. In this report, high-confidence claims about governance burden and restriction logic rely mainly on regulatory and peer-reviewed sources, while some lower-risk domain illustrations rely more heavily on company documentation and technical materials.
 
 ## Scenario Methodology
 
@@ -114,6 +129,8 @@ The report therefore recommends a practical decision sequence:
 6. check governance readiness
 7. assign the lowest justified AI authority
 
+This is a conservative rule by design. If the category combination does not clearly justify greater autonomy, the organization should keep the system at a lower authority level.
+
 ## Strategic Recommendations
 
 - Treat AI role selection as a governance decision, not only a technical decision
@@ -123,6 +140,10 @@ The report therefore recommends a practical decision sequence:
 - Build fallback logic for stress and edge-case scenarios before scaling autonomy
 - Distinguish design claims from outcome claims and label evidence strength explicitly
 - Use a category-based decision tree or scoring sheet before assigning AI authority
+
+## Evidence Note
+
+The report draws on mixed evidence types. Stronger evidence supports the claims made about finance, healthcare, investment, governance, and fairness-sensitive decisions. Moderate evidence supports many of the workflow and design examples in operations, marketing, product, and market research. Readers should therefore treat the report primarily as a structured decision-governance study rather than as a universal empirical proof of ROI across all domains.
 
 ## Conclusion
 
