@@ -4,11 +4,11 @@ This repository is organized as a research workspace for a study on how firms sh
 
 ## Current Status
 
-phase: 16
-phase_name: Taxonomy and Usage Rules
+phase: 17
+phase_name: Taxonomy Integration
 status: completed
-current_output: [research/16_taxonomy/summary.md](research/16_taxonomy/summary.md)
-next_step: integrate the taxonomy into the report and use it to guide deeper cycle 02 work
+current_output: [research/06_output/thinktank-report.md](research/06_output/thinktank-report.md)
+next_step: begin cycle 02 with deeper evidence, tables, and publication-grade report revision
 
 ## Research Workflow
 
@@ -30,6 +30,7 @@ The project follows this sequence:
 14. Assemble the think-tank report and executive summary
 15. Complete one full research cycle: synthesis, validation, revision
 16. Formalize taxonomy and usage rules
+17. Integrate taxonomy into the report and decision tools
 
 ## Folder Structure
 
@@ -67,6 +68,7 @@ templates/          reusable note and draft templates
 - Phase 14: assemble the first think-tank report draft
 - Phase 15: complete the first full research cycle
 - Phase 16: formalize category taxonomy and AI usage rules
+- Phase 17: integrate taxonomy into the report and practical tools
 
 ## Working Rules
 
@@ -101,6 +103,8 @@ templates/          reusable note and draft templates
 - [research/15_cycle-01/governance-memo.md](research/15_cycle-01/governance-memo.md)
 - [research/15_cycle-01/final-review.md](research/15_cycle-01/final-review.md)
 - [research/16_taxonomy/category-system.md](research/16_taxonomy/category-system.md)
+- [research/16_taxonomy/decision-tree.md](research/16_taxonomy/decision-tree.md)
+- [research/16_taxonomy/scoring-sheet.md](research/16_taxonomy/scoring-sheet.md)
 - [research/16_taxonomy/usage-matrix.md](research/16_taxonomy/usage-matrix.md)
 - [research/16_taxonomy/summary.md](research/16_taxonomy/summary.md)
 - [research/06_output/thinktank-report.md](research/06_output/thinktank-report.md)
