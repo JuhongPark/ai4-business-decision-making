@@ -2,7 +2,7 @@
 
 title: AI in Business Decision-Making
 subtitle: Executive Summary
-status: draft_v2_after_revision_01
+status: draft_v3_submission_ready_candidate
 
 ## Core Message
 
@@ -16,6 +16,7 @@ The executive rule is simple: AI authority must be adaptive.
 2. Finance should usually remain `assist` or tightly governed `recommend`, especially under stress or fairness uncertainty.
 3. Healthcare should remain `assist` or tightly governed `recommend` because patient safety and edge-case uncertainty are too important for broad automation.
 4. Scenario condition matters as much as domain type. Baseline, stress, and edge-case conditions produce different autonomy recommendations.
+5. The report's strongest claims concern governance, restriction logic, and fallback design, not universal ROI claims across all domains.
 
 ## Strategic Implication
 
@@ -32,3 +33,7 @@ High-stakes domains require stronger evidence, clearer accountability, and expli
 - lower-risk, repeatable environments: `recommend` or `automate with guardrails`
 - high-stakes regulated environments: `assist` or tightly governed `recommend`
 - edge-case or uncertainty-heavy environments: revert toward `assist`
+
+## Scope Note
+
+This report is a decision-governance study, not a universal empirical proof of AI business performance across all sectors.
