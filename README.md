@@ -4,11 +4,11 @@ This repository is organized as a research workspace for a study on how AI affec
 
 ## Current Status
 
-phase: 3
-phase_name: Business Application Mapping
+phase: 4
+phase_name: Comparative Case Analysis
 status: completed
-current_output: [research/03_cases/application-map.md](research/03_cases/application-map.md)
-next_step: phase 4 case analysis
+current_output: [research/03_cases/cross-case-comparison.md](research/03_cases/cross-case-comparison.md)
+next_step: phase 5 analytical framework
 
 ## Research Workflow
 
@@ -61,6 +61,7 @@ templates/          reusable note and draft templates
 - [research/00_planning/phase-01-scoping.md](research/00_planning/phase-01-scoping.md)
 - [research/02_literature/literature-review-summary.md](research/02_literature/literature-review-summary.md)
 - [research/03_cases/application-map.md](research/03_cases/application-map.md)
+- [research/03_cases/cross-case-comparison.md](research/03_cases/cross-case-comparison.md)
 - [research/01_questions/research-question.md](research/01_questions/research-question.md)
 - [research/02_literature/sources.md](research/02_literature/sources.md)
 
