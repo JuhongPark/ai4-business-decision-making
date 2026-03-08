@@ -5,7 +5,7 @@ industry: technology and e-commerce
 decision_area: human resources
 ai_role: candidate scoring and resume screening support
 source_links:
-- https://www.yahoo.com/news/amazon-scraps-secret-ai-recruiting-030823024.html
+- https://www.theguardian.com/technology/2018/oct/10/amazon-hiring-ai-gender-bias-recruiting-engine
 - https://www.recruiter.co.uk/news/2018/10/amazon-abandons-ai-recruiting-tool-it-discriminated-against-women
 
 ## Business Problem
@@ -26,7 +26,7 @@ The project was discontinued after the system showed gender bias and failed to p
 
 ## Risks or Limitations
 
-This case shows how historical bias can be encoded into AI-supported HR decisions. It also demonstrates that even when such systems are not fully deployed, they can fail because fairness, transparency, and data quality problems undermine trust and legitimacy.
+This case shows how historical bias can be encoded into AI-supported HR decisions. Because the case is known primarily through Reuters-reported coverage rather than official corporate disclosure, it should be treated as a reported warning case rather than a fully auditable internal record.
 
 ## Relevance to Framework
 
