@@ -54,4 +54,18 @@ citation: OECD. (2019). OECD AI Principles.
 relevance: Supports the accountability and human oversight dimension of the research scope.
 status: reviewed
 link: https://www.oecd.org/en/topics/ai-principles.html
+
+id: eeoc2023
+type: technical_assistance
+citation: U.S. Equal Employment Opportunity Commission. (2023). Assessing Adverse Impact in Software, Algorithms, and Artificial Intelligence Used in Employment Selection Procedures Under Title VII of the Civil Rights Act of 1964.
+relevance: Provides primary regulatory guidance for evaluating AI use in hiring and other employment selection decisions.
+status: reviewed
+link: https://www.eeoc.gov/assessing-adverse-impact-software-algorithms-and-artificial-intelligence-used-employment-selection
+
+id: cfpb2024upstart
+type: regulatory_record
+citation: Consumer Financial Protection Bureau. (2020-2024). Upstart no-action letter materials and termination order.
+relevance: Provides primary regulatory evidence for governance, monitoring, and model-risk questions in AI-supported lending.
+status: reviewed
+link: https://www.consumerfinance.gov/about-us/newsroom/cfpb-issues-order-to-terminate-upstart-no-action-letter/
 ```
