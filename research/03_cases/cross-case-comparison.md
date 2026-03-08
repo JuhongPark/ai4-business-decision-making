@@ -27,7 +27,7 @@ Netflix and UPS show that AI is especially effective when decisions are repeated
 
 ### Finding 2: High-stakes decisions require more than predictive accuracy
 
-Upstart and Amazon show that when decisions affect fairness, opportunity, or compliance, governance and oversight become essential determinants of success.
+Upstart and the Reuters-reported Amazon hiring case show that when decisions affect fairness, opportunity, or compliance, governance and oversight become essential determinants of success.
 
 ### Finding 3: The same capability can create value or failure depending on context design
 
@@ -36,6 +36,10 @@ Prediction, ranking, and optimization are not inherently beneficial. Their effec
 ### Finding 4: Human involvement does not disappear in successful AI systems
 
 Across all four cases, humans remain necessary for objective setting, exception handling, legal accountability, and interpretation of results.
+
+## Evidence Quality Note
+
+The cases are not equally evidentially strong. Upstart includes regulator-backed documentation, Netflix and UPS rely mainly on company-reported materials, and the Amazon hiring case is based on reported investigative coverage rather than direct company disclosure.
 
 ## Implications for Phase 5
 
