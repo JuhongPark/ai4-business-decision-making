@@ -4,11 +4,11 @@ This repository is organized as a research workspace for a study on how AI affec
 
 ## Current Status
 
-phase: 2
-phase_name: Core Literature Review
+phase: 3
+phase_name: Business Application Mapping
 status: completed
-current_output: [research/02_literature/literature-review-summary.md](research/02_literature/literature-review-summary.md)
-next_step: phase 3 business application mapping
+current_output: [research/03_cases/application-map.md](research/03_cases/application-map.md)
+next_step: phase 4 case analysis
 
 ## Research Workflow
 
