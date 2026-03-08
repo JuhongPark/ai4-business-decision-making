@@ -26,6 +26,17 @@ This study uses three core AI roles:
 
 The framework evaluates these roles against decision structure, evidence strength, explainability needs, downside risk, and governance burden.
 
+The report now formalizes this judgment through a six-part category system:
+
+1. domain
+2. decision structure
+3. risk level
+4. scenario condition
+5. AI role
+6. evidence strength
+
+This taxonomy matters because it prevents the research from collapsing into vague case-by-case reasoning. The right unit of analysis is the category combination, not the domain label alone.
+
 ## Decision Matrix
 
 | Domain | Baseline | Stress | Edge Case | Core Rule |
@@ -33,6 +44,20 @@ The framework evaluates these roles against decision structure, evidence strengt
 | Operations | automate with guardrails | recommend or automate with guardrails | assist | automate only while data quality and routing stability hold |
 | Finance | assist or tightly governed recommend | assist | assist | reduce autonomy when drift, subgroup impact, or macro instability rises |
 | Healthcare | assist or tightly governed recommend | recommend | assist | reduce autonomy when safety uncertainty or incomplete information rises |
+
+## Taxonomy-Based Usage Rules
+
+The research supports seven practical rules.
+
+1. structured plus low-risk plus baseline conditions can justify `recommend` or `automate with guardrails`
+2. semi-structured plus medium-risk decisions usually justify `assist` or `recommend`
+3. high-risk decisions default to `assist` or tightly governed `recommend`
+4. stress conditions increase support value but do not automatically justify more automation
+5. edge cases trigger fallback toward `assist`
+6. weak evidence reduces allowable autonomy
+7. strong evidence is necessary but not sufficient in high-risk domains
+
+These rules make the report usable beyond the three scenario packs because they provide a transfer mechanism across domains.
 
 ## Cross-Domain Comparison
 
@@ -79,6 +104,16 @@ The report recommends a governance-first approach in high-stakes domains. Organi
 
 Fallback planning should be treated as a managerial obligation. A system that performs well in baseline conditions but lacks a clear fallback design is not governance-ready.
 
+The report therefore recommends a practical decision sequence:
+
+1. classify the domain
+2. classify the decision structure
+3. classify the risk level
+4. classify the scenario condition
+5. check evidence strength
+6. check governance readiness
+7. assign the lowest justified AI authority
+
 ## Strategic Recommendations
 
 - Treat AI role selection as a governance decision, not only a technical decision
@@ -87,6 +122,7 @@ Fallback planning should be treated as a managerial obligation. A system that pe
 - Define escalation triggers and fallback triggers before deployment
 - Build fallback logic for stress and edge-case scenarios before scaling autonomy
 - Distinguish design claims from outcome claims and label evidence strength explicitly
+- Use a category-based decision tree or scoring sheet before assigning AI authority
 
 ## Conclusion
 
