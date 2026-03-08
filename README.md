@@ -1,129 +1,83 @@
-# Human-AI Collaboration in High-Stakes Business Decision-Making
+# AI for Business Decision-Making
 
-This repository is organized as a research workspace for a study on how firms should use AI to assist, recommend, or automate high-stakes business decisions.
+This repository contains a think-tank style research project on how organizations should use AI to assist, recommend, or automate business decisions.
 
 ## Current Status
 
-phase: 20
-phase_name: Submission-Ready Freeze
-status: completed
-current_output: [research/19_submission-ready/final-validation.md](research/19_submission-ready/final-validation.md)
-next_step: optional future work only; version 1 is complete
+status: submission_ready_v1
+current_focus: completed version 1
+primary_output: [research/06_output/thinktank-report.md](research/06_output/thinktank-report.md)
+summary_output: [research/06_output/executive-summary.md](research/06_output/executive-summary.md)
 
-## Research Workflow
+## Research Position
 
-The project follows this sequence:
+The project argues that AI authority should be assigned by category combination rather than by domain label alone.
 
-1. Define the research question and scope
-2. Review literature and collect notes
-3. Compare business cases
-4. Build an analytical framework
-5. Draft sections of the paper
-6. Produce final outputs
-7. Validate claims and revise precision
-8. Refocus the study around high-stakes human-AI collaboration
-9. Strengthen the evidence base for high-stakes domains
-10. Compare AI use across major business domains
-11. Redesign the study around scenario-based AI roles
-12. Build a 3-month think-tank research program
-13. Execute first-wave scenario research
-14. Assemble the think-tank report and executive summary
-15. Complete one full research revision stage: synthesis, validation, revision
-16. Formalize taxonomy and usage rules
-17. Integrate taxonomy into the report and decision tools
-18. Prepare publication-grade tables and evidence notes
-19. Formalize the submission-ready finish plan
-20. Complete final validation and freeze version 1
+core_dimensions:
+- domain
+- decision structure
+- risk level
+- scenario condition
+- AI role
+- evidence strength
 
-## Folder Structure
+## Key Outputs
+
+- Final report: [research/06_output/thinktank-report.md](research/06_output/thinktank-report.md)
+- Executive summary: [research/06_output/executive-summary.md](research/06_output/executive-summary.md)
+- Taxonomy summary: [research/16_taxonomy/summary.md](research/16_taxonomy/summary.md)
+- Decision tree: [research/16_taxonomy/decision-tree.md](research/16_taxonomy/decision-tree.md)
+- Scoring sheet: [research/16_taxonomy/scoring-sheet.md](research/16_taxonomy/scoring-sheet.md)
+- Core tables: [research/19_submission-ready/core-tables.md](research/19_submission-ready/core-tables.md)
+- Final validation: [research/19_submission-ready/final-validation.md](research/19_submission-ready/final-validation.md)
+- Freeze note: [research/19_submission-ready/freeze-note.md](research/19_submission-ready/freeze-note.md)
+
+## Main Finding
+
+The central conclusion of the research is:
+
+`AI authority should be adaptive, not fixed.`
+
+Organizations should decide AI authority by evaluating:
+
+1. what domain the decision belongs to
+2. how structured the decision is
+3. how risky failure would be
+4. whether conditions are baseline, stress, or edge-case
+5. how strong the supporting evidence is
+6. whether governance is strong enough for the proposed autonomy level
+
+## Repository Structure
 
 ```text
 research/
-  00_planning/      project plan, timeline, and workflow notes
-  01_questions/     research questions, scope, and hypothesis
-  02_literature/    source tracker and literature reading notes
-  03_cases/         case selection and case comparison notes
-  04_framework/     analytical framework and evaluation criteria
-  05_drafting/      chapter outline and section drafts
-  06_output/        final paper and presentation-ready outputs
-data/
-  references/       source metadata and bibliographic files
-  extracted/        cleaned excerpts, quotes, and structured notes
-  tables/           comparison tables and summary datasets
-templates/          reusable note and draft templates
+  00_planning/              planning and timeline documents
+  01_questions/             research question and scope
+  02_literature/            source tracker and reading notes
+  03_cases/                 case comparison materials
+  04_framework/             evaluation framework
+  05_drafting/              section drafts
+  06_output/                report outputs
+  07_validation/            earlier validation materials
+  08_expansion/             expansion and refocus planning
+  09_research/              evidence-strengthening notes
+  10_domain-analysis/       cross-domain comparison and casebook
+  11_scenario-design/       scenario research design
+  12_thinktank-program/     3-month research program plan
+  13_scenario-packs/        scenario packs for core domains
+  15_revision-01/           revision-stage synthesis and review
+  16_taxonomy/              category system and usage rules
+  18_publication-prep/      publication-grade supporting materials
+  19_submission-ready/      finish plan, validation, and freeze
+templates/                  reusable templates
 ```
-
-## Phase Deliverables
-
-- Phase 1: define the research problem, scope, questions, and working argument
-- Phase 2: collect and review core literature
-- Phase 3: map business application areas
-- Phase 4: compare representative cases
-- Phase 5: develop an analytical framework
-- Phase 6: assemble the final paper
-- Phase 7: validate claims and revise the draft
-- Phase 8: narrow the study and add evidence-tier logic
-- Phase 9: strengthen primary and regulator-backed evidence
-- Phase 10: compare strategy, operations, finance, healthcare, investment, product, marketing, and market research
-- Phase 11: build a scenario-based research design and dataset shortlist
-- Phase 12: formalize the 3-month think-tank research program
-- Phase 13: execute scenario packs for operations, finance, and healthcare
-- Phase 14: assemble the first think-tank report draft
-- Phase 15: complete the first full research revision stage
-- Phase 16: formalize category taxonomy and AI usage rules
-- Phase 17: integrate taxonomy into the report and practical tools
-- Phase 18: prepare publication-grade tables and evidence notes
-- Phase 19: formalize the submission-ready finish plan
-- Phase 20: complete final validation and freeze version 1
 
 ## Working Rules
 
 - Write all research content in English.
-- Keep notes concise and source-linked.
-- Separate raw evidence from interpretation.
-- Update the relevant file as research progresses instead of scattering notes.
-
-## Start Here
-
-- [README.md](README.md)
-- [research/00_planning/phase-01-scoping.md](research/00_planning/phase-01-scoping.md)
-- [research/02_literature/literature-review-summary.md](research/02_literature/literature-review-summary.md)
-- [research/03_cases/application-map.md](research/03_cases/application-map.md)
-- [research/03_cases/cross-case-comparison.md](research/03_cases/cross-case-comparison.md)
-- [research/04_framework/evaluation-framework.md](research/04_framework/evaluation-framework.md)
-- [research/08_expansion/evidence-tier-method.md](research/08_expansion/evidence-tier-method.md)
-- [research/09_research/evidence-strengthening.md](research/09_research/evidence-strengthening.md)
-- [research/10_domain-analysis/plan.md](research/10_domain-analysis/plan.md)
-- [research/10_domain-analysis/analysis.md](research/10_domain-analysis/analysis.md)
-- [research/11_scenario-design/plan.md](research/11_scenario-design/plan.md)
-- [research/11_scenario-design/design.md](research/11_scenario-design/design.md)
-- [research/11_scenario-design/dataset-shortlist.md](research/11_scenario-design/dataset-shortlist.md)
-- [research/12_thinktank-program/master-plan.md](research/12_thinktank-program/master-plan.md)
-- [research/12_thinktank-program/weekly-roadmap.md](research/12_thinktank-program/weekly-roadmap.md)
-- [research/12_thinktank-program/report-architecture.md](research/12_thinktank-program/report-architecture.md)
-- [research/13_scenario-packs/operations-scenarios.md](research/13_scenario-packs/operations-scenarios.md)
-- [research/13_scenario-packs/finance-scenarios.md](research/13_scenario-packs/finance-scenarios.md)
-- [research/13_scenario-packs/healthcare-scenarios.md](research/13_scenario-packs/healthcare-scenarios.md)
-- [research/13_scenario-packs/cross-scenario-synthesis.md](research/13_scenario-packs/cross-scenario-synthesis.md)
-- [research/15_revision-01/scenario-decision-matrix.md](research/15_revision-01/scenario-decision-matrix.md)
-- [research/15_revision-01/governance-memo.md](research/15_revision-01/governance-memo.md)
-- [research/15_revision-01/final-review.md](research/15_revision-01/final-review.md)
-- [research/16_taxonomy/category-system.md](research/16_taxonomy/category-system.md)
-- [research/16_taxonomy/decision-tree.md](research/16_taxonomy/decision-tree.md)
-- [research/16_taxonomy/scoring-sheet.md](research/16_taxonomy/scoring-sheet.md)
-- [research/16_taxonomy/usage-matrix.md](research/16_taxonomy/usage-matrix.md)
-- [research/16_taxonomy/summary.md](research/16_taxonomy/summary.md)
-- [research/18_publication-prep/evidence-register.md](research/18_publication-prep/evidence-register.md)
-- [research/18_publication-prep/domain-recommendation-table.md](research/18_publication-prep/domain-recommendation-table.md)
-- [research/19_submission-ready/finish-plan.md](research/19_submission-ready/finish-plan.md)
-- [research/19_submission-ready/final-validation.md](research/19_submission-ready/final-validation.md)
-- [research/19_submission-ready/freeze-note.md](research/19_submission-ready/freeze-note.md)
-- [research/06_output/thinktank-report.md](research/06_output/thinktank-report.md)
-- [research/06_output/executive-summary.md](research/06_output/executive-summary.md)
-- [research/06_output/final-paper.md](research/06_output/final-paper.md)
-- [research/07_validation/final-validation.md](research/07_validation/final-validation.md)
-- [research/01_questions/research-question.md](research/01_questions/research-question.md)
-- [research/02_literature/sources.md](research/02_literature/sources.md)
+- Separate evidence from interpretation.
+- Label evidence strength when claims differ in confidence.
+- Treat the report as a decision-governance study, not as a universal ROI claim.
 
 ## Commit Format
 
@@ -131,6 +85,6 @@ Use commit messages in `type: summary` format.
 
 Examples:
 
-- `docs: add project research structure`
-- `research: refine core research question`
-- `notes: add literature review sources`
+- `research: finalize submission-ready version one`
+- `docs: replace cycle terminology with revision language`
+- `research: formalize ai decision taxonomy and usage rules`
