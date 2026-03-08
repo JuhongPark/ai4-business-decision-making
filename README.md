@@ -4,11 +4,11 @@ This repository is organized as a research workspace for a study on how AI affec
 
 ## Current Status
 
-phase: 4
-phase_name: Comparative Case Analysis
+phase: 5
+phase_name: Analytical Framework
 status: completed
-current_output: [research/03_cases/cross-case-comparison.md](research/03_cases/cross-case-comparison.md)
-next_step: phase 5 analytical framework
+current_output: [research/04_framework/evaluation-framework.md](research/04_framework/evaluation-framework.md)
+next_step: phase 6 drafting
 
 ## Research Workflow
 
