@@ -1,5 +1,7 @@
 # Case Selection
 
+status: prepared after phase 3 mapping
+
 ## Selection Criteria
 
 - Clear use of AI in business decision support
@@ -15,3 +17,10 @@
 - Supply chain and demand forecasting
 - Human resources and hiring support
 - Marketing and recommendation systems
+
+## Current Priority
+
+- Marketing and recommendation systems
+- Finance and risk assessment
+- Supply chain and demand forecasting
+- Human resources and hiring support
