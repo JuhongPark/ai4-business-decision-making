@@ -18,6 +18,7 @@ phase_15: Complete first full research revision stage
 phase_16: Formalize taxonomy and usage rules
 phase_17: Integrate taxonomy into report and decision tools
 phase_18: Prepare publication-grade tables and evidence notes
+phase_19: Formalize submission-ready finish plan
 
 ## Tracking
 
@@ -41,3 +42,4 @@ phase_18: Prepare publication-grade tables and evidence notes
 | Taxonomy and usage rules | Completed | Formalized the category system and decision rules for when and how AI should be used |
 | Taxonomy integration | Completed | Integrated taxonomy into the report and added decision-tree and scoring-sheet tools |
 | Publication preparation | Completed | Added evidence register, domain recommendation table, and publication notes |
+| Submission-ready planning | Completed | Defined the finish line, required tasks, and done definition for version 1 |
