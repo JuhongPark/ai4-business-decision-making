@@ -4,11 +4,11 @@ This repository is organized as a research workspace for a study on how firms sh
 
 ## Current Status
 
-phase: 11
-phase_name: Scenario-Based Research Design
+phase: 12
+phase_name: Think-Tank Program Planning
 status: completed
-current_output: [research/11_scenario-design/design.md](research/11_scenario-design/design.md)
-next_step: build domain-specific scenario packs for operations, finance, and healthcare
+current_output: [research/12_thinktank-program/master-plan.md](research/12_thinktank-program/master-plan.md)
+next_step: execute the first research work packages under the 3-month program
 
 ## Research Workflow
 
@@ -25,6 +25,7 @@ The project follows this sequence:
 9. Strengthen the evidence base for high-stakes domains
 10. Compare AI use across major business domains
 11. Redesign the study around scenario-based AI roles
+12. Build a 3-month think-tank research program
 
 ## Folder Structure
 
@@ -57,6 +58,7 @@ templates/          reusable note and draft templates
 - Phase 9: strengthen primary and regulator-backed evidence
 - Phase 10: compare strategy, operations, finance, healthcare, investment, product, marketing, and market research
 - Phase 11: build a scenario-based research design and dataset shortlist
+- Phase 12: formalize the 3-month think-tank research program
 
 ## Working Rules
 
@@ -80,6 +82,9 @@ templates/          reusable note and draft templates
 - [research/11_scenario-design/plan.md](research/11_scenario-design/plan.md)
 - [research/11_scenario-design/design.md](research/11_scenario-design/design.md)
 - [research/11_scenario-design/dataset-shortlist.md](research/11_scenario-design/dataset-shortlist.md)
+- [research/12_thinktank-program/master-plan.md](research/12_thinktank-program/master-plan.md)
+- [research/12_thinktank-program/weekly-roadmap.md](research/12_thinktank-program/weekly-roadmap.md)
+- [research/12_thinktank-program/report-architecture.md](research/12_thinktank-program/report-architecture.md)
 - [research/06_output/final-paper.md](research/06_output/final-paper.md)
 - [research/07_validation/final-validation.md](research/07_validation/final-validation.md)
 - [research/01_questions/research-question.md](research/01_questions/research-question.md)
