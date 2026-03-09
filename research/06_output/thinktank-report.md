@@ -83,6 +83,14 @@ The report distinguishes between:
 
 This distinction matters because high-confidence claims in the report concern governance burden, restriction logic, and fallback design, not universal business impact.
 
+## MIT Research Landscape
+
+MIT research provides a useful bridge between conceptual theory and real organizational implementation. The most relevant MIT work clusters around three units. First, the MIT Center for Collective Intelligence, led by Thomas Malone with major contributions from Abdullah Almaatouq and Michelle Vaccaro, studies when human and AI capabilities combine productively. Their 2024 meta-analysis finds that human-AI combinations are not automatically better than the best standalone performer and are more consistently useful in creative tasks than in decision tasks. For this report, that result matters because it directly weakens any assumption that high-stakes business decisions should move toward more autonomy by default.
+
+Second, MIT Sloan's digital economy research, especially work associated with Erik Brynjolfsson, Danielle Li, and Lindsey Raymond, shows that performance gains depend on organizational complements rather than model capability alone. This line includes both earlier work on data-driven decision-making and later work on generative AI in customer-support settings. The practical implication is that AI value emerges when task structure, worker learning, and workflow design are aligned. This supports the report's emphasis on evidence quality, scenario condition, and governance readiness instead of broad adoption claims.
+
+Third, MIT Sloan research on hiring and organizational implementation deepens the governance argument. Danielle Li's hiring research shows that algorithm design can change both candidate quality and candidate diversity, which means that the design of AI-mediated screening systems is itself a governance choice. Kate Kellogg's work on algorithm use inside organizations shows that transparency and interpretability do not solve adoption problems automatically. Workers may second-guess, over-intervene in, or reshape algorithmic tools in ways that change realized performance. Taken together, the MIT evidence supports a conservative conclusion: organizations should assign AI authority by task type, workflow design, and governance capacity, not by the existence of a technically capable model alone.
+
 ## Cross-Domain Comparison
 
 The broader field comparison shows that AI readiness is uneven across domains. Operations and marketing are the strongest candidates for bounded automation because their decisions are often repeated, measurable, and feedback-rich. Finance, healthcare, and investment offer high analytical upside but require governance-first deployment because decisions in these domains affect fairness, safety, access, and compliance. Strategy, product, and market research are strongest as augmentation domains where AI supports synthesis rather than replacing judgment.
