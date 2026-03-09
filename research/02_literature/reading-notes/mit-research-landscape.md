@@ -39,3 +39,5 @@ Current organizational leadership and study leadership are not always the same. 
 ## My Notes
 
 This synthesis is useful as a dedicated literature subsection and as a bridge between the conceptual review and the case-based governance framework. It is also a good source base for explaining why MIT research does not support blanket automation claims in finance, hiring, or other high-stakes domains.
+
+MIT SDM should be treated as a complementary stream rather than folded into the Sloan-centered literature. Its value is strongest on implementation design, sociotechnical systems, and workflow-level framing.
