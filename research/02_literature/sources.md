@@ -117,4 +117,39 @@ citation: De Stefano, V., Kellogg, K. C., Menietti, M., and Vendraminelli, L. (2
 relevance: Supports the organizational adoption side of the research by showing that worker trust, visibility, and intervention patterns affect how algorithmic systems perform in practice.
 status: reviewed
 link: https://ssrn.com/abstract=4246077
+
+id: sdmbarua_ai_commercialization
+type: thesis
+citation: Barua, S. R. Thesis: A strategic perspective on the commercialization of artificial intelligence. MIT System Design and Management.
+relevance: Shows that MIT SDM has directly examined how firms identify AI use cases, commercialize AI systems, and align AI strategy with business goals.
+status: reviewed
+link: https://sdm.mit.edu/research-practice/thesis-a-strategic-perspective-on-the-commercialization-of-artificial-intelligence/
+
+id: sdmjain_vc_ai
+type: thesis
+citation: Jain, C. (2018). Artificial Intelligence in Venture Capital Industry: Opportunities and Risks. Submitted to the MIT System Design and Management Program.
+relevance: Provides an SDM thesis directly relevant to high-stakes investment decision-making and the opportunities and risks of AI-supported financial judgment.
+status: reviewed
+link: https://dspace.mit.edu/bitstream/handle/1721.1/118544/1055162018-MIT.pdf
+
+id: sdmiheagwara_cyber_ai
+type: applied_research
+citation: Iheagwara, C. Using Systems Thinking to Assess and Address Cybersecurity Challenges. MIT SDM webinar and applied research summary.
+relevance: Demonstrates an SDM approach to AI-supported decision analysis for enterprise cybersecurity product evaluation and selection.
+status: reviewed
+link: https://sdm.mit.edu/using-systems-thinking-to-assess-and-address-cybersecurity-challenges/
+
+id: sdmserc2025_ai_accountability
+type: research_program
+citation: SDM fellows apply systems thinking to broader challenges as Social and Ethical Responsibilities Computing (SERC) Scholars. MIT SDM, 2025.
+relevance: Shows that SDM fellows are working on AI accountability, data ownership, and ethical implications of AI through linked MIT research programs.
+status: reviewed
+link: https://sdm.mit.edu/serc-scholars-2025/
+
+id: sdmdao2025_gmas
+type: conference_paper
+citation: Dao, N.-L., and Moser, B. (2025). Designing Generative Multi-Agent Systems for Resilience. MIT SDM research output summary.
+relevance: Extends the SDM research landscape toward generative AI systems, architectural resilience, and bad-actor robustness.
+status: reviewed
+link: https://sdm.mit.edu/research-practice/dao-best-paper-cas-2025/
 ```
