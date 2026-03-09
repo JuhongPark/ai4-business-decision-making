@@ -35,6 +35,12 @@ Dietvorst, Simmons, and Massey show that people can avoid algorithms after obser
 
 NIST and OECD frame trustworthy AI around risk management, accountability, transparency, human oversight, and responsible use. These ideas are not peripheral to business decision-making. They determine whether AI systems can be integrated into high-stakes workflows in ways that are reliable, explainable, and defensible. Governance should therefore appear inside the analytical framework, not only in the conclusion.
 
+### Theme 6: MIT research strengthens the case for adaptive human-AI authority
+
+Recent MIT-linked research broadens the study beyond conceptual arguments and regulator guidance. The MIT Center for Collective Intelligence, led by Thomas Malone with work by Abdullah Almaatouq and Michelle Vaccaro, shows through a 2024 meta-analysis that human-AI combinations are not uniformly superior. They appear more useful in creative tasks than in decision tasks, which directly supports caution in high-stakes decision environments.
+
+MIT Sloan and the Initiative on the Digital Economy add a second line of evidence. Danielle Li, Lindsey Raymond, and collaborators show that AI can raise productivity and knowledge transfer in support settings, but that gains depend on task structure, worker experience, and workflow design. In hiring research, Li and coauthors also show that algorithm design can alter both candidate diversity and candidate quality. Kate Kellogg's MIT Sloan work adds an implementation perspective by showing that workers do not simply accept algorithmic systems as designed. Intervention patterns, trust, and organizational context reshape actual performance.
+
 ## Synthesis
 
 The literature suggests that the central research question should not be whether AI is useful in business decision-making in general. That framing is too broad and too weak. A stronger framing is to ask what factors determine whether AI-supported decisions improve organizational performance. The reviewed sources point to five likely explanatory factors:
@@ -45,11 +51,17 @@ The literature suggests that the central research question should not be whether
 4. The behavioral trust relationship between managers and AI outputs
 5. The presence of governance and accountability mechanisms
 
+The MIT research landscape suggests two additional factors:
+
+6. The fit between the task type and the human-AI division of labor
+7. The quality of implementation design, including worker interaction and override behavior
+
 ## Implications for the Study
 
 - The literature review chapter should be organized by concepts, not by source chronology.
 - The case analysis should compare not only business outcomes but also decision design and oversight design.
 - The final framework should evaluate AI as an organizational capability embedded in workflows, incentives, and governance structures.
+- The literature review should include a short MIT-focused subsection because MIT research usefully bridges conceptual theory, workplace evidence, and organizational implementation.
 
 ## Direction for Phase 3
 

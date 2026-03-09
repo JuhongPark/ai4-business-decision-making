@@ -89,4 +89,32 @@ citation: U.S. Securities and Exchange Commission and FINRA. (2015). Investor Al
 relevance: Supports the investment-domain analysis by highlighting benefits, limits, and disclosure concerns in automated investing tools.
 status: reviewed
 link: https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-alerts/investor-56
+
+id: vaccaro2024
+type: paper
+citation: Vaccaro, M., Almaatouq, A., and Malone, T. W. (2024). When combinations of humans and AI are useful: A systematic review and meta-analysis. Nature Human Behaviour.
+relevance: Provides MIT-led synthesis evidence on when human-AI combinations outperform humans or AI alone across decision and creative tasks.
+status: reviewed
+link: https://www.nature.com/articles/s41562-024-02024-1
+
+id: li2023genaiwork
+type: paper
+citation: Brynjolfsson, E., Li, D., and Raymond, L. R. (2023). Generative AI at Work. NBER Working Paper 31161.
+relevance: Gives empirical evidence on how AI copilots change worker productivity and knowledge transfer in operational decision-support settings.
+status: reviewed
+link: https://www.nber.org/papers/w31161
+
+id: li2020hiring
+type: paper
+citation: Li, D., Raymond, L. R., and Bergman, P. (2020). Hiring as Exploration. NBER Working Paper 27736.
+relevance: Shows that hiring algorithm design changes candidate quality and diversity, which is directly relevant to high-stakes HR decisions.
+status: reviewed
+link: https://www.nber.org/papers/w27736
+
+id: kellogg2022tapestry
+type: working_paper
+citation: De Stefano, V., Kellogg, K. C., Menietti, M., and Vendraminelli, L. (2022). The Tapestry of Work: A Comprehensive Framework for Understanding the Experience of Work in the Age of AI.
+relevance: Supports the organizational adoption side of the research by showing that worker trust, visibility, and intervention patterns affect how algorithmic systems perform in practice.
+status: reviewed
+link: https://ssrn.com/abstract=4246077
 ```
