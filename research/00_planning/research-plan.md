@@ -4,7 +4,7 @@ title: Human-AI Collaboration in High-Stakes Business Decision-Making
 status: active
 research_goal: Produce an evidence-based analysis of when firms should use AI to assist, recommend, or automate high-stakes business decisions.
 research_approach: Structured literature review, narrowed comparative case analysis, evidence-tier classification, and synthesis of a practical analytical framework.
-current_phase: 20
+current_phase: 21
 phase_1_output: research/00_planning/phase-01-scoping.md
 phase_2_output: research/02_literature/literature-review-summary.md
 phase_3_output: research/03_cases/application-map.md
@@ -25,6 +25,7 @@ phase_17_output: research/06_output/thinktank-report.md
 phase_18_output: research/18_publication-prep/publication-notes.md
 phase_19_output: research/19_submission-ready/finish-plan.md
 phase_20_output: research/19_submission-ready/final-validation.md
+phase_21_output: research/20_three-part-study/research-plan.md
 
 ## Current Workflow
 
