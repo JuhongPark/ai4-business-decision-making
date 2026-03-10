@@ -161,6 +161,27 @@ Examines how startups and small organizations (10-500 people) handle AI governan
 - Stage-gated governance escalation matching investment to scale and risk exposure
 - Integration with existing compliance frameworks (SOC 2, ISO 42001) rather than standalone AI governance
 
+### Document 9: AI Governance Commercialization
+
+Maps how AI governance has evolved from academic/policy concern into a multi-billion-dollar commercial ecosystem.
+
+**Key findings:**
+
+- **AI governance software market: $1-2B (2025), growing 30-51% CAGR.** Forrester projects $15.8B by 2030. Gartner confirmed the market crossed $1B in February 2026. OneTrust leads ($500M+ ARR, PE discussions at $10B+). Credo AI (~3x revenue growth) is the purpose-built AI governance leader (Forrester Wave Leader Q3 2025).
+- **Seven distinct business model categories:** Enterprise SaaS (OneTrust, Credo AI), Compliance Automation (Drata, Vanta), Consulting (Big Four, Accenture $3B), Audit Services ($613M bias audit market), Certification (ISO 42001, SOC 2), Training (IAPP AIGP, $182K avg salary), Insurance (Relm, Munich Re).
+- **AI safety/security companies being acquired rapidly:** Cisco acquired Robust Intelligence (~$400M), Palo Alto Networks acquired Protect AI ($650-700M), Lakera acquired. Pure-play AI safety startups struggle to reach scale independently.
+- **AI insurance emerging as distinct market:** Relm launched three AI-specific products (NOVAAI, PONTAAI, RESCAAI). Munich Re offers AI performance guarantees. D&O insurers scrutinizing AI governance. 90% of businesses report interest in AI risk coverage.
+- **AI red teaming market: $1.43B (2024), growing 26-30% CAGR.** Bug bounty programs from Anthropic, OpenAI, Google. GenAI security incidents rising (9% → 15% of organizations, 2024-2025).
+- **Data governance for AI: $4.4B market growing to $17B+ by 2032.** Synthetic data ($0.51B, 39% CAGR) emerging as privacy-preserving governance solution. NVIDIA acquired Gretel.
+- **Geographic divergence:** EU (regulation-driven compliance market), US (fragmented state-level, voluntary adoption), Asia-Pacific (fastest growth, 29%+ CAGR).
+- **Key business model insight:** Platform + services hybrid works best. Only 16% of AI providers monetize governance standalone — most bundle with broader offerings.
+
+**Research implications:**
+- AI governance is becoming infrastructure, not policy — commercial tooling enforces what documents describe
+- Market dynamics (acquisition, consolidation) will determine which governance approaches dominate in practice
+- Insurance-driven governance may prove more effective than regulation-driven governance for adoption speed
+- The commercial ecosystem creates incentives that may not align with the framework's normative recommendations
+
 ---
 
 ## How This Phase Extends the Research
@@ -177,6 +198,7 @@ Examines how startups and small organizations (10-500 people) handle AI governan
 | Governance as abstract function | CAIO case studies showing who governs, how, and why they succeed or fail |
 | Governance principles without construction guidance | Practical mechanics of how governance is built — committees, processes, policies, tools, maturity progression |
 | Enterprise-centric governance assumptions | Startup governance realities — market-driven, founder-dependent, stage-gated, fundamentally different paradigm |
+| Governance as organizational function | Governance as commercial market — $1-2B ecosystem with software, consulting, audit, insurance, and certification business models |
 
 ---
 
