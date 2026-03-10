@@ -103,6 +103,26 @@ Tracks directional change in AI governance practice across 2023-2026.
 4. Supply chain governance for third-party model risk
 5. Regulatory resilience design (framework should work across political cycles)
 
+### Document 6: CAIO Corporate AI Response
+
+Company-by-company case studies of how organizations respond to AI through the Chief AI Officer role.
+
+**Key findings:**
+
+- **CAIO role is the primary organizational mechanism for AI response:** Companies across industries are appointing C-suite AI leaders, but with sharply different mandates — governance, transformation, or product/revenue.
+- **Three CAIO archetypes emerge:** Governance Executive (risk/compliance focus, common in financial services), Transformation Leader (enterprise-wide AI adoption, common in pharma/consulting), Product/Revenue Builder (AI as product line, common in tech).
+- **Success cases:** PwC (Priest, $1B AI investment), Accenture (Guan, $3B AI revenue), Eli Lilly (Fuchs, LillyPod supercomputer), GE HealthCare (Bhatia, 100+ FDA-cleared AI products), JPMorgan (Heitsenrether, 200K employees on LLM Suite), Microsoft (Suleyman, $13B AI revenue).
+- **Failure patterns:** GM Turovsky departed after 8 months (misalignment between AI ambition and organizational readiness). Apple Giannandrea stripped of Siri leadership amid talent exodus and competitive gap. Government CAIOs face 12-18 month average tenure due to political transitions.
+- **Companies without CAIOs succeed differently:** Goldman Sachs distributes AI leadership across business units. Apple governs through architecture (on-device processing) rather than organizational role.
+- **Industry patterns:** Financial services (risk-first, regulatory-embedded), pharma (regulatory pathway integration), consulting (dual transformation — internal + client), manufacturing (uncertain commitment), tech (product-focused, less governance emphasis).
+- **Investor relations impact:** Earnings calls mentioning AI increased 3x (2023-2025). CAIO appointments signal AI seriousness to markets. But title alone is insufficient — organizational authority and budget determine impact.
+
+**Research implications:**
+- Framework should address organizational design for AI governance, not just governance principles
+- CAIO archetype determines which framework components are prioritized in practice
+- Failure patterns suggest the framework needs organizational readiness prerequisites
+- The governance-without-CAIO model (Goldman, Apple) validates that governance can be embedded rather than centralized
+
 ---
 
 ## How This Phase Extends the Research
@@ -116,6 +136,7 @@ Tracks directional change in AI governance practice across 2023-2026.
 | Framework validated at point in time | Framework designed for continuous validation |
 | Normative framework (what should be done) | Industry practice survey (what is actually done) |
 | Point-in-time assessment | Trend analysis showing directional change |
+| Governance as abstract function | CAIO case studies showing who governs, how, and why they succeed or fail |
 
 ---
 
@@ -126,7 +147,7 @@ Phases 00-07: Foundation (question, literature, framework, validation)
 Phases 08-13: Expansion (evidence tiers, domain analysis, scenarios)
 Phases 15-19: Maturation (taxonomy, publication prep, submission ready)
 Phase 20:     Implementation (workflow, infrastructure, organization)
-Phase 21:     Adaptation (speed gap, transition conditions, living evidence, industry practice)
+Phase 21:     Adaptation (speed gap, transition conditions, living evidence, industry practice, CAIO response)
 ```
 
 Phase 21 does not replace earlier phases. It adds a dynamic governance layer that keeps the framework relevant as AI capabilities, regulatory landscapes, and deployment practices evolve.
