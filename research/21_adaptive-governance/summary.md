@@ -123,6 +123,23 @@ Company-by-company case studies of how organizations respond to AI through the C
 - Failure patterns suggest the framework needs organizational readiness prerequisites
 - The governance-without-CAIO model (Goldman, Apple) validates that governance can be embedded rather than centralized
 
+### Document 7: CAIO Governance Construction Mechanics
+
+Examines the practical mechanics of how CAIOs build governance structures — committees, processes, policies, tools, and operating models.
+
+**Key findings:**
+
+- **Three governance architectures:** Centralized (early-stage, bottleneck-prone), Federated (fragmentation risk), Hub-and-Spoke (dominant successful pattern — central standards with distributed execution). Goldman Sachs, Accenture, JPMorgan all confirm hub-and-spoke.
+- **Three-tier committee architecture:** Board-level oversight (40% of companies, up from 11% in 2024), Executive AI Council (monthly, cross-functional), Working Groups (weekly, domain-specific reviews). Microsoft's five-layer system is the most documented example.
+- **Six-stage use case approval workflow:** Intake → Risk Classification → Review/Approval → Development Gates → Pre-Deployment Validation → Deployment Monitoring. Controls scale proportionally with risk level.
+- **Six core policies in priority order:** (1) Acceptable Use Policy (first priority — 63% of organizations still lack one), (2) Risk Management, (3) Data Governance for AI, (4) Third-Party/Vendor AI, (5) Model Lifecycle, (6) Ethical/Responsible AI.
+- **Governance tooling market growing rapidly:** $227-340M (2024-2025) → $4.83B projected (2034). Key platforms: OneTrust, ModelOp, Credo AI, Fiddler AI, Arthur AI. Shadow AI discovery is the most urgent tooling need (890% GenAI traffic surge in 2024).
+- **Governance teams average 9 people:** 17% have only 1 person. 50% sit within ethics/compliance/privacy/legal. Key emerging roles: Algorithm Bias Auditors, AI Ethics Officers, Red Team specialists.
+- **Three-stage maturity progression:** Reactive (most organizations) → Proactive (building infrastructure) → Transformative (governance as competitive advantage, only 12% achieve this). Typical timeline: 0-3 months foundation, 3-6 months process construction, 6-12 months operational maturity, 12-24 months scaling.
+- **Counterintuitive finding confirmed:** Organizations with the strongest governance are the fastest deployers. Governance enables speed when designed correctly.
+
+**Key anti-patterns:** Treating governance as purely technical (70-20-10 rule: 70% organizational, 20% data, 10% algorithm), DIY governance frameworks (hidden costs), missing third-party oversight, CAIO without structural permanence, governance blocking capability.
+
 ---
 
 ## How This Phase Extends the Research
@@ -137,6 +154,7 @@ Company-by-company case studies of how organizations respond to AI through the C
 | Normative framework (what should be done) | Industry practice survey (what is actually done) |
 | Point-in-time assessment | Trend analysis showing directional change |
 | Governance as abstract function | CAIO case studies showing who governs, how, and why they succeed or fail |
+| Governance principles without construction guidance | Practical mechanics of how governance is built — committees, processes, policies, tools, maturity progression |
 
 ---
 
