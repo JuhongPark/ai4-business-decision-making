@@ -82,6 +82,27 @@ Comprehensive survey of how organizations actually implement AI governance in pr
 - Agentic AI governance is urgent but barely exists (Singapore January 2026 is the first framework)
 - US political oscillation on AI governance creates regulatory instability the framework does not address
 
+### Document 5: Governance Trend Analysis
+
+Tracks directional change in AI governance practice across 2023-2026.
+
+**Key trends:**
+
+- **CAIO role institutionalizing rapidly:** 11% (2023) → 26% (2025) → 40%+ projected (2026). More than half now report directly to CEO or board. Becoming the primary accountability anchor.
+- **Governance becoming infrastructure, not policy:** AI governance platform market at $492M (2026), heading toward $1B (2030). Organizations deploying platforms are 3.4x more likely to achieve high governance effectiveness. Shift from "do we have a policy?" to "does our infrastructure enforce it?"
+- **Agentic AI forcing governance redesign:** 74% plan agentic deployment but only 21% have governance ready. The shift from AI that predicts to AI that acts is the most disruptive governance challenge. Governance must now cover actions, permissions, tool access, and multi-step workflows.
+- **Insurance and liability as governance drivers:** AI liability insurance market projected at $29.7B by 2033. D&O insurers scrutinizing AI governance during underwriting. Market-driven incentive operating faster than regulation.
+- **Regulatory fragmentation increasing:** US federal-state divergence (deregulation vs 38 states passing ~100 AI measures); EU AI Act pragmatic timeline adjustments; global convergence on principles but divergence on technique.
+- **Responsible AI restructuring, not disappearing:** Standalone RAI teams declining (Meta disbanded, Microsoft offloaded training team). RAI concerns being embedded into product engineering and compliance. RAI research publications still growing (+28.8%).
+- **Foundation model governance diverging from traditional ML:** Non-deterministic outputs, adversarial testing, hallucination monitoring, continuous prompt changes require fundamentally different governance approaches.
+
+**Priority framework updates identified:**
+1. Agentic AI governance extension (highest priority)
+2. Automated governance position (when can governance itself be automated?)
+3. Insurance/liability integration as governance forcing function
+4. Supply chain governance for third-party model risk
+5. Regulatory resilience design (framework should work across political cycles)
+
 ---
 
 ## How This Phase Extends the Research
@@ -94,6 +115,7 @@ Comprehensive survey of how organizations actually implement AI governance in pr
 | Domain recommendation table as fixed output | Domain recommendation table as versioned living artifact |
 | Framework validated at point in time | Framework designed for continuous validation |
 | Normative framework (what should be done) | Industry practice survey (what is actually done) |
+| Point-in-time assessment | Trend analysis showing directional change |
 
 ---
 
