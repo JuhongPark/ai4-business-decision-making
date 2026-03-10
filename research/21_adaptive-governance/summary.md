@@ -140,6 +140,27 @@ Examines the practical mechanics of how CAIOs build governance structures — co
 
 **Key anti-patterns:** Treating governance as purely technical (70-20-10 rule: 70% organizational, 20% data, 10% algorithm), DIY governance frameworks (hidden costs), missing third-party oversight, CAIO without structural permanence, governance blocking capability.
 
+### Document 8: Startup and Small Organization AI Governance
+
+Examines how startups and small organizations (10-500 people) handle AI governance — a fundamentally different paradigm from enterprise governance.
+
+**Key findings:**
+
+- **AI-native startup governance innovations:** Anthropic's Long-Term Benefit Trust (LTBT) with escalating board control + Responsible Scaling Policy (ASL levels). OpenAI's Safety and Security Committee with model release veto power (restructured after Superalignment team dissolution). Cohere's market-driven governance shaped by enterprise customer requirements. Stability AI's governance collapse (CEO resignation, $8M/month burn, no formal structures).
+- **Most startups have no formal AI governance.** CTO/technical co-founder serves as de facto governance officer. Governance decisions made through engineering judgment and code review, not formal policy. Governance investment triggered by enterprise customer requirements (SOC 2), investor due diligence (68% of VCs now include AI ethics), or incidents.
+- **Governance follows a J-curve:** Near-zero at founding → slow rise through early stages → spike at Series B/C when enterprise sales and regulatory pressure create unavoidable requirements. Stage-based: Pre-seed ($0), Series A ($10K-50K), Series B ($50K-200K), Series C+ ($200K+).
+- **SOC 2 is the primary governance driver for B2B startups** — companies with SOC 2 Type II close enterprise deals 35% faster. ISO 42001 emerging as AI-specific complement.
+- **Startup governance failures are existential:** Character.AI (teen deaths, lawsuits), Clearview AI ($100M+ GDPR fines), DoNotPay (FTC action for "robot lawyer" claims), Perplexity AI (copyright lawsuits from NYT, Amazon), SEC "AI-washing" enforcement ($42M fraud case). Unlike enterprises, startups may not survive these consequences.
+- **Open-source AI governance is documentation-centric:** Hugging Face model cards, EleutherAI community standards, BigCode governance cards. Governance through transparency rather than hierarchy.
+- **Regulatory landscape penalizes small organizations disproportionately:** EU AI Act compliance costs ~$29K/year per high-risk system. 1,100+ state AI bills in US (2025). EU provides SME exemptions (sandbox priority, reduced fees, simplified documentation).
+- **Emerging pattern: governance as sales infrastructure.** Trust Centers, SOC 2 badges on pricing pages, governance documentation prepared for RFPs before internal compliance.
+
+**Research implications:**
+- Framework needs entry-level governance templates for sub-50-person organizations
+- Market-driven triggers (customer/investor requirements) are primary adoption mechanisms, not regulation
+- Stage-gated governance escalation matching investment to scale and risk exposure
+- Integration with existing compliance frameworks (SOC 2, ISO 42001) rather than standalone AI governance
+
 ---
 
 ## How This Phase Extends the Research
@@ -155,6 +176,7 @@ Examines the practical mechanics of how CAIOs build governance structures — co
 | Point-in-time assessment | Trend analysis showing directional change |
 | Governance as abstract function | CAIO case studies showing who governs, how, and why they succeed or fail |
 | Governance principles without construction guidance | Practical mechanics of how governance is built — committees, processes, policies, tools, maturity progression |
+| Enterprise-centric governance assumptions | Startup governance realities — market-driven, founder-dependent, stage-gated, fundamentally different paradigm |
 
 ---
 
