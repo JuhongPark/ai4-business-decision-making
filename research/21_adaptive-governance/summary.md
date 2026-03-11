@@ -198,6 +198,20 @@ Deep dive into how AI insurance actually works mechanically and whether AI gover
 - **Hybrid models win:** Platform + services (Credo AI), platform + insurance (Trustible-Armilla), platform + regulatory intelligence (OneTrust). Pure consulting and pure product both have limitations.
 - **Proven economics:** OneTrust ($500M+ ARR, positive cash flow), Vanta ($220M ARR, $4.15B valuation) prove governance platforms can achieve venture-scale returns. Big Four AI services estimated at $10-15B combined. Consulting still dominates total revenue but software/insurance are fastest-growing segments.
 
+### Document 12: Governance Market Catalysts and Timeline
+
+Maps specific catalysts and dates for when the AI governance market reaches inflection points (2025-2030).
+
+**Key findings:**
+
+- **The inflection point is H2 2026 through 2027** — EU AI Act core enforcement (August 2, 2026), Colorado AI Act (June 30, 2026), insurance exclusion standardization (ISO CG 40 47, January 2026), and agentic AI governance demand (40% of enterprise apps) converge simultaneously.
+- **EU AI Act fines:** EUR 35M/7% (prohibited), EUR 15M/3% (high-risk), EUR 7.5M/1% (misleading). First major fine projected H1-H2 2026.
+- **Insurance catalyst already active:** Companies without governance face absolute AI exclusions at January 2026 renewals.
+- **AI incidents accelerating:** 123 (2023) → 233 (2024) → surpassed 2024 by October 2025. 70+ GenAI lawsuits. Bartz v. Anthropic: $1.5B settlement.
+- **Agentic AI forces governance:** <5% → 40% of enterprise apps (2025-2026). >40% of agentic projects projected scrapped by 2027 for governance failures.
+- **Historical parallels confirm 3-5 year cycle** from regulation to market maturation: GDPR, SOX, PCI DSS, cyber insurance.
+- **Four-phase trajectory:** Early Market (2023-2025, <$1B) → Acceleration (2026-2027, $1-3B) → Mainstream (2028-2029, $3-8B) → Mature (2030+, $8-16B+).
+
 ---
 
 ## How This Phase Extends the Research
@@ -216,6 +230,7 @@ Deep dive into how AI insurance actually works mechanically and whether AI gover
 | Enterprise-centric governance assumptions | Startup governance realities — market-driven, founder-dependent, stage-gated, fundamentally different paradigm |
 | Governance as organizational function | Governance as commercial market — $1-2B ecosystem with software, consulting, audit, insurance, and certification business models |
 | Governance enforcement through regulation | Insurance as de facto governance regulator — faster, market-driven, universal jurisdiction, creating economic incentives for governance adoption |
+| Static market assessment | Catalyst timeline mapping when governance market transitions from early to mainstream (H2 2026-2027 inflection) |
 
 ---
 
