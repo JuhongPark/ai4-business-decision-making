@@ -4,10 +4,11 @@ This repository contains a think-tank style research project on how organization
 
 ## Current Status
 
-status: submission_ready_v1
-current_focus: completed version 1
+status: submission_ready_v1_plus_extension
+current_focus: phase 22 information-structure extension
 primary_output: [research/06_output/thinktank-report.md](research/06_output/thinktank-report.md)
 summary_output: [research/06_output/executive-summary.md](research/06_output/executive-summary.md)
+extension_output: [research/22_information-structure/initial-analysis.md](research/22_information-structure/initial-analysis.md)
 
 ## Research Position
 
@@ -31,6 +32,11 @@ core_dimensions:
 - Core tables: [research/19_submission-ready/core-tables.md](research/19_submission-ready/core-tables.md)
 - Final validation: [research/19_submission-ready/final-validation.md](research/19_submission-ready/final-validation.md)
 - Freeze note: [research/19_submission-ready/freeze-note.md](research/19_submission-ready/freeze-note.md)
+- Phase 22 plan: [research/22_information-structure/research-plan.md](research/22_information-structure/research-plan.md)
+- Phase 22 analysis: [research/22_information-structure/initial-analysis.md](research/22_information-structure/initial-analysis.md)
+- Phase 22 literature scan: [research/22_information-structure/literature-scan.md](research/22_information-structure/literature-scan.md)
+- Phase 22 consulting narratives: [research/22_information-structure/consulting-firm-narratives.md](research/22_information-structure/consulting-firm-narratives.md)
+- Phase 22 doom narratives: [research/22_information-structure/doom-narratives.md](research/22_information-structure/doom-narratives.md)
 
 ## Main Finding
 
@@ -69,6 +75,9 @@ research/
   16_taxonomy/              category system and usage rules
   18_publication-prep/      publication-grade supporting materials
   19_submission-ready/      finish plan, validation, and freeze
+  20_three-part-study/      workflow, infrastructure, and organization extension
+  21_adaptive-governance/   adaptive governance and market-timing extension
+  22_information-structure/ information shocks and decision-making extension
 templates/                  reusable templates
 ```
 
