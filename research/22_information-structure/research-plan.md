@@ -109,6 +109,8 @@ The unit of analysis is the relationship between an information-structure shock 
 - `research/22_information-structure/literature-scan.md`
 - `research/22_information-structure/consulting-firm-narratives.md`
 - `research/22_information-structure/doom-narratives.md`
+- `research/22_information-structure/llm-decision-paradigm.md`
+- `research/22_information-structure/capability-ladder.md`
 
 ## Anticipated Contribution
 

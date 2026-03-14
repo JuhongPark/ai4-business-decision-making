@@ -37,6 +37,8 @@ core_dimensions:
 - Phase 22 literature scan: [research/22_information-structure/literature-scan.md](research/22_information-structure/literature-scan.md)
 - Phase 22 consulting narratives: [research/22_information-structure/consulting-firm-narratives.md](research/22_information-structure/consulting-firm-narratives.md)
 - Phase 22 doom narratives: [research/22_information-structure/doom-narratives.md](research/22_information-structure/doom-narratives.md)
+- Phase 22 LLM decision paradigm: [research/22_information-structure/llm-decision-paradigm.md](research/22_information-structure/llm-decision-paradigm.md)
+- Phase 22 capability ladder: [research/22_information-structure/capability-ladder.md](research/22_information-structure/capability-ladder.md)
 
 ## Main Finding
 
