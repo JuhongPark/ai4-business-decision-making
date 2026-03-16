@@ -1,7 +1,7 @@
 # Phase 21: Adaptive Governance Extension — Summary
 
 ## Status: research_complete
-## Date: 2026-03-10
+## Date: 2026-03-16
 
 ---
 
@@ -198,6 +198,24 @@ Deep dive into how AI insurance actually works mechanically and whether AI gover
 - **Hybrid models win:** Platform + services (Credo AI), platform + insurance (Trustible-Armilla), platform + regulatory intelligence (OneTrust). Pure consulting and pure product both have limitations.
 - **Proven economics:** OneTrust ($500M+ ARR, positive cash flow), Vanta ($220M ARR, $4.15B valuation) prove governance platforms can achieve venture-scale returns. Big Four AI services estimated at $10-15B combined. Consulting still dominates total revenue but software/insurance are fastest-growing segments.
 
+### Document 11: AI Governance Value and Revenue Contribution
+
+Examines whether AI governance actually improves revenue, and if so, through which mechanisms.
+
+**Key findings:**
+
+- **Governance is usually revenue-enabling infrastructure, not a standalone revenue engine.** The strongest commercial effect comes through market access, procurement eligibility, deployment readiness, trust preservation, and avoided loss.
+- **The strongest direct pathway is deal access.** EU high-risk compliance, US federal procurement requirements, enterprise supplier assurance, and certification expectations increasingly make governance part of bid qualification.
+- **A second pathway is faster realization of AI value.** Survey evidence from PwC, Microsoft/IDC, and IBM suggests governance reduces approval friction and helps organizations scale AI use with fewer internal trust breakdowns.
+- **A third pathway is trust, retention, and sales credibility.** In customer-facing or enterprise settings, governance artifacts increasingly function as reassurance signals that reduce churn, unblock procurement, and support partner confidence.
+- **The direct causal revenue claim remains weak.** Most evidence is survey-based, case-based, or vendor-authored; governance is usually bundled with stronger data, security, compliance, and operating discipline.
+- **The business case is conditional rather than universal.** Governance matters most in regulated, trust-sensitive, enterprise-buying, or assurance-heavy environments; low-risk internal productivity use cases show weaker near-term top-line effects.
+
+**Research implications:**
+- Governance should be framed as part of go-to-market and deployment design, not only as a control layer
+- Revenue claims should be separated into direct deal-enabling effects and indirect trust / scaling effects
+- The commercial value of governance rises with regulatory exposure, buyer scrutiny, and reputational sensitivity
+
 ### Document 12: Governance Market Catalysts and Timeline
 
 Maps specific catalysts and dates for when the AI governance market reaches inflection points (2025-2030).
@@ -211,6 +229,24 @@ Maps specific catalysts and dates for when the AI governance market reaches infl
 - **Agentic AI forces governance:** <5% → 40% of enterprise apps (2025-2026). >40% of agentic projects projected scrapped by 2027 for governance failures.
 - **Historical parallels confirm 3-5 year cycle** from regulation to market maturation: GDPR, SOX, PCI DSS, cyber insurance.
 - **Four-phase trajectory:** Early Market (2023-2025, <$1B) → Acceleration (2026-2027, $1-3B) → Mainstream (2028-2029, $3-8B) → Mature (2030+, $8-16B+).
+
+### Document 13: AI Governance Landscape 2026
+
+Synthesizes the institutional governance stack across jurisdictions and connects it back to the repository's adaptive-authority framework.
+
+**Key findings:**
+
+- **AI governance now operates as a layered stack.** International norms, binding public law, organizational operating frameworks, assurance/testing systems, and market contracting all shape how AI is governed in practice.
+- **Europe leads in ex ante legal structure.** The EU AI Act remains the clearest binding risk-based regime, with major obligations phased across August 2025, August 2026, and August 2027.
+- **The United States remains governance-heavy but law-light at the federal level.** NIST AI RMF, OMB M-25-21, procurement controls, and fragmented state legislation create strong operating expectations without one unified national AI statute.
+- **Singapore and South Korea represent distinct alternative models.** Singapore emphasizes testable assurance and bounded agentic deployment, while Korea combines trust institutionalization with explicit industrial-policy support.
+- **The field has shifted from ethics principles to deployment controls and lifecycle monitoring.** Risk classification, documentation, testing, oversight, logging, and rollback mechanisms are becoming the real substance of governance.
+- **The repository's core claim is reinforced:** governance should attach to decision authority and action scope, not merely to model presence. Agentic AI makes permissions, checkpoints, execution logs, and human accountability especially important.
+
+**Research implications:**
+- Comparative framing matters because the same workflow faces different governance demands across jurisdictions
+- Governance readiness should be treated as a precondition for higher autonomy, not a post hoc compliance layer
+- Adaptive governance remains well aligned with the shift from decision support toward action governance
 
 ---
 
@@ -231,6 +267,8 @@ Maps specific catalysts and dates for when the AI governance market reaches infl
 | Governance as organizational function | Governance as commercial market — $1-2B ecosystem with software, consulting, audit, insurance, and certification business models |
 | Governance enforcement through regulation | Insurance as de facto governance regulator — faster, market-driven, universal jurisdiction, creating economic incentives for governance adoption |
 | Static market assessment | Catalyst timeline mapping when governance market transitions from early to mainstream (H2 2026-2027 inflection) |
+| Governance justified mainly as risk reduction | Revenue contribution clarified as conditional infrastructure for market access, trust, and deployment scale |
+| Governance discussed in general terms | Comparative landscape shows governance varies by layer and jurisdiction: EU legal structure, US operating controls, Singapore assurance, Korea trust-plus-promotion |
 
 ---
 
@@ -241,7 +279,7 @@ Phases 00-07: Foundation (question, literature, framework, validation)
 Phases 08-13: Expansion (evidence tiers, domain analysis, scenarios)
 Phases 15-19: Maturation (taxonomy, publication prep, submission ready)
 Phase 20:     Implementation (workflow, infrastructure, organization)
-Phase 21:     Adaptation (speed gap, transition conditions, living evidence, industry practice, CAIO response)
+Phase 21:     Adaptation (speed gap, transition conditions, living evidence, industry practice, commercialization, comparative governance)
 ```
 
 Phase 21 does not replace earlier phases. It adds a dynamic governance layer that keeps the framework relevant as AI capabilities, regulatory landscapes, and deployment practices evolve.
