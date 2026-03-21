@@ -775,6 +775,44 @@ That statement is stronger than a generic trust or ethics frame because it integ
 
 It also keeps the project clearly business-facing.
 
+## What Better Models Will And Will Not Solve
+
+One of the most important implications of this literature is that stronger models will not automatically dissolve the core research problem.
+
+Better models will likely help with:
+
+- some capability shortfalls
+- some factual unreliability
+- some lower-level routine task failures
+- some cases where delegation fails mainly because the model is still weak
+
+But many central issues are not solved by better capability alone:
+
+- where AI should enter the workflow
+- what should remain human judgment
+- how much authority is appropriate in a given business context
+- how explanations influence evaluators
+- how validation should be structured
+- how firms prevent overreliance, passive acceptance, or skill erosion
+- how accountability and legitimacy should be preserved
+
+Some problems may even intensify as models improve:
+
+- persuasive overconfidence becomes harder to resist
+- polished rationales become easier to mistake for trustworthy reasoning
+- rare failures become less frequent but harder to detect
+- organizations become more willing to over-delegate authority
+- self-automation becomes more attractive even when it weakens long-run expertise
+
+So the deeper contribution of this literature is not just that AI works or fails.
+
+It is that the most important business questions increasingly become **post-capability questions**:
+
+- how to delegate
+- how to govern
+- how to validate
+- how to preserve human judgment under strong AI assistance
+
 ## Most Important Open Questions After Reading These Papers
 
 The literature is already rich, but several questions still look especially promising.

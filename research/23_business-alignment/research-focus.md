@@ -291,6 +291,43 @@ If one question should lead the next phase, it should be:
 
 That question preserves the current repository's strengths while bringing the project closer to the source memo's long-run identity.
 
+## Why Better Models Will Not Make The Research Problem Disappear
+
+This project should not assume that better models automatically solve the core research problem.
+
+Better models will likely reduce some important issues:
+
+- basic capability gaps
+- factual errors and some hallucinations
+- weak performance in lower-stakes routine tasks
+- some forms of clearly capability-driven underperformance
+
+But the main research problem is broader than capability alone.
+
+Several central issues remain even if models improve substantially:
+
+- what kinds of business problems should be delegated at all
+- which stage of the decision process AI should enter
+- how much authority should be granted in different domains
+- how trust should be calibrated rather than merely increased
+- how organizations should separate generation, recommendation, validation, and approval
+- how local optimization targets may diverge from broader organizational goals
+- how accountability, legitimacy, fairness, and acceptable harm should constrain deployment
+
+Some problems may even become more important as models improve:
+
+- overreliance driven by high fluency and apparent competence
+- persuasion effects in conversational validation settings
+- reduced detectability of rare but costly failures
+- organizational pressure to over-delegate authority too early
+- long-run erosion of human judgment or expertise under poor collaboration modes
+
+So the cleanest interpretation is:
+
+**This project studies the business problems that remain, or become more important, after AI capability improves.**
+
+That makes the project a study not only of technical performance, but of post-capability delegation, trust, governance, and organizational design.
+
 ## Recommended Next Documents
 
 The cleanest next additions would be:
