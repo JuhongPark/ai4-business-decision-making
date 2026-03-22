@@ -4,11 +4,11 @@ This repository contains a think-tank style research project on how organization
 
 ## Current Status
 
-status: submission_ready_v1_plus_extension
-current_focus: phase 22 information-structure extension
-primary_output: [research/06_output/thinktank-report.md](research/06_output/thinktank-report.md)
-summary_output: [research/06_output/executive-summary.md](research/06_output/executive-summary.md)
-extension_output: [research/22_information-structure/initial-analysis.md](research/22_information-structure/initial-analysis.md)
+status: submission_ready_plus_extension
+current_focus: information-structure extension
+primary_output: [research/output/thinktank-report.md](research/output/thinktank-report.md)
+summary_output: [research/output/executive-summary.md](research/output/executive-summary.md)
+extension_output: [research/information-structure/initial-analysis.md](research/information-structure/initial-analysis.md)
 
 ## Research Position
 
@@ -24,21 +24,21 @@ core_dimensions:
 
 ## Key Outputs
 
-- Final report: [research/06_output/thinktank-report.md](research/06_output/thinktank-report.md)
-- Executive summary: [research/06_output/executive-summary.md](research/06_output/executive-summary.md)
-- Taxonomy summary: [research/16_taxonomy/summary.md](research/16_taxonomy/summary.md)
-- Decision tree: [research/16_taxonomy/decision-tree.md](research/16_taxonomy/decision-tree.md)
-- Scoring sheet: [research/16_taxonomy/scoring-sheet.md](research/16_taxonomy/scoring-sheet.md)
-- Core tables: [research/19_submission-ready/core-tables.md](research/19_submission-ready/core-tables.md)
-- Final validation: [research/19_submission-ready/final-validation.md](research/19_submission-ready/final-validation.md)
-- Freeze note: [research/19_submission-ready/freeze-note.md](research/19_submission-ready/freeze-note.md)
-- Phase 22 plan: [research/22_information-structure/research-plan.md](research/22_information-structure/research-plan.md)
-- Phase 22 analysis: [research/22_information-structure/initial-analysis.md](research/22_information-structure/initial-analysis.md)
-- Phase 22 literature scan: [research/22_information-structure/literature-scan.md](research/22_information-structure/literature-scan.md)
-- Phase 22 consulting narratives: [research/22_information-structure/consulting-firm-narratives.md](research/22_information-structure/consulting-firm-narratives.md)
-- Phase 22 doom narratives: [research/22_information-structure/doom-narratives.md](research/22_information-structure/doom-narratives.md)
-- Phase 22 LLM decision paradigm: [research/22_information-structure/llm-decision-paradigm.md](research/22_information-structure/llm-decision-paradigm.md)
-- Phase 22 capability ladder: [research/22_information-structure/capability-ladder.md](research/22_information-structure/capability-ladder.md)
+- Final report: [research/output/thinktank-report.md](research/output/thinktank-report.md)
+- Executive summary: [research/output/executive-summary.md](research/output/executive-summary.md)
+- Taxonomy summary: [research/taxonomy/summary.md](research/taxonomy/summary.md)
+- Decision tree: [research/taxonomy/decision-tree.md](research/taxonomy/decision-tree.md)
+- Scoring sheet: [research/taxonomy/scoring-sheet.md](research/taxonomy/scoring-sheet.md)
+- Core tables: [research/submission-ready/core-tables.md](research/submission-ready/core-tables.md)
+- Final validation: [research/submission-ready/final-validation.md](research/submission-ready/final-validation.md)
+- Freeze note: [research/submission-ready/freeze-note.md](research/submission-ready/freeze-note.md)
+- Information-structure plan: [research/information-structure/research-plan.md](research/information-structure/research-plan.md)
+- Information-structure analysis: [research/information-structure/initial-analysis.md](research/information-structure/initial-analysis.md)
+- Information-structure literature scan: [research/information-structure/literature-scan.md](research/information-structure/literature-scan.md)
+- Consulting narratives: [research/information-structure/consulting-firm-narratives.md](research/information-structure/consulting-firm-narratives.md)
+- Doom narratives: [research/information-structure/doom-narratives.md](research/information-structure/doom-narratives.md)
+- LLM decision paradigm: [research/information-structure/llm-decision-paradigm.md](research/information-structure/llm-decision-paradigm.md)
+- Capability ladder: [research/information-structure/capability-ladder.md](research/information-structure/capability-ladder.md)
 
 ## Main Finding
 
@@ -59,27 +59,29 @@ Organizations should decide AI authority by evaluating:
 
 ```text
 research/
-  00_planning/              planning and timeline documents
-  01_questions/             research question and scope
-  02_literature/            source tracker and reading notes
-  03_cases/                 case comparison materials
-  04_framework/             evaluation framework
-  05_drafting/              section drafts
-  06_output/                report outputs
-  07_validation/            earlier validation materials
-  08_expansion/             expansion and refocus planning
-  09_research/              evidence-strengthening notes
-  10_domain-analysis/       cross-domain comparison and casebook
-  11_scenario-design/       scenario research design
-  12_thinktank-program/     3-month research program plan
-  13_scenario-packs/        scenario packs for core domains
-  15_revision-01/           revision-stage synthesis and review
-  16_taxonomy/              category system and usage rules
-  18_publication-prep/      publication-grade supporting materials
-  19_submission-ready/      finish plan, validation, and freeze
-  20_three-part-study/      workflow, infrastructure, and organization extension
-  21_adaptive-governance/   adaptive governance and market-timing extension
-  22_information-structure/ information shocks and decision-making extension
+  planning/                 planning and timeline documents
+  questions/                research question and scope
+  literature/               source tracker and reading notes
+  cases/                    case comparison materials
+  framework/                evaluation framework
+  drafting/                 section drafts
+  output/                   report outputs
+  validation/               earlier validation materials
+  expansion/                expansion and refocus planning
+  evidence/                 evidence-strengthening notes
+  domain-analysis/          cross-domain comparison and casebook
+  scenario-design/          scenario research design
+  thinktank-program/        3-month research program plan
+  scenario-packs/           scenario packs for core domains
+  cycle/                 cycle-based iteration materials
+  revision/              revision-stage synthesis and review
+  taxonomy/                 category system and usage rules
+  publication-prep/         publication-grade supporting materials
+  submission-ready/         finish plan, validation, and freeze
+  three-part-study/         workflow, infrastructure, and organization extension
+  adaptive-governance/      adaptive governance and market-timing extension
+  information-structure/    information shocks and decision-making extension
+  business-alignment/       business-context alignment research
 templates/                  reusable templates
 ```
 
