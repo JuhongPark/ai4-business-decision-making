@@ -1,12 +1,12 @@
 # Submission-Ready Checklist
 
-status: active
+status: completed
 
 ## Completion Checklist
 
-- [ ] main question fixed
-- [ ] taxonomy fixed
-- [ ] scenario domains complete
+- [x] main question fixed
+- [x] taxonomy fixed
+- [x] scenario domains complete
 - [x] core tables finalized
 - [x] evidence-to-claim linkage tightened
 - [x] conclusion and limitations revised
