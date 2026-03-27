@@ -4,6 +4,8 @@ This repository contains a think-tank style research project on how organization
 
 Start here for navigation: [research/README.md](research/README.md)
 
+Repository structure note: [research/repository-organization-note.md](research/repository-organization-note.md)
+
 ## Current Status
 
 status: submission_ready_plus_extension

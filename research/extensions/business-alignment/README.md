@@ -4,11 +4,20 @@ This track extends the repository toward business-context alignment, trust calib
 
 ## Canonical Documents
 
-- Track plan: [business-alignment-plan.md](business-alignment-plan.md)
-- Research focus: [research-focus.md](research-focus.md)
-- Alignment framework: [alignment-framework.md](alignment-framework.md)
-- Workflow authority matrix: [workflow-authority-matrix.md](workflow-authority-matrix.md)
-- Final synthesis: [final-synthesis.md](final-synthesis.md)
+- Track plan: [business-alignment-plan.md](business-alignment-plan.md) `status: draft track plan`
+- Research focus: [research-focus.md](research-focus.md) `status: framing memo`
+- Alignment framework: [alignment-framework.md](alignment-framework.md) `status: working framework`
+- Workflow authority matrix: [workflow-authority-matrix.md](workflow-authority-matrix.md) `status: applied decision tool`
+- Final synthesis: [final-synthesis.md](final-synthesis.md) `status: current synthesis`
+
+## Recommended Reading Order
+
+1. [business-alignment-plan.md](business-alignment-plan.md)
+2. [research-focus.md](research-focus.md)
+3. [alignment-framework.md](alignment-framework.md)
+4. [workflow-authority-matrix.md](workflow-authority-matrix.md)
+5. [final-synthesis.md](final-synthesis.md)
+6. Supporting incident, landscape, and ecosystem materials as needed
 
 ## Supporting Reference
 

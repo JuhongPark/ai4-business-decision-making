@@ -13,3 +13,4 @@ This folder holds supporting ecosystem scans for the business-alignment track.
 
 - These files are supporting reference material, not canonical track outputs.
 - Some documents remain bilingual legacy scouting notes and are kept here to avoid crowding the main business-alignment narrative.
+- Do not cite or promote these notes as canonical repository outputs unless they are normalized and, where needed, translated into the repository's standard English presentation.

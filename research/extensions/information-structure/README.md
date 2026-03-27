@@ -4,10 +4,18 @@ This track studies how changes in the information environment reshape decision-m
 
 ## Canonical Documents
 
-- Track plan: [information-structure-plan.md](information-structure-plan.md)
-- Initial analysis: [initial-analysis.md](initial-analysis.md)
-- Literature scan: [literature-scan.md](literature-scan.md)
-- Research synthesis: [research-note-synthesis.md](research-note-synthesis.md)
+- Track plan: [information-structure-plan.md](information-structure-plan.md) `status: active plan`
+- Initial analysis: [initial-analysis.md](initial-analysis.md) `status: current core analysis`
+- Literature scan: [literature-scan.md](literature-scan.md) `status: supporting scan`
+- Research synthesis: [research-note-synthesis.md](research-note-synthesis.md) `status: synthesis memo`
+
+## Recommended Reading Order
+
+1. [information-structure-plan.md](information-structure-plan.md)
+2. [initial-analysis.md](initial-analysis.md)
+3. [research-note-synthesis.md](research-note-synthesis.md)
+4. [literature-scan.md](literature-scan.md)
+5. Supporting university and narrative materials as needed
 
 ## Supporting Reference
 

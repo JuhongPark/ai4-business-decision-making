@@ -4,9 +4,16 @@ This track studies how governance can stay current as AI capability and deployme
 
 ## Canonical Documents
 
-- Track summary: [adaptive-governance-summary.md](adaptive-governance-summary.md)
-- Transition conditions: [layer2-transition-conditions.md](layer2-transition-conditions.md)
-- Living evidence protocol: [layer3-living-evidence-protocol.md](layer3-living-evidence-protocol.md)
+- Track summary: [adaptive-governance-summary.md](adaptive-governance-summary.md) `status: complete synthesis`
+- Transition conditions: [layer2-transition-conditions.md](layer2-transition-conditions.md) `status: core framework extension`
+- Living evidence protocol: [layer3-living-evidence-protocol.md](layer3-living-evidence-protocol.md) `status: operating protocol`
+
+## Recommended Reading Order
+
+1. [adaptive-governance-summary.md](adaptive-governance-summary.md)
+2. [layer2-transition-conditions.md](layer2-transition-conditions.md)
+3. [layer3-living-evidence-protocol.md](layer3-living-evidence-protocol.md)
+4. Supporting scans and case materials as needed
 
 ## Supporting Reference
 

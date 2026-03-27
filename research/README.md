@@ -10,6 +10,15 @@ This folder is organized by document role, so final outputs, core analysis, and 
 - Review the current extension focus: [extensions/information-structure/initial-analysis.md](extensions/information-structure/initial-analysis.md)
 - Review the overall project plan: [core/planning/project-research-plan.md](core/planning/project-research-plan.md)
 
+## If You Want...
+
+- Understand the repository structure: [repository-organization-note.md](repository-organization-note.md)
+- Read the main external-facing argument: [delivery/output/thinktank-report.md](delivery/output/thinktank-report.md)
+- Read the shortest version first: [delivery/output/executive-summary.md](delivery/output/executive-summary.md)
+- Understand the core analytical model: [core/taxonomy/taxonomy-summary.md](core/taxonomy/taxonomy-summary.md)
+- See what the project is extending right now: [extensions/information-structure/README.md](extensions/information-structure/README.md)
+- Inspect revision and review evidence: [operations/revision/README.md](operations/revision/README.md)
+
 ## Zone Guides
 
 - [core/README.md](core/README.md)
