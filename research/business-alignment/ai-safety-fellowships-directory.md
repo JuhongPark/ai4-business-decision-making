@@ -69,10 +69,10 @@ The raw dataset is the full 80,000 Hours fellowships masterlist, downloaded as C
 ## Key Analysis
 
 1. **Policy skill prevalence:** 77 of 130 programs list policy as a required skill. This may reflect the field's emphasis on policy-literate talent, though it could also reflect funding preferences or the fact that policy fellowships are more numerous in general (not specific to AI).
-2. **Entry-level bias:** 62 programs target entry-level, reflecting the field's emphasis on pipeline-building over mid-career conversion.
+2. **Entry-level concentration:** 62 programs target entry-level. This may reflect the field's emphasis on pipeline-building, though it could also reflect the dataset's bias toward academic and early-career opportunities rather than mid-career programs that may exist outside this listing.
 3. **US geographic concentration:** 82 programs are US-based (63%), predominantly Washington DC. UK is a distant second with 17.
 4. **Most programs are closed:** Only 28 of 130 are currently accessible (20 rolling + 8 open). Timing matters — most cycles are Jan–Mar for summer cohorts.
-5. **Direct AI safety is niche:** Only 19 of 130 programs directly address AI safety/alignment. The majority are broader tech policy or national security programs that include AI as a subtopic.
+5. **Direct AI safety appears niche by this measure:** Only 19 of 130 programs matched the stricter keyword filter for AI safety/alignment. This count is an artifact of the mechanical filter and likely undercounts programs with safety-relevant content that use different terminology (e.g., "responsible AI," "trustworthy AI").
 
 ## Currently Available (as of 2026-03-26)
 
@@ -175,4 +175,12 @@ The raw dataset is the full 80,000 Hours fellowships masterlist, downloaded as C
 3. **Experience spectrum:** Programs range from entry-level (ARENA, ML4Good) through mid-career (IAPS, RAND) to senior (AEI Kirkpatrick).
 4. **Stipend range:** From unpaid (SPAR) through modest (Orion £3,200/month) to substantial (IAPS $22k/3mo, Tarbell $50k/year).
 5. **AI safety vs. AI governance split:** Technical safety programs (MATS, Anthropic, LASR) require ML skills; governance programs (IAPS, GovAI, Talos) welcome non-technical backgrounds.
-6. **Pipeline structure:** Entry programs (BlueDot, ML4Good, ARENA) → Research fellowships (MATS, SPAR, LASR, Apart) → Lab positions (Anthropic, DeepMind, AISI) or Policy roles (GovAI, RAND, CNAS).
+6. **Pipeline structure:** Entry programs (BlueDot, ML4Good, ARENA) → Research fellowships (MATS, SPAR, LASR, Apart) → Lab positions (Anthropic, DeepMind, AISI) or Policy roles (GovAI, RAND, CNAS). This is the author's interpretive observation; real career paths are non-linear.
+
+## Limitations
+
+- **Dataset scope:** The 80,000 Hours masterlist is curated by one organization and reflects its network and priorities. Programs outside this network are not represented.
+- **Keyword classification:** The "AI-related" and "directly AI safety" counts use mechanical keyword matching, not expert judgment. Programs using alternative terminology ("responsible AI," "trustworthy AI") may be undercounted.
+- **Snapshot validity:** All statuses are as of 2026-03-26. This is a one-time analysis, not a maintained resource.
+- **Funding concentration:** Many listed programs share funders (Open Philanthropy, EA Funds), which shapes the ecosystem in ways not analyzed here.
+- **Author positionality:** The author is not affiliated with any listed program or organization.

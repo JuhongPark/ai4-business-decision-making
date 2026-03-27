@@ -95,7 +95,7 @@ Not a code repository but a structured research database relevant to alignment:
 | Repository | Stars | Maturity | Description |
 |---|---|---|---|
 | centerforaisafety/HarmBench | ~890 | Research | Standardized evaluation framework for automated red-teaming. 33 LLMs, 18 attack methods. Measures where alignment fails. |
-| promptfoo/promptfoo | ~18,500 | Production | LLM red-teaming, pentesting, vulnerability scanning. Used by OpenAI and Anthropic (per project website). The most enterprise-ready safety evaluation tool in this list. |
+| promptfoo/promptfoo | ~18,500 | Production | LLM red-teaming, pentesting, vulnerability scanning. Claims usage by OpenAI and Anthropic (per project website, vendor self-reported — not independently verified). The most enterprise-ready safety evaluation tool in this list. |
 | agencyenterprise/PromptInject | ~470 | Research | Prompt injection attack framework. Studies alignment bypass vulnerabilities. |
 | hendrycks/ethics | ~320 | Research | "Aligning AI with Shared Human Values" (ICLR 2021). Dan Hendrycks (CAIS founder). Original value alignment benchmark. |
 
@@ -121,8 +121,8 @@ Code accompaniments, when released, appear under the `anthropic-experimental` or
 For organizations deploying LLMs, the practical takeaway from this landscape:
 
 1. **Immediate enterprise use:** Only promptfoo (safety evaluation), trl (RLHF training), and OpenRLHF (distributed RLHF) are production-grade. All other repositories require significant adaptation for non-research use.
-2. **Safety evaluation first:** Organizations that want to assess LLM safety before deployment should start with promptfoo for red-teaming and vulnerability scanning — it is the only tool here with documented enterprise adoption.
-3. **Interpretability tools are pre-commercial:** TransformerLens, SAELens, and NNsight are research instruments. No organization currently uses them in production governance workflows. Their business relevance is forward-looking, not immediate.
+2. **Safety evaluation first:** Organizations that want to assess LLM safety before deployment should consider promptfoo for red-teaming and vulnerability scanning — it is the only tool here with claimed enterprise adoption (vendor self-reported).
+3. **Interpretability tools are pre-commercial:** TransformerLens, SAELens, and NNsight are research instruments. No publicly documented case exists of an organization using them in production governance workflows as of this writing. Their business relevance is forward-looking, not immediate.
 4. **Hiring signal:** Familiarity with these tools is a strong signal for AI safety hiring. Candidates who have used TransformerLens, contributed to SAELens, or published via MATS/SPAR are among the few with hands-on alignment experience.
 
 ## Limitations
@@ -130,4 +130,5 @@ For organizations deploying LLMs, the practical takeaway from this landscape:
 - **Coverage:** This survey is limited to publicly visible, English-language GitHub repositories found through keyword search. Proprietary alignment work at Anthropic, OpenAI, DeepMind, and others is not represented. Non-GitHub platforms (e.g., GitLab, internal repos) are excluded.
 - **Star counts** are a rough adoption proxy, not a quality measure. They are included for orientation and decay rapidly.
 - **Maturity classifications** (Production/Research) are the author's judgment based on documentation quality, maintenance activity, and stated adoption — not independently verified.
-- **Snapshot date:** All data is as of 2026-03-26 and will become stale. No update cadence is established.
+- **Snapshot date:** All data is as of 2026-03-26 and will become stale. This is a one-time survey, not a maintained resource. Users should verify current status before acting on any entry.
+- **Author positionality:** The author is not affiliated with any organization, program, or lab listed in this survey. No funding was received from any listed entity.
