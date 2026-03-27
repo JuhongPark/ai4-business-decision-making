@@ -3,6 +3,9 @@
 Source: 80,000 Hours fellowships masterlist (https://jb.80000hours.org), downloaded 2026-03-26.
 Raw data: [data/80000hours-fellowships-masterlist-20260326.csv](data/80000hours-fellowships-masterlist-20260326.csv)
 
+For detailed program profiles (MATS, SPAR, LASR, BlueDot, GovAI, etc.), see [alignment-programs.md](alignment-programs.md).
+For code repositories, see [alignment-codebases.md](alignment-codebases.md).
+
 ## Dataset Overview (as of 2026-03-26)
 
 - **Total entries:** 130 programs
