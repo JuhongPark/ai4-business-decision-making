@@ -185,8 +185,13 @@ Safety evaluation:
 ### BlueDot Impact
 
 - **Site:** https://bluedot.org/
-- **Format:** Free AI courses, career support, entrepreneurship acceleration, global events
+- **Format:** Free AI courses (pay-what-you-want), career support, entrepreneurship acceleration, global events
 - **Scale:** 5,000+ professionals trained since 2022; £35M raised; 6,000+ alumni
+- **Courses:**
+  - **Technical AI Safety** (30 hrs, cohort-based) — safety techniques, threat modeling, kill chain analysis. Requires LLM/fine-tuning basics.
+  - **AI Governance** (25 hrs, cohort-based) — governance landscape, major proposals, policy career pathways. Relaunching 2026.
+  - **AI Governance Fast-Track** (5 days intensive) — accelerated AI governance and policy fundamentals.
+  - **Future of AI** (2 hrs, self-paced, free) — no prerequisites, intro to AI capabilities and risks.
 - **Alumni placements:** OpenAI, Anthropic, Google DeepMind, AI Security Institute, UN, NATO, OECD, Stanford HAI, Apple, Harvard Kennedy School
 
 ### ML4Good
@@ -206,7 +211,12 @@ Safety evaluation:
 - **Structure:** US 501(c)(3) nonprofit + UK subsidiary
 - **Focus:** Technical AI governance, AI progress forecasting, threat modeling, labor market impact
 - **Research topics:** Data center infrastructure policy, China's AI strategy, dual-use biological capabilities, government roles in AI agent infrastructure
-- **Programs:** Summer fellowship (research track), open positions
+- **Programs:**
+  - **Summer Fellowship — Research Track** (3 months, June–August, London) — independent research with GovAI supervisor, £12,000 stipend + travel + lunch + desk
+  - **Summer Fellowship — Applied Track** (3 months, June–August, London) — non-research projects (comms, policy engagement, event organizing), £12,000 stipend
+  - **DC Summer Fellowship** (3 months, DC) — American AI governance and policy, bipartisan engagement
+  - **Research Scholar** (1 year) — policy research, social science, or technical research
+  - **Research Fellow** (2 years, renewable) — senior independent research position
 
 ### IAPS (Institute for AI Policy and Strategy)
 
@@ -223,9 +233,9 @@ Safety evaluation:
 - **Site:** https://www.orionaigov.org/
 - **Base:** UK-based talent development for AI governance
 - **Programs:**
-  - **AI Policy Accelerator** — 5-week training course + 4-week research project (10 hrs/week) for graduating students
-  - **Internship** — ~3 months over summer, £3,200/month (2025 placements: Safe AI Forum, Social Market Foundation)
-  - **Mentorship Programme** — pairing students with AI governance professionals from GovAI, RAND, Ada Lovelace Institute, frontier AI lab policy teams
+  - **AI Policy Accelerator** — 5-week training course (4 hrs/week: lectures, workshops, guest speakers) covering compute governance, model evaluations, international AI governance. Then 4-week research project (10 hrs/week) in small teams with experienced supervisor. For graduating students (Master's, final-year undergrad).
+  - **Internship** — ~3 months over summer, £3,200/month. Placements at think tanks and AI governance organizations (2025: Safe AI Forum, Social Market Foundation).
+  - **Mentorship Programme** — pairing students with AI governance professionals from GovAI, RAND, Ada Lovelace Institute, frontier AI lab policy teams. Availability depends on mentor pool.
 
 ## Relevance to Business-Context Alignment
 
