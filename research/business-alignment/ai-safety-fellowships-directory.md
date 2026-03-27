@@ -1,6 +1,101 @@
 # AI Safety & Governance Fellowships Directory
 
-Source: 80,000 Hours fellowships masterlist (https://jb.80000hours.org). Filtered for AI safety, AI governance, and tech policy relevance.
+Source: 80,000 Hours fellowships masterlist (https://jb.80000hours.org), downloaded 2026-03-26.
+Raw data: [data/80000hours-fellowships-masterlist-20260326.csv](data/80000hours-fellowships-masterlist-20260326.csv)
+
+## Dataset Overview (as of 2026-03-26)
+
+- **Total entries:** 130 programs
+- **AI-related:** 78 (60%)
+- **Directly AI safety/alignment/governance:** 19 programs
+
+### Status Breakdown
+
+| Status | Count |
+|---|---|
+| Closed | 90 |
+| Rolling (always open) | 20 |
+| Closed but reopening | 12 |
+| Currently open | 8 |
+
+### Position Types
+
+| Type | Count |
+|---|---|
+| Fellowship | 86 |
+| Internship | 22 |
+| Funding/Grant | 11 |
+| Full-time | 7 |
+
+### Skills Distribution
+
+| Skill | Count |
+|---|---|
+| Policy | 77 |
+| Research | 74 |
+| Software Engineering | 6 |
+| Data | 4 |
+| Information Security | 3 |
+| Legal | 3 |
+
+### Experience Level
+
+| Level | Count |
+|---|---|
+| Entry-level | 62 |
+| Multiple levels | 39 |
+| Junior (1–4 years) | 17 |
+| Mid (5–9 years) | 17 |
+| Senior (10+ years) | 8 |
+
+### Geographic Distribution
+
+| Region | Count |
+|---|---|
+| USA | 82 |
+| Remote/Global | 35 |
+| UK | 17 |
+| Europe (non-UK) | 4 |
+| Canada | 2 |
+| China | 2 |
+
+## Key Analysis
+
+1. **Policy dominance:** 77 of 130 programs require policy skills — the field's bottleneck is policy-literate technologists, not pure researchers.
+2. **Entry-level bias:** 62 programs target entry-level, reflecting the field's emphasis on pipeline-building over mid-career conversion.
+3. **US geographic concentration:** 82 programs are US-based (63%), predominantly Washington DC. UK is a distant second with 17.
+4. **Most programs are closed:** Only 28 of 130 are currently accessible (20 rolling + 8 open). Timing matters — most cycles are Jan–Mar for summer cohorts.
+5. **Direct AI safety is niche:** Only 19 of 130 programs directly address AI safety/alignment. The majority are broader tech policy or national security programs that include AI as a subtopic.
+
+## Currently Available (as of 2026-03-26)
+
+### Direct AI Safety/Alignment
+
+| Program | Organization | Type | Status |
+|---|---|---|---|
+| Fellows Program for AI Safety | Anthropic | Fellowship | Rolling |
+| MATS Program | MATS | Fellowship | Opens Apr '26 |
+| SPAR | Kairos | Fellowship | Opens spring '26 |
+
+### AI Governance / Tech Policy (Open or Rolling)
+
+| Program | Organization | Type |
+|---|---|---|
+| Center on AI, Security, and Technology Fellows | RAND Corporation | Fellowship |
+| Various Fellowships | CNAS | Fellowship |
+| Talos Fellowship | Talos Network | Fellowship (closes Apr '26) |
+| Various Fellowships | Cornell Digital Life Initiative | Fellowship |
+| Various Fellowships | Yale Law School ISP | Fellowship |
+| DARPA Innovation Fellow | DARPA | Full-time |
+| Student Researcher Program | Google DeepMind | Internship |
+
+### Funding (Open)
+
+| Program | Organization |
+|---|---|
+| EA Infrastructure Fund | EA Funds |
+| Funding Opportunities | Open Philanthropy |
+| AI Reporting Grants | Pulitzer Center |
 
 ## AI Safety Research Fellowships
 
