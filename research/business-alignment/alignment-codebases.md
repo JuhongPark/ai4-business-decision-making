@@ -2,9 +2,13 @@
 
 A survey of open-source repositories where AI alignment research is conducted through code. Star counts as of 2026-03-26.
 
+## Scope and Method
+
+This survey covers publicly visible GitHub repositories selected through keyword searches (alignment, RLHF, interpretability, safety evaluation, misalignment) and organization-level browsing. Selection criteria: (1) directly implements or evaluates alignment techniques, (2) has published associated research, (3) is actively maintained or recently cited. The list is not exhaustive — it excludes proprietary corporate alignment work, classified government programs, non-English-language ecosystems, and repositories that were missed during search. Organizations like EleutherAI, Redwood Research, and ARC Evals maintain relevant code that is not covered here.
+
 ## Key Observation
 
-AI alignment research repositories structurally have fewer GitHub stars than general-purpose AI tools. Stars reflect user base size, not research quality. In alignment research, 100–1,000 stars typically indicates a core repository. The research community is small and deep; most codebases serve as paper companions rather than production tools.
+AI alignment research repositories structurally have fewer GitHub stars than general-purpose AI tools. Stars reflect user base size, not research quality — they are included as a rough indicator of community adoption, not as a quality measure. In alignment research, 100–1,000 stars typically indicates a core repository. Most codebases are research prototypes and paper companions, not production-ready tools.
 
 ## GitHub Organizations
 
@@ -21,24 +25,26 @@ AI alignment research repositories structurally have fewer GitHub stars than gen
 
 ## Alignment Training Frameworks
 
-| Repository | Stars | Description |
-|---|---|---|
-| PKU-Alignment/safe-rlhf | ~1,600 | Safe RLHF — separates harmlessness and helpfulness into independent objectives under safety constraints. Most complete alignment-specific RLHF implementation. |
-| OpenLMLab/MOSS-RLHF | ~1,400 | "Secrets of RLHF in Large Language Models" paper code. Analyzes PPO training pitfalls and practical alignment engineering. |
-| huggingface/trl | ~17,800 | Not alignment-specific, but the de facto standard for RLHF/DPO/GRPO training. Infrastructure that alignment researchers build on. |
-| OpenRLHF/OpenRLHF | ~9,200 | Production-grade distributed RLHF framework (Ray + vLLM). Used for scaling alignment training. |
-| tomekkorbak/pretraining-with-human-feedback | ~180 | Research on incorporating human preferences at the pretraining stage, not just fine-tuning. |
+| Repository | Stars | Maturity | Description |
+|---|---|---|---|
+| PKU-Alignment/safe-rlhf | ~1,600 | Research | Safe RLHF — separates harmlessness and helpfulness into independent objectives under safety constraints. Most cited alignment-specific RLHF implementation (per associated NeurIPS paper). |
+| OpenLMLab/MOSS-RLHF | ~1,400 | Research | "Secrets of RLHF in Large Language Models" paper code. Analyzes PPO training pitfalls and practical alignment engineering. |
+| huggingface/trl | ~17,800 | Production | Not alignment-specific, but the de facto standard for RLHF/DPO/GRPO training. Infrastructure that alignment researchers build on. Actively maintained with enterprise adoption. |
+| OpenRLHF/OpenRLHF | ~9,200 | Production | Production-grade distributed RLHF framework (Ray + vLLM). Designed for scaling alignment training in deployment settings. |
+| tomekkorbak/pretraining-with-human-feedback | ~180 | Research | Research on incorporating human preferences at the pretraining stage, not just fine-tuning. |
+
+**Maturity legend:** *Production* = actively maintained, documented, used in enterprise/lab settings. *Research* = paper companion or prototype, may require significant adaptation for production use.
 
 ## Mechanistic Interpretability
 
-Interpretability is the verification layer for alignment — without understanding model internals, alignment claims remain unverifiable.
+One school of thought in alignment research holds that interpretability is a necessary verification layer — that without understanding model internals, alignment claims remain difficult to verify (cf. Anthropic's "Scaling Monosemanticity" research direction). This is not universally accepted; behavioral evaluation approaches argue that external testing can suffice without internal understanding.
 
-| Repository | Stars | Description |
-|---|---|---|
-| TransformerLensOrg/TransformerLens | ~3,200 | Standard tool for mechanistic interpretability of GPT-style models. Created by Neel Nanda (ex-Anthropic). Exposes internal activations for reverse-engineering learned algorithms. |
-| decoderesearch/SAELens | ~1,300 | Sparse Autoencoder training and analysis. Open-source implementation of Anthropic's monosemanticity research — decomposing model internals into interpretable features. |
-| callummcdougall/sae_vis | — | Visualization tool replicating Anthropic's SAE feature visualizations. |
-| wesg52/sparse-probing-paper | ~66 | Sparse probing research — how model internal representations correspond to human-interpretable concepts. |
+| Repository | Stars | Maturity | Description |
+|---|---|---|---|
+| TransformerLensOrg/TransformerLens | ~3,200 | Research | Widely used tool for mechanistic interpretability of GPT-style models. Created by Neel Nanda (ex-Anthropic). Exposes internal activations for reverse-engineering learned algorithms. |
+| decoderesearch/SAELens | ~1,300 | Research | Sparse Autoencoder training and analysis. Open-source implementation of Anthropic's monosemanticity research — decomposing model internals into interpretable features. |
+| callummcdougall/sae_vis | — | Research | Visualization tool replicating Anthropic's SAE feature visualizations. |
+| wesg52/sparse-probing-paper | ~66 | Research | Sparse probing research — how model internal representations correspond to human-interpretable concepts. |
 
 Anthropic's primary interpretability research is published at transformer-circuits.pub rather than as GitHub repositories.
 
@@ -86,12 +92,12 @@ Not a code repository but a structured research database relevant to alignment:
 
 ## Safety Evaluation and Red-Teaming
 
-| Repository | Stars | Description |
-|---|---|---|
-| centerforaisafety/HarmBench | ~890 | Standardized evaluation framework for automated red-teaming. 33 LLMs, 18 attack methods. Measures where alignment fails. |
-| promptfoo/promptfoo | ~18,500 | LLM red-teaming, pentesting, vulnerability scanning. Used by OpenAI and Anthropic. Broader than alignment but directly relevant. |
-| agencyenterprise/PromptInject | ~470 | Prompt injection attack framework. Studies alignment bypass vulnerabilities. |
-| hendrycks/ethics | ~320 | "Aligning AI with Shared Human Values" (ICLR 2021). Dan Hendrycks (CAIS founder). Original value alignment benchmark. |
+| Repository | Stars | Maturity | Description |
+|---|---|---|---|
+| centerforaisafety/HarmBench | ~890 | Research | Standardized evaluation framework for automated red-teaming. 33 LLMs, 18 attack methods. Measures where alignment fails. |
+| promptfoo/promptfoo | ~18,500 | Production | LLM red-teaming, pentesting, vulnerability scanning. Used by OpenAI and Anthropic (per project website). The most enterprise-ready safety evaluation tool in this list. |
+| agencyenterprise/PromptInject | ~470 | Research | Prompt injection attack framework. Studies alignment bypass vulnerabilities. |
+| hendrycks/ethics | ~320 | Research | "Aligning AI with Shared Human Values" (ICLR 2021). Dan Hendrycks (CAIS founder). Original value alignment benchmark. |
 
 ## Misalignment and Alignment Faking Research
 
@@ -109,3 +115,19 @@ Anthropic publishes alignment research primarily through dedicated sites, not Gi
 - **anthropic.com/research** — Full research index
 
 Code accompaniments, when released, appear under the `anthropic-experimental` or `safety-research` organizations.
+
+## Business Implications
+
+For organizations deploying LLMs, the practical takeaway from this landscape:
+
+1. **Immediate enterprise use:** Only promptfoo (safety evaluation), trl (RLHF training), and OpenRLHF (distributed RLHF) are production-grade. All other repositories require significant adaptation for non-research use.
+2. **Safety evaluation first:** Organizations that want to assess LLM safety before deployment should start with promptfoo for red-teaming and vulnerability scanning — it is the only tool here with documented enterprise adoption.
+3. **Interpretability tools are pre-commercial:** TransformerLens, SAELens, and NNsight are research instruments. No organization currently uses them in production governance workflows. Their business relevance is forward-looking, not immediate.
+4. **Hiring signal:** Familiarity with these tools is a strong signal for AI safety hiring. Candidates who have used TransformerLens, contributed to SAELens, or published via MATS/SPAR are among the few with hands-on alignment experience.
+
+## Limitations
+
+- **Coverage:** This survey is limited to publicly visible, English-language GitHub repositories found through keyword search. Proprietary alignment work at Anthropic, OpenAI, DeepMind, and others is not represented. Non-GitHub platforms (e.g., GitLab, internal repos) are excluded.
+- **Star counts** are a rough adoption proxy, not a quality measure. They are included for orientation and decay rapidly.
+- **Maturity classifications** (Production/Research) are the author's judgment based on documentation quality, maintenance activity, and stated adoption — not independently verified.
+- **Snapshot date:** All data is as of 2026-03-26 and will become stale. No update cadence is established.

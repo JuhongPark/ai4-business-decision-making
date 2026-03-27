@@ -1,9 +1,11 @@
 # AI Alignment Programs, Fellowships, and Organizations
 
-A directory of programs that train alignment researchers, produce safety research, and shape AI governance policy.
+A directory of programs that train alignment researchers, produce safety research, and shape AI governance policy. Data collected 2026-03-26 from program websites and web searches.
 
 For code repositories, see [alignment-codebases.md](alignment-codebases.md).
 For the 80,000 Hours fellowships dataset (130 entries), see [ai-safety-fellowships-directory.md](ai-safety-fellowships-directory.md).
+
+**Note on sourcing:** Program statistics (publication counts, alumni placement rates, cohort sizes) are drawn from each program's own website or promotional materials unless otherwise noted. These are self-reported figures and have not been independently verified. They are included for orientation, not as audited claims.
 
 ## Research Fellowships
 
@@ -13,10 +15,10 @@ Programs that produce alignment research outputs through structured mentorship a
 
 - **Site:** https://www.matsprogram.org/
 - **Format:** 12-week in-person fellowship (Berkeley and London)
-- **Scale:** 170+ publications, 9,500+ citations from alumni
+- **Scale:** 170+ publications, 9,500+ citations from alumni (per matsprogram.org, self-reported)
 - **Research tracks:** Empirical (ML experiments on control, interpretability, oversight), Policy & Strategy, Theory, Technical Governance, Compute Infrastructure
 - **Mentor orgs:** Anthropic, DeepMind, OpenAI, Redwood Research, ARC, UK AISI, LawZero
-- **Alumni outcomes:** 80% work in AI alignment/security; 10% founded organizations (Apollo Research, Timaeus, Center for AI Policy)
+- **Alumni outcomes (self-reported):** 80% work in AI alignment/security; 10% founded organizations (Apollo Research, Timaeus, Center for AI Policy)
 - **Notable outputs:** Sparse autoencoders for interpretability, activation engineering, developmental interpretability, situational awareness evaluation
 - **Code:** qfeuilla/BehaviorEliciationTool (automated red-teaming)
 - **Summer 2026:** Largest cohort — 120 fellows, 100 mentors
@@ -58,7 +60,7 @@ Safety evaluation:
 - **Stipend:** £11,000 + office space, meals, travel
 - **Focus:** Technical AI safety — loss of control scenarios
 - **Research areas:** Multi-agent collusion, RL alignment theory, deception detection, interpretability, automated interpretability, scalable oversight, AI control
-- **Outcomes:** 2024 cohort achieved 100% NeurIPS workshop acceptance; alumni at UK AISI, Apollo Research, Leap Labs, Open Philanthropy
+- **Outcomes (self-reported):** 2024 cohort achieved 100% NeurIPS workshop acceptance (note: workshop acceptance rates are substantially higher than main-conference rates); alumni at UK AISI, Apollo Research, Leap Labs, Open Philanthropy
 
 ### Apart Research
 
@@ -98,7 +100,7 @@ Safety evaluation:
   - **Technical Programme** — for ML engineers, CS graduates, technical researchers
   - **Governance & Strategy Programme** — for policy/legal professionals, operations, communications
 - **Cost:** Free (food, accommodation, teaching provided; travel reimbursed)
-- **Alumni outcomes:** Roles at MATS Research, Ada Lovelace Institute, UK AISI, SaferAI, CHAI; 98% recommendation rate
+- **Alumni outcomes (self-reported):** Roles at MATS Research, Ada Lovelace Institute, UK AISI, SaferAI, CHAI; 98% recommendation rate
 
 ## AI Governance Research Organizations
 
@@ -168,7 +170,17 @@ Career destinations
 
 ## Relevance to Business-Context Alignment
 
-1. **Research fellowships** (MATS, SPAR, LASR) produce the fundamental safety techniques that businesses eventually need to adopt.
-2. **Training programs** (BlueDot, ARENA, ML4Good) create the talent pool that companies hire from for AI safety roles.
-3. **Governance organizations** (GovAI, IAPS, Orion) produce policy frameworks that become regulatory requirements for business AI deployment.
-4. The **pipeline structure** shows that alignment is becoming a professional field with clear career paths — relevant for organizations building internal AI governance teams.
+These connections are hypothesized based on ecosystem observation, not empirically verified:
+
+1. **Research fellowships** (MATS, SPAR, LASR) produce safety techniques (e.g., activation engineering, deception detection) that may inform future enterprise safety tools — though no direct adoption pathway from fellowship output to commercial product has been documented here.
+2. **Training programs** (BlueDot, ARENA, ML4Good) are likely sources of AI safety talent for hiring, given their alumni placement records at major labs. However, the actual hiring flow from these programs to non-lab businesses is not tracked.
+3. **Governance organizations** (GovAI, IAPS, Orion) produce policy research that may influence regulatory frameworks. GovAI's work has been cited in UK and EU policy discussions (per governance.ai), but the pathway from think-tank output to binding regulation is indirect and uncertain.
+4. The **pipeline structure** suggests alignment is professionalizing — relevant for organizations planning to build internal AI governance teams, though the talent supply remains small relative to demand.
+
+## Limitations
+
+- **Self-reported data:** Program outcome statistics (placement rates, publication counts, recommendation rates) are sourced from program websites and are not independently verified.
+- **Selection bias:** Programs included here are primarily English-language, Western-centric, and concentrated in the EA/AI safety community. Corporate training programs, government initiatives, and non-Anglophone programs are underrepresented.
+- **No quality evaluation:** Programs are listed descriptively without quality ranking or comparative assessment. Inclusion does not imply endorsement.
+- **Temporal validity:** Program details (stipends, dates, cohort sizes) are as of 2026-03-26 and change frequently.
+- **Missing demand-side analysis:** This directory covers the supply of alignment talent and research but does not analyze which businesses adopt these outputs or how.

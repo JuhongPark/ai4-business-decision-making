@@ -1,10 +1,14 @@
-# AI Safety & Governance Fellowships Directory
+# AI-Related Fellowships and Grants Directory
 
 Source: 80,000 Hours fellowships masterlist (https://jb.80000hours.org), downloaded 2026-03-26.
 Raw data: [data/80000hours-fellowships-masterlist-20260326.csv](data/80000hours-fellowships-masterlist-20260326.csv)
 
 For detailed program profiles (MATS, SPAR, LASR, BlueDot, GovAI, etc.), see [alignment-programs.md](alignment-programs.md).
 For code repositories, see [alignment-codebases.md](alignment-codebases.md).
+
+## Methodology
+
+The raw dataset is the full 80,000 Hours fellowships masterlist, downloaded as CSV on 2026-03-26 (130 rows after header). No entries were excluded. The "AI-related" classification (78 of 130) was determined by keyword match: entries whose title or description contains any of [AI, artificial intelligence, alignment, safety, machine learning, ML, interpretability, LLM]. The "directly AI safety/alignment/governance" subset (19 of 130) uses stricter keywords: [ai safety, alignment, ai risk, interpretability, ai governance, ai policy, ai agent, catastrophic ai]. These are mechanical filters, not expert judgment — borderline cases may be misclassified in either direction.
 
 ## Dataset Overview (as of 2026-03-26)
 
@@ -64,7 +68,7 @@ For code repositories, see [alignment-codebases.md](alignment-codebases.md).
 
 ## Key Analysis
 
-1. **Policy dominance:** 77 of 130 programs require policy skills — the field's bottleneck is policy-literate technologists, not pure researchers.
+1. **Policy skill prevalence:** 77 of 130 programs list policy as a required skill. This may reflect the field's emphasis on policy-literate talent, though it could also reflect funding preferences or the fact that policy fellowships are more numerous in general (not specific to AI).
 2. **Entry-level bias:** 62 programs target entry-level, reflecting the field's emphasis on pipeline-building over mid-career conversion.
 3. **US geographic concentration:** 82 programs are US-based (63%), predominantly Washington DC. UK is a distant second with 17.
 4. **Most programs are closed:** Only 28 of 130 are currently accessible (20 rolling + 8 open). Timing matters — most cycles are Jan–Mar for summer cohorts.
