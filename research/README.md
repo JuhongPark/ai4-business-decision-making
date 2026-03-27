@@ -57,6 +57,7 @@ Use this area when you want polished or reader-facing outputs.
 
 Use this area for revision, application, and planning materials that support the core content.
 
+- `applications/`: application prep documents, answer drafts, and submission notes
 - `thinktank-program/`: roadmap and report architecture planning
 - `revision/`: revision summaries, governance memo, and review-stage synthesis
 - `expansion/`: expansion logic, evidence-tier method, and refocus planning
