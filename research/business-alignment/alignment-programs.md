@@ -138,7 +138,7 @@ Safety evaluation:
 
 ## Pipeline Map
 
-The alignment ecosystem has a clear progression structure:
+The following is the author's interpretive observation of how programs appear to relate to each other, based on stated prerequisites and alumni trajectories. Real career paths are non-linear — individuals skip stages, enter laterally, or follow entirely different routes. This diagram is a simplification for orientation, not an empirically verified pathway.
 
 ```
 Entry (no prerequisites)
@@ -182,5 +182,7 @@ These connections are hypothesized based on ecosystem observation, not empirical
 - **Self-reported data:** Program outcome statistics (placement rates, publication counts, recommendation rates) are sourced from program websites and are not independently verified.
 - **Selection bias:** Programs included here are primarily English-language, Western-centric, and concentrated in the EA/AI safety community. Corporate training programs, government initiatives, and non-Anglophone programs are underrepresented.
 - **No quality evaluation:** Programs are listed descriptively without quality ranking or comparative assessment. Inclusion does not imply endorsement.
-- **Temporal validity:** Program details (stipends, dates, cohort sizes) are as of 2026-03-26 and change frequently.
+- **Temporal validity:** Program details (stipends, dates, cohort sizes) are as of 2026-03-26 and change frequently. This is a one-time survey, not a maintained resource.
 - **Missing demand-side analysis:** This directory covers the supply of alignment talent and research but does not analyze which businesses adopt these outputs or how.
+- **Funding concentration:** Many programs listed here are funded by Open Philanthropy or adjacent donors within the Effective Altruism ecosystem. This shapes program design, research agendas, and the talent pipeline in ways that are not analyzed here.
+- **Author positionality:** The author is not affiliated with any program, organization, or lab listed in this survey. No funding was received from any listed entity.
