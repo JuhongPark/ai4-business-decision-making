@@ -1,14 +1,15 @@
-# AI-Related Fellowships and Grants Directory
+# AI 관련 Fellowships & Grants — 80,000 Hours 데이터 분석
 
-Source: 80,000 Hours fellowships masterlist (https://jb.80000hours.org), downloaded 2026-03-26.
-Raw data: [data/80000hours-fellowships-masterlist-20260326.csv](data/80000hours-fellowships-masterlist-20260326.csv)
+80,000 Hours가 관리하는 펠로우십 마스터리스트를 다운로드하여 분석한 자료다. AI 안전/거버넌스/정책 분야에서 어떤 기회가 존재하고, 현재 지원 가능한 것은 무엇인지 파악하는 것이 목적이다.
 
-For detailed program profiles (MATS, SPAR, LASR, BlueDot, GovAI, etc.), see [alignment-programs.md](alignment-programs.md).
-For code repositories, see [alignment-codebases.md](alignment-codebases.md).
+- **Source:** https://jb.80000hours.org (2026-03-26 다운로드)
+- **Raw data:** [data/80000hours-fellowships-masterlist-20260326.csv](data/80000hours-fellowships-masterlist-20260326.csv)
+- 개별 프로그램 상세 프로필: [alignment-programs.md](alignment-programs.md)
+- 코드 레포: [alignment-codebases.md](alignment-codebases.md)
 
-## Methodology
+## 분류 방법
 
-The raw dataset is the full 80,000 Hours fellowships masterlist, downloaded as CSV on 2026-03-26 (130 rows after header). No entries were excluded. The "AI-related" classification (78 of 130) was determined by keyword match: entries whose title or description contains any of [AI, artificial intelligence, alignment, safety, machine learning, ML, interpretability, LLM]. The "directly AI safety/alignment/governance" subset (19 of 130) uses stricter keywords: [ai safety, alignment, ai risk, interpretability, ai governance, ai policy, ai agent, catastrophic ai]. These are mechanical filters, not expert judgment — borderline cases may be misclassified in either direction.
+130개 전체 항목을 키워드 매칭으로 분류했다. "AI-related"(78개)는 제목/설명에 [AI, artificial intelligence, alignment, safety, machine learning, ML, interpretability, LLM]이 포함된 항목이다. "직접 AI safety/alignment/governance"(19개)는 더 엄격한 키워드 [ai safety, alignment, ai risk, interpretability, ai governance, ai policy, ai agent, catastrophic ai]로 필터했다. 기계적 필터이므로 "responsible AI", "trustworthy AI" 등 다른 용어를 쓰는 프로그램은 누락될 수 있다.
 
 ## Dataset Overview (as of 2026-03-26)
 
@@ -168,19 +169,17 @@ The raw dataset is the full 80,000 Hours fellowships masterlist, downloaded as C
 | AI Reporting Grants | Pulitzer Center | In-depth AI journalism | Global |
 | Grant Programs | Future of Life Institute | AI existential safety PhD funding | Global |
 
-## Key Observations
+## 이 데이터에서 읽을 수 있는 것
 
-1. **Geographic concentration:** Most AI governance fellowships cluster in Washington DC, London, Oxford, and SF Bay Area.
-2. **Application timing:** Most programs have annual cycles with deadlines in Jan–Mar for summer cohorts. Rolling programs are the exception.
-3. **Experience spectrum:** Programs range from entry-level (ARENA, ML4Good) through mid-career (IAPS, RAND) to senior (AEI Kirkpatrick).
-4. **Stipend range:** From unpaid (SPAR) through modest (Orion £3,200/month) to substantial (IAPS $22k/3mo, Tarbell $50k/year).
-5. **AI safety vs. AI governance split:** Technical safety programs (MATS, Anthropic, LASR) require ML skills; governance programs (IAPS, GovAI, Talos) welcome non-technical backgrounds.
-6. **Pipeline structure:** Entry programs (BlueDot, ML4Good, ARENA) → Research fellowships (MATS, SPAR, LASR, Apart) → Lab positions (Anthropic, DeepMind, AISI) or Policy roles (GovAI, RAND, CNAS). This is the author's interpretive observation; real career paths are non-linear.
+1. **지역 집중:** AI 거버넌스 펠로우십은 Washington DC, London, Oxford, SF Bay Area에 집중되어 있다. 이 지역 밖에서 기회를 찾으려면 Remote/Global 필터(35개)를 활용할 수 있다.
+2. **타이밍이 중요하다:** 대부분 연간 주기로 1–3월에 마감한다. Rolling 프로그램(20개)은 시기와 무관하게 지원 가능하다.
+3. **경험 스펙트럼:** Entry-level(62개)부터 Senior(8개)까지 폭이 넓다. 기술 배경 없이 진입하려면 governance 트랙(IAPS, GovAI, Talos)이 열려 있다.
+4. **스티펜드:** 무보수(SPAR)부터 고액(IAPS $22k/3개월, Tarbell $50k/년)까지 다양하다.
+5. **기술 vs 정책:** Technical safety(MATS, Anthropic, LASR)는 ML 역량 필수, governance(IAPS, GovAI, Talos)는 비기술 배경 환영.
+6. **직접 AI 안전은 소수:** 19/130만 엄격한 AI safety 키워드에 매칭된다. 다만 "responsible AI" 등 다른 용어를 쓰는 프로그램은 이 필터에 포착되지 않으므로 실제로는 더 많을 수 있다.
 
-## Limitations
+## Notes
 
-- **Dataset scope:** The 80,000 Hours masterlist is curated by one organization and reflects its network and priorities. Programs outside this network are not represented.
-- **Keyword classification:** The "AI-related" and "directly AI safety" counts use mechanical keyword matching, not expert judgment. Programs using alternative terminology ("responsible AI," "trustworthy AI") may be undercounted.
-- **Snapshot validity:** All statuses are as of 2026-03-26. This is a one-time analysis, not a maintained resource.
-- **Funding concentration:** Many listed programs share funders (Open Philanthropy, EA Funds), which shapes the ecosystem in ways not analyzed here.
-- **Author positionality:** The author is not affiliated with any listed program or organization.
+- 80,000 Hours 리스트는 EA 네트워크 중심으로 큐레이션되어 있어 이 네트워크 밖의 프로그램은 반영되지 않았다.
+- 키워드 분류는 기계적 필터이며, 경계 사례의 오분류 가능성이 있다.
+- 2026-03-26 기준 스냅샷이다.

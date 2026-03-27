@@ -1,134 +1,132 @@
-# AI Alignment Research Codebases
+# AI Alignment Research — Open-Source Codebases
 
-A survey of open-source repositories where AI alignment research is conducted through code. Star counts as of 2026-03-26.
+AI 정렬 분야에서 실제로 코드를 통해 연구가 진행되고 있는 오픈소스 레포지토리를 정리한다. 정렬 연구에서 어떤 도구가 쓰이고, 어디서 코드 수준의 자료를 확보할 수 있는지 파악하는 것이 목적이다.
 
-## Scope and Method
+Star counts as of 2026-03-26. Stars는 연구 품질이 아니라 커뮤니티 채택 규모를 나타낸다. 정렬 분야는 커뮤니티가 작아서 100–1,000 stars면 핵심 레포에 해당한다. 대부분은 논문 동반 코드이며 프로덕션용이 아니다.
 
-This survey covers publicly visible GitHub repositories selected through keyword searches (alignment, RLHF, interpretability, safety evaluation, misalignment) and organization-level browsing. Selection criteria: (1) directly implements or evaluates alignment techniques, (2) has published associated research, (3) is actively maintained or recently cited. The list is not exhaustive — it excludes proprietary corporate alignment work, classified government programs, non-English-language ecosystems, and repositories that were missed during search. Organizations like EleutherAI, Redwood Research, and ARC Evals maintain relevant code that is not covered here.
+> **Coverage note:** 공개 GitHub 중심으로 조사했으며, 기업 내부 코드(Anthropic, OpenAI, DeepMind 등)나 비영어권 레포는 포함되지 않았다. EleutherAI, Redwood Research, ARC Evals 등도 관련 코드를 운영하지만 여기서는 다루지 않았다.
 
-## Key Observation
-
-AI alignment research repositories structurally have fewer GitHub stars than general-purpose AI tools. Stars reflect user base size, not research quality — they are included as a rough indicator of community adoption, not as a quality measure. In alignment research, 100–1,000 stars typically indicates a core repository. Most codebases are research prototypes and paper companions, not production-ready tools.
-
-## GitHub Organizations
+## GitHub Organizations — 여기서 관련 레포를 탐색할 수 있다
 
 | Organization | Focus | Link |
 |---|---|---|
 | Anthropic (official) | SDKs, APIs, Claude tooling | https://github.com/anthropics |
-| Anthropic (experimental) | Research prototypes — misalignment, safety | https://github.com/anthropic-experimental |
-| Safety Research | Alignment faking replication, Bloom, SAELens | https://github.com/safety-research |
-| Center for AI Safety (CAIS) | Benchmarks, evaluation frameworks | https://github.com/orgs/centerforaisafety |
-| PKU Alignment | Safe RLHF, constrained value alignment | https://github.com/PKU-Alignment |
-| MIT NDIF Team | NNsight, nnterp — model interpretability infra | https://github.com/ndif-team |
-| MIT Multimodal Interpretability | MAIA, FIND — automated interpretability | https://github.com/multimodal-interpretability |
-| MIT Algorithmic Alignment Lab | Formal contracts, red-teaming, value alignment | https://github.com/Algorithmic-Alignment-Lab |
+| Anthropic (experimental) | 정렬 연구 프로토타입 — misalignment, safety | https://github.com/anthropic-experimental |
+| Safety Research | Alignment faking 재현, Bloom, SAELens | https://github.com/safety-research |
+| Center for AI Safety (CAIS) | 벤치마크, 평가 프레임워크 | https://github.com/orgs/centerforaisafety |
+| PKU Alignment | Safe RLHF, 제약 조건 하 가치 정렬 | https://github.com/PKU-Alignment |
+| MIT NDIF Team | NNsight, nnterp — 모델 해석가능성 인프라 | https://github.com/ndif-team |
+| MIT Multimodal Interpretability | MAIA, FIND — 자동 해석가능성 | https://github.com/multimodal-interpretability |
+| MIT Algorithmic Alignment Lab | Formal contracts, red-teaming | https://github.com/Algorithmic-Alignment-Lab |
 
 ## Alignment Training Frameworks
 
-| Repository | Stars | Maturity | Description |
-|---|---|---|---|
-| PKU-Alignment/safe-rlhf | ~1,600 | Research | Safe RLHF — separates harmlessness and helpfulness into independent objectives under safety constraints. Most cited alignment-specific RLHF implementation (per associated NeurIPS paper). |
-| OpenLMLab/MOSS-RLHF | ~1,400 | Research | "Secrets of RLHF in Large Language Models" paper code. Analyzes PPO training pitfalls and practical alignment engineering. |
-| huggingface/trl | ~17,800 | Production | Not alignment-specific, but the de facto standard for RLHF/DPO/GRPO training. Infrastructure that alignment researchers build on. Actively maintained with enterprise adoption. |
-| OpenRLHF/OpenRLHF | ~9,200 | Production | Production-grade distributed RLHF framework (Ray + vLLM). Designed for scaling alignment training in deployment settings. |
-| tomekkorbak/pretraining-with-human-feedback | ~180 | Research | Research on incorporating human preferences at the pretraining stage, not just fine-tuning. |
-
-**Maturity legend:** *Production* = actively maintained, documented, used in enterprise/lab settings. *Research* = paper companion or prototype, may require significant adaptation for production use.
-
-## Mechanistic Interpretability
-
-One school of thought in alignment research holds that interpretability is a necessary verification layer — that without understanding model internals, alignment claims remain difficult to verify (cf. Anthropic's "Scaling Monosemanticity" research direction). This is not universally accepted; behavioral evaluation approaches argue that external testing can suffice without internal understanding.
+RLHF/DPO 등 정렬 학습을 직접 구현하는 레포. 기업에서 모델을 정렬하려면 이 도구들이 출발점이 된다.
 
 | Repository | Stars | Maturity | Description |
 |---|---|---|---|
-| TransformerLensOrg/TransformerLens | ~3,200 | Research | Widely used tool for mechanistic interpretability of GPT-style models. Created by Neel Nanda (ex-Anthropic). Exposes internal activations for reverse-engineering learned algorithms. |
-| decoderesearch/SAELens | ~1,300 | Research | Sparse Autoencoder training and analysis. Open-source implementation of Anthropic's monosemanticity research — decomposing model internals into interpretable features. |
-| callummcdougall/sae_vis | — | Research | Visualization tool replicating Anthropic's SAE feature visualizations. |
-| wesg52/sparse-probing-paper | ~66 | Research | Sparse probing research — how model internal representations correspond to human-interpretable concepts. |
+| huggingface/trl | ~17,800 | Production | RLHF/DPO/GRPO 학습의 사실상 표준. 정렬 전용은 아니지만 정렬 연구자들이 기반으로 쓴다. |
+| OpenRLHF/OpenRLHF | ~9,200 | Production | Ray + vLLM 기반 분산 RLHF. 대규모 정렬 학습에 사용. |
+| PKU-Alignment/safe-rlhf | ~1,600 | Research | 유해성과 유용성을 분리 최적화하는 Safe RLHF. NeurIPS 논문 동반. |
+| OpenLMLab/MOSS-RLHF | ~1,400 | Research | "Secrets of RLHF in LLMs" 논문 코드. PPO 학습의 실제 함정을 분석. |
+| tomekkorbak/pretraining-with-human-feedback | ~180 | Research | 파인튜닝이 아닌 사전학습 단계에서 인간 선호를 반영하는 연구. |
 
-Anthropic's primary interpretability research is published at transformer-circuits.pub rather than as GitHub repositories.
+> **Maturity:** *Production* = 기업/랩에서 실제 사용, 문서화 양호. *Research* = 논문 동반 코드, 프로덕션 적용에는 상당한 수정 필요.
 
-## MIT Alignment Research
+## Mechanistic Interpretability — 모델 내부를 들여다보는 도구
 
-MIT's alignment research concentrates on interpretability tooling — building instruments to see inside models rather than training aligned models directly.
-
-### NDIF / NNsight (MIT EECS, David Bau Lab)
-
-| Repository | Stars | Description |
-|---|---|---|
-| ndif-team/nnsight | ~870 | Model internals interpretation and manipulation library. Wraps HuggingFace models with a tracing system for interventions. MIT's primary alternative to TransformerLens. |
-| ndif-team/nnterp | ~104 | Unified interface for transformer analysis via NNsight. Supports 50+ model variants across 16 architecture families. |
-| ndif-team/ndif | ~43 | National Deep Inference Fabric — remote deep inference server for large-scale interpretability research. |
-| ndif-team/cookbook | 5 | NNsight implementations of published mechanistic interpretability papers. |
-
-### Multimodal Interpretability (MIT CSAIL, Sarah Schwettmann Lab)
+Anthropic의 "Scaling Monosemanticity" 연구 방향에서는 모델 내부를 이해하지 않으면 정렬 주장을 검증하기 어렵다고 본다. 반대로 행동주의 평가(behavioral evaluation) 접근은 외부 테스트만으로 충분하다고 주장한다. 두 입장 모두 활발히 연구 중이다.
 
 | Repository | Stars | Description |
 |---|---|---|
-| multimodal-interpretability/maia | ~105 | MAIA — Multimodal Automated Interpretability Agent. Uses vision-language models to automatically interpret other models' internals. |
-| multimodal-interpretability/FIND | ~52 | NeurIPS '23. Function Interpretation Benchmark for evaluating interpretability methods. |
+| TransformerLensOrg/TransformerLens | ~3,200 | MI 연구의 표준 도구. Neel Nanda(ex-Anthropic) 제작. 내부 activation 접근/수정 가능. |
+| decoderesearch/SAELens | ~1,300 | Sparse Autoencoder 학습/분석. Anthropic monosemanticity 연구의 오픈소스 재현. |
+| callummcdougall/sae_vis | — | Anthropic SAE 시각화 재현 도구. |
+| wesg52/sparse-probing-paper | ~66 | 모델 내부 표현이 인간 개념과 어떻게 대응하는지 연구. |
+
+이 분야의 핵심 연구는 GitHub이 아니라 **transformer-circuits.pub**에 게시된다.
+
+## MIT 정렬 연구 — 해석가능성 도구 중심
+
+MIT는 정렬 학습보다 해석가능성 도구 개발에 집중한다. 여기서 나온 도구를 활용하면 모델 내부 분석 연구를 수행할 수 있다.
+
+### NDIF / NNsight (David Bau Lab, MIT EECS)
+
+| Repository | Stars | Description |
+|---|---|---|
+| ndif-team/nnsight | ~870 | HuggingFace 모델을 래핑해서 내부 activation에 개입하는 라이브러리. TransformerLens의 MIT 대안. |
+| ndif-team/nnterp | ~104 | NNsight 기반 통합 인터페이스. 50+ 모델, 16개 아키텍처 패밀리 지원. |
+| ndif-team/ndif | ~43 | National Deep Inference Fabric — 원격 deep inference 서버. |
+| ndif-team/cookbook | 5 | MI 논문들의 NNsight 구현 모음. 연구 재현에 유용. |
+
+### Multimodal Interpretability (Sarah Schwettmann Lab, MIT CSAIL)
+
+| Repository | Stars | Description |
+|---|---|---|
+| multimodal-interpretability/maia | ~105 | MAIA — 비전-언어 모델로 다른 모델 내부를 자동 해석하는 에이전트. |
+| multimodal-interpretability/FIND | ~52 | NeurIPS '23. 해석가능성 메서드 평가 벤치마크. |
 | multimodal-interpretability/nnn | ~20 | Nearest Neighbor Normalization (EMNLP 2024). |
 
-This group launched Transluce (transluce.org) in October 2024 as a nonprofit research lab for open, scalable AI understanding tools.
+이 그룹에서 2024년 10월 **Transluce**(transluce.org) 비영리 연구소를 설립했다. AI 시스템 이해를 위한 오픈 도구를 만드는 곳이다.
 
-### Algorithmic Alignment Lab (MIT CSAIL, Dylan Hadfield-Menell Lab)
+### Algorithmic Alignment Lab (Dylan Hadfield-Menell Lab, MIT CSAIL)
 
 | Repository | Stars | Description |
 |---|---|---|
-| Algorithmic-Alignment-Lab/contracts | ~19 | Formal contracts for multi-agent reinforcement learning. Theoretical framework for agent coordination under alignment constraints. |
-| Algorithmic-Alignment-Lab/CommonClaim | ~13 | "Explore, Establish, Exploit: Red Teaming Language Models from Scratch." Systematic red-teaming methodology. |
+| Algorithmic-Alignment-Lab/contracts | ~19 | 멀티에이전트 RL을 위한 formal contracts. |
+| Algorithmic-Alignment-Lab/CommonClaim | ~13 | "Explore, Establish, Exploit" — LLM 레드팀 from scratch. |
 
-This group focuses more on theory and policy than code — formal frameworks for aligning AI development with human interests and values.
+코드보다 이론/정책 연구 비중이 높은 그룹. 정렬의 수학적·철학적 기반을 연구한다.
 
-### MIT AI Risk Repository (MIT FutureTech, Peter Slattery)
+### MIT AI Risk Repository (Peter Slattery, MIT FutureTech)
 
-Not a code repository but a structured research database relevant to alignment:
+코드 레포가 아니라 구조화된 리스크 데이터베이스다. 정렬 관련 리스크를 체계적으로 분류한 자료를 찾을 수 있다.
 
 - **Site:** https://airisk.mit.edu/
-- **Scale:** 1,700+ AI risks extracted from 74 frameworks (Version 4, December 2025)
-- **Taxonomies:** Causal taxonomy (how/when/why risks occur) and Domain taxonomy (7 domains, 24 subdomains)
-- **AI Incident Tracker:** LLM-powered categorization of incidents from the AI Incident Database (AIID)
+- **Scale:** 1,700+ AI 리스크, 74개 프레임워크에서 추출 (Version 4, 2025년 12월)
+- **Taxonomies:** 인과 분류(how/when/why) + 도메인 분류(7개 도메인, 24개 서브도메인)
+- **AI Incident Tracker:** AIID 기반 사고 사례 LLM 분류
 - **Paper:** arXiv:2408.12622
 
-## Safety Evaluation and Red-Teaming
+## Safety Evaluation & Red-Teaming
+
+LLM 안전성을 평가하는 도구들. 기업 배포 전 안전 검증에 활용할 수 있다.
 
 | Repository | Stars | Maturity | Description |
 |---|---|---|---|
-| centerforaisafety/HarmBench | ~890 | Research | Standardized evaluation framework for automated red-teaming. 33 LLMs, 18 attack methods. Measures where alignment fails. |
-| promptfoo/promptfoo | ~18,500 | Production | LLM red-teaming, pentesting, vulnerability scanning. Claims usage by OpenAI and Anthropic (per project website, vendor self-reported — not independently verified). The most enterprise-ready safety evaluation tool in this list. |
-| agencyenterprise/PromptInject | ~470 | Research | Prompt injection attack framework. Studies alignment bypass vulnerabilities. |
-| hendrycks/ethics | ~320 | Research | "Aligning AI with Shared Human Values" (ICLR 2021). Dan Hendrycks (CAIS founder). Original value alignment benchmark. |
+| promptfoo/promptfoo | ~18,500 | Production | LLM 레드팀/펜테스팅/취약점 스캔. OpenAI, Anthropic 사용 주장(벤더 자기보고). **이 목록에서 가장 기업 활용에 가까운 도구.** |
+| centerforaisafety/HarmBench | ~890 | Research | 자동 레드팀 표준 평가 프레임워크. 33개 LLM, 18개 공격 기법. |
+| agencyenterprise/PromptInject | ~470 | Research | 프롬프트 인젝션 공격 프레임워크. 정렬 우회 취약점 연구. |
+| hendrycks/ethics | ~320 | Research | "Aligning AI with Shared Human Values" (ICLR 2021). 가치 정렬 벤치마크 원조. |
 
-## Misalignment and Alignment Faking Research
+## Misalignment & Alignment Faking
+
+모델이 정렬된 척하거나 에이전트로서 오정렬 행동을 보이는 현상을 연구하는 코드. 거버넌스 관점에서 중요한 자료다.
 
 | Repository | Stars | Description |
 |---|---|---|
-| anthropic-experimental/agentic-misalignment | ~580 | Anthropic official. Studies agentic misalignment behavior — blackmail, information leakage, deceptive compliance in frontier models. |
-| safety-research/open-source-alignment-faking | ~54 | Open-source replication of Anthropic's alignment faking paper. Studies models that appear aligned during evaluation but behave differently when unmonitored. |
+| anthropic-experimental/agentic-misalignment | ~580 | Anthropic 공식. 에이전트 misalignment — 협박, 정보 유출, 기만적 순응 시나리오. |
+| safety-research/open-source-alignment-faking | ~54 | Anthropic alignment faking 논문 오픈소스 재현. 평가 시 정렬된 척하고 실제로는 다르게 행동하는 현상. |
 
-## Anthropic's Research Publication Channels
+## Anthropic 연구 발표 채널
 
-Anthropic publishes alignment research primarily through dedicated sites, not GitHub:
+Anthropic의 핵심 정렬 연구는 GitHub이 아니라 전용 사이트에 게시된다. 코드가 동반될 때는 `anthropic-experimental` 또는 `safety-research` org 아래로 나온다.
 
-- **alignment.anthropic.com** — Alignment science blog (Bloom auto-evals, Petri auditing tool, etc.)
-- **transformer-circuits.pub** — Mechanistic interpretability research (Scaling Monosemanticity, circuit analysis)
-- **anthropic.com/research** — Full research index
+- **alignment.anthropic.com** — 정렬 과학 블로그 (Bloom, Petri 등)
+- **transformer-circuits.pub** — MI 연구 (Scaling Monosemanticity, circuit analysis)
+- **anthropic.com/research** — 전체 연구 인덱스
 
-Code accompaniments, when released, appear under the `anthropic-experimental` or `safety-research` organizations.
+## 기업 활용 관점
 
-## Business Implications
+| 필요 | 활용 가능한 도구 | 비고 |
+|---|---|---|
+| LLM 배포 전 안전 검증 | promptfoo | 유일한 Production급 safety eval 도구 |
+| RLHF/DPO 모델 학습 | trl, OpenRLHF | 프로덕션급, 즉시 활용 가능 |
+| 모델 내부 해석 | TransformerLens, NNsight, SAELens | 연구 단계. 프로덕션 거버넌스에 쓰인 공개 사례 없음 |
+| AI 안전 인재 채용 시그널 | 위 도구 경험자, MATS/SPAR 출신 | 실습 경험자가 극소수인 분야 |
 
-For organizations deploying LLMs, the practical takeaway from this landscape:
+## Notes
 
-1. **Immediate enterprise use:** Only promptfoo (safety evaluation), trl (RLHF training), and OpenRLHF (distributed RLHF) are production-grade. All other repositories require significant adaptation for non-research use.
-2. **Safety evaluation first:** Organizations that want to assess LLM safety before deployment should consider promptfoo for red-teaming and vulnerability scanning — it is the only tool here with claimed enterprise adoption (vendor self-reported).
-3. **Interpretability tools are pre-commercial:** TransformerLens, SAELens, and NNsight are research instruments. No publicly documented case exists of an organization using them in production governance workflows as of this writing. Their business relevance is forward-looking, not immediate.
-4. **Hiring signal:** Familiarity with these tools is a strong signal for AI safety hiring. Candidates who have used TransformerLens, contributed to SAELens, or published via MATS/SPAR are among the few with hands-on alignment experience.
-
-## Limitations
-
-- **Coverage:** This survey is limited to publicly visible, English-language GitHub repositories found through keyword search. Proprietary alignment work at Anthropic, OpenAI, DeepMind, and others is not represented. Non-GitHub platforms (e.g., GitLab, internal repos) are excluded.
-- **Star counts** are a rough adoption proxy, not a quality measure. They are included for orientation and decay rapidly.
-- **Maturity classifications** (Production/Research) are the author's judgment based on documentation quality, maintenance activity, and stated adoption — not independently verified.
-- **Snapshot date:** All data is as of 2026-03-26 and will become stale. This is a one-time survey, not a maintained resource. Users should verify current status before acting on any entry.
-- **Author positionality:** The author is not affiliated with any organization, program, or lab listed in this survey. No funding was received from any listed entity.
+- 프로덕션 적용 가능한 것은 promptfoo, trl, OpenRLHF 3개뿐이다. 나머지는 연구 도구.
+- Maturity 분류(Production/Research)는 문서화 수준, 유지보수 활동, 공개된 사용 사례를 기반으로 한 저자 판단이다.
+- 모든 데이터는 2026-03-26 기준 스냅샷이다.

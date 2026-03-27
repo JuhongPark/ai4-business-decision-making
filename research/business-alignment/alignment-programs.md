@@ -1,188 +1,204 @@
-# AI Alignment Programs, Fellowships, and Organizations
+# AI Alignment — Programs, Fellowships, and Organizations
 
-A directory of programs that train alignment researchers, produce safety research, and shape AI governance policy. Data collected 2026-03-26 from program websites and web searches.
+AI 정렬/안전 분야에서 연구 기회를 제공하는 프로그램, 교육 부트캠프, 거버넌스 조직을 정리한다. 어디서 연구 경험을 쌓을 수 있는지, 어떤 조직이 이 분야를 이끌고 있는지 파악하는 것이 목적이다.
 
-For code repositories, see [alignment-codebases.md](alignment-codebases.md).
-For the 80,000 Hours fellowships dataset (130 entries), see [ai-safety-fellowships-directory.md](ai-safety-fellowships-directory.md).
+코드 레포는 [alignment-codebases.md](alignment-codebases.md), 80,000 Hours 데이터셋 분석은 [ai-safety-fellowships-directory.md](ai-safety-fellowships-directory.md) 참조.
 
-**Note on sourcing:** Program statistics (publication counts, alumni placement rates, cohort sizes) are drawn from each program's own website or promotional materials unless otherwise noted. These are self-reported figures and have not been independently verified. They are included for orientation, not as audited claims.
+> **Sourcing:** 프로그램 통계(출판 수, 배출처, 코호트 규모)는 각 프로그램 웹사이트에서 가져왔다. 자기보고 수치이며 독립 검증된 것은 아니다. 2026-03-26 기준.
 
-## Research Fellowships
+---
 
-Programs that produce alignment research outputs through structured mentorship and collaboration.
+## Research Fellowships — 정렬 연구를 직접 수행할 수 있는 기회
 
 ### MATS (ML Alignment Theory Scholars)
 
 - **Site:** https://www.matsprogram.org/
-- **Format:** 12-week in-person fellowship (Berkeley and London)
-- **Scale:** 170+ publications, 9,500+ citations from alumni (per matsprogram.org, self-reported)
-- **Research tracks:** Empirical (ML experiments on control, interpretability, oversight), Policy & Strategy, Theory, Technical Governance, Compute Infrastructure
-- **Mentor orgs:** Anthropic, DeepMind, OpenAI, Redwood Research, ARC, UK AISI, LawZero
-- **Alumni outcomes (self-reported):** 80% work in AI alignment/security; 10% founded organizations (Apollo Research, Timaeus, Center for AI Policy)
-- **Notable outputs:** Sparse autoencoders for interpretability, activation engineering, developmental interpretability, situational awareness evaluation
-- **Code:** qfeuilla/BehaviorEliciationTool (automated red-teaming)
-- **Summer 2026:** Largest cohort — 120 fellows, 100 mentors
+- **Format:** 12주, 대면 (Berkeley / London)
+- **규모:** 170+ 출판물, 9,500+ 인용 (자기보고)
+- **연구 트랙:** Empirical, Policy & Strategy, Theory, Technical Governance, Compute Infrastructure
+- **멘토 조직:** Anthropic, DeepMind, OpenAI, Redwood Research, ARC, UK AISI, LawZero
+- **배출처 (자기보고):** 80%가 AI 정렬/보안 분야 취업, 10%가 조직 설립 (Apollo Research, Timaeus, Center for AI Policy)
+- **주요 연구 성과:** Sparse autoencoders, activation engineering, developmental interpretability, situational awareness evaluation
+- **코드:** qfeuilla/BehaviorEliciationTool (자동 레드팀)
+- **Summer 2026:** 최대 코호트 — 120 fellows, 100 mentors
+
+**활용:** 정렬 연구 경력의 가장 확립된 진입점. 멘토 매칭을 통해 Anthropic/DeepMind급 연구에 참여할 수 있다.
 
 ### SPAR (Supervised Program for Alignment Research)
 
 - **Site:** https://sparai.org/
-- **Format:** Part-time remote fellowship, 5–40 hours/week, 3 months
-- **Operated by:** Kairos AI Project, Inc. (501(c)(3) nonprofit)
-- **Scale:** 130+ projects for Spring 2026 — largest round of any AI safety research fellowship
-- **Mentor count:** 130+ mentors including Dawn Song (UC Berkeley), Dylan Hadfield-Menell (MIT)
-- **Research areas:** AI Safety, AI Policy, AI Security, Interpretability, Biosecurity, Societal Impacts
-- **Outcomes:** Papers at NeurIPS 2024 and ICML 2025; TIME magazine coverage; job placements at Google AI Safety
+- **Format:** 파트타임 원격, 5–40시간/주, 3개월
+- **운영:** Kairos AI Project, Inc. (501(c)(3))
+- **규모:** Spring 2026에 130+ 프로젝트 — AI 안전 펠로우십 중 최대 규모
+- **멘토:** 130+명 (Dawn Song, Dylan Hadfield-Menell 포함)
+- **분야:** AI Safety, AI Policy, AI Security, Interpretability, Biosecurity, Societal Impacts
+- **성과:** NeurIPS 2024, ICML 2025 논문; TIME 보도; Google AI Safety 취업
 
-**Notable Spring 2026 alignment projects:**
+**활용:** 풀타임이 아니어도 참여 가능하며, 프로젝트 리스트(sparai.org/projects)에서 현재 진행 중인 정렬 연구 주제를 파악할 수 있다.
 
-Misalignment detection and control:
-- Pre-Emptive Detection of Agentic Misalignment via Representation Engineering (Dawn Song, UC Berkeley)
-- Disentangling Instruction-Following from Strategic Obfuscation (WEN XING, MATS)
-- Emergent Misalignment via Multi-Model Interactions (LawZero)
-- Shutdown-Bench: Evaluating Shutdownability (Elliott Thornley, MIT)
-- Stress-testing Honesty Training (Daniel Tan/Chloe Li, CLR/Anthropic)
+**Spring 2026 주목할 프로젝트:**
 
-Mechanistic interpretability:
-- Sparse Geometry and Formal Verification for Interpretability (Yuxiao Li)
-- Temporal Crosscoders — new SAE architecture for reasoning models (Dmitry Manning-Coe, MATS)
-- Automating Circuit Interpretability with Agents (Georg Lange)
-- Attribution Methods for LLMs (Uzay Macar, Anthropic Fellows)
+Misalignment 탐지:
+- Representation Engineering으로 에이전트 misalignment 사전 탐지 (Dawn Song, UC Berkeley)
+- Instruction-Following과 전략적 은폐의 분리 (MATS)
+- 다중 모델 상호작용에서의 emergent misalignment (LawZero)
+- Shutdown-Bench: 종료가능성 평가 (Elliott Thornley, MIT)
 
-Safety evaluation:
-- Adversarial Red-Teaming Framework for LLM Agents (Dawn Song, UC Berkeley)
-- Jailbreaks for AI Safety — auditing attacks for capable systems (Emil Ryd/Keshav Shenoy, Oxford/Anthropic)
-- Richer Evaluations to Address Eval Awareness and Reward Hacking (Santiago Aranguri, Goodfire/NYU)
+Mechanistic Interpretability:
+- SAE를 위한 Sparse Geometry와 Formal Verification
+- Temporal Crosscoders — 추론 모델용 새 SAE 아키텍처 (MATS)
+- 에이전트를 활용한 회로 해석 자동화
+
+Safety Evaluation:
+- LLM 에이전트 대상 적대적 레드팀 프레임워크 (Dawn Song, UC Berkeley)
+- AI 안전을 위한 Jailbreak — 고성능 시스템 감사 공격 (Oxford/Anthropic)
 
 ### LASR Labs (London AI Safety Research Labs)
 
 - **Site:** https://www.lasrlabs.org/
-- **Format:** 13-week summer program (July–October), teams of 3–4 supervised by experienced researchers
-- **Stipend:** £11,000 + office space, meals, travel
-- **Focus:** Technical AI safety — loss of control scenarios
-- **Research areas:** Multi-agent collusion, RL alignment theory, deception detection, interpretability, automated interpretability, scalable oversight, AI control
-- **Outcomes (self-reported):** 2024 cohort achieved 100% NeurIPS workshop acceptance (note: workshop acceptance rates are substantially higher than main-conference rates); alumni at UK AISI, Apollo Research, Leap Labs, Open Philanthropy
+- **Format:** 13주 여름 프로그램 (7–10월), 3–4명 팀 + 연구자 감독
+- **Stipend:** £11,000 + 사무실, 식사, 교통
+- **분야:** 다중 에이전트 공모, RL 정렬 이론, 기만 탐지, 해석가능성, scalable oversight, AI control
+- **성과 (자기보고):** 2024 코호트 NeurIPS 워크숍 100% 채택 (워크숍 수락률은 본 학회보다 높음에 유의); UK AISI, Apollo Research, Open Philanthropy 취업
+
+**활용:** 논문 수준의 연구를 팀으로 수행할 수 있는 기회. 13주 후 출판 가능한 결과물이 나온다.
 
 ### Apart Research
 
 - **Site:** https://apartresearch.com/fellowships
-- **Programs:**
-  - **Apart Fellowship** (12–24 weeks, 10–30 hrs/week, remote) — develop hackathon ideas into published research
-  - **Partnered Fellowships** (~16 weeks) — work on expert-defined research agendas from partner organizations
-- **Focus:** Technical AI safety — model evaluations, interpretability, multi-agent systems, AI security, formal methods, deception detection
-- **Entry model:** Merit-based via monthly Research Sprints; continuous pipeline rather than fixed cohorts
+- **프로그램:**
+  - **Apart Fellowship** (12–24주, 10–30시간/주, 원격) — 해커톤 아이디어를 출판 연구로 발전
+  - **Partnered Fellowships** (~16주) — 파트너 조직의 연구 어젠다에 참여
+- **분야:** 모델 평가, 해석가능성, 멀티에이전트, AI 보안, formal methods, 기만 탐지
+- **진입:** 매월 Research Sprint에서 성과 기반 선발 — 고정 코호트가 아니라 상시 파이프라인
 
-## Training and Bootcamps
+**활용:** 수시 지원 가능한 유일한 연구 펠로우십. Sprint 참여로 역량을 증명하면 Fellowship으로 이어진다.
+
+---
+
+## Training & Bootcamps — 정렬 연구에 필요한 기초 역량을 쌓을 수 있는 기회
 
 ### ARENA (Alignment Research Engineer Accelerator)
 
 - **Site:** https://www.arena.education/
-- **Format:** 4–5 week in-person bootcamp in London, 2–3 per year; fully funded (travel, visa, accommodation, meals)
-- **Focus:** Technical AI safety engineering skills — Python coding, linear algebra, probability foundations
-- **Curriculum:** Freely available online for independent learners or organizations running their own courses
-- **Alumni outcomes:** Roles at Anthropic, Apollo Research, METR; participation in MATS and LASR
+- **Format:** 4–5주 대면 부트캠프 (London), 연 2–3회; 전액 지원 (교통, 비자, 숙박, 식사)
+- **내용:** AI 안전 엔지니어링 — Python, 선형대수, 확률
+- **커리큘럼:** 온라인 무료 공개 — 독립 학습이나 자체 교육 과정 설계에 활용 가능
+- **배출처:** Anthropic, Apollo Research, METR; MATS와 LASR 참여
+
+**활용:** 커리큘럼이 공개되어 있어 부트캠프에 참석하지 않아도 자료를 활용할 수 있다.
 
 ### BlueDot Impact
 
 - **Site:** https://bluedot.org/
-- **Format:** Free AI courses (pay-what-you-want), career support, entrepreneurship acceleration, global events
-- **Scale:** 5,000+ professionals trained since 2022; £35M raised; 6,000+ alumni
-- **Courses:**
-  - **Technical AI Safety** (30 hrs, cohort-based) — safety techniques, threat modeling, kill chain analysis. Requires LLM/fine-tuning basics.
-  - **AI Governance** (25 hrs, cohort-based) — governance landscape, major proposals, policy career pathways. Relaunching 2026.
-  - **AI Governance Fast-Track** (5 days intensive) — accelerated AI governance and policy fundamentals.
-  - **Future of AI** (2 hrs, self-paced, free) — no prerequisites, intro to AI capabilities and risks.
-- **Alumni placements:** OpenAI, Anthropic, Google DeepMind, AI Security Institute, UN, NATO, OECD, Stanford HAI, Apple, Harvard Kennedy School
+- **Format:** 무료 AI 코스 (pay-what-you-want), 커리어 지원, 창업 가속, 글로벌 이벤트
+- **규모:** 2022년 이후 5,000+ 전문가 교육; £35M 조달; 6,000+ alumni
+- **코스:**
+  - **Technical AI Safety** (30시간, 코호트) — 안전 기법, threat modeling, kill chain analysis. LLM/파인튜닝 기초 필요.
+  - **AI Governance** (25시간, 코호트) — 거버넌스 현황, 주요 제안, 정책 커리어. 2026년 재개.
+  - **AI Governance Fast-Track** (5일 집중) — 거버넌스/정책 기초 속성.
+  - **Future of AI** (2시간, 셀프페이스, 무료) — 전제조건 없음. AI 역량과 위험 입문.
+- **배출처:** OpenAI, Anthropic, Google DeepMind, AI Security Institute, UN, NATO, OECD, Stanford HAI
+
+**활용:** 정렬 분야에 처음 진입하는 사람에게 가장 접근성이 좋은 코스. Future of AI(2시간)로 시작할 수 있다.
 
 ### ML4Good
 
 - **Site:** https://ml4good.org/
-- **Format:** Free 8-day residential bootcamps, two tracks:
-  - **Technical Programme** — for ML engineers, CS graduates, technical researchers
-  - **Governance & Strategy Programme** — for policy/legal professionals, operations, communications
-- **Cost:** Free (food, accommodation, teaching provided; travel reimbursed)
-- **Alumni outcomes (self-reported):** Roles at MATS Research, Ada Lovelace Institute, UK AISI, SaferAI, CHAI; 98% recommendation rate
+- **Format:** 무료 8일 합숙 부트캠프, 두 트랙:
+  - **Technical** — ML 엔지니어, CS 졸업생, 기술 연구자 대상
+  - **Governance & Strategy** — 정책/법률, 운영, 커뮤니케이션 전문가 대상
+- **비용:** 전액 무료 (식사, 숙박, 교육 제공; 교통비 환급)
+- **배출처 (자기보고):** MATS Research, Ada Lovelace Institute, UK AISI, SaferAI, CHAI; 98% 추천율
 
-## AI Governance Research Organizations
+**활용:** 기술 트랙과 거버넌스 트랙이 분리되어 있어 배경에 맞는 진입이 가능하다.
+
+---
+
+## AI Governance Organizations — 정책 연구와 펠로우십을 제공하는 조직
 
 ### GovAI (Centre for the Governance of AI)
 
 - **Site:** https://www.governance.ai/
-- **Structure:** US 501(c)(3) nonprofit + UK subsidiary
-- **Focus:** Technical AI governance, AI progress forecasting, threat modeling, labor market impact
-- **Research topics:** Data center infrastructure policy, China's AI strategy, dual-use biological capabilities, government roles in AI agent infrastructure
-- **Programs:**
-  - **Summer Fellowship — Research Track** (3 months, June–August, London) — independent research with GovAI supervisor, £12,000 stipend + travel + lunch + desk
-  - **Summer Fellowship — Applied Track** (3 months, June–August, London) — non-research projects (comms, policy engagement, event organizing), £12,000 stipend
-  - **DC Summer Fellowship** (3 months, DC) — American AI governance and policy, bipartisan engagement
-  - **Research Scholar** (1 year) — policy research, social science, or technical research
-  - **Research Fellow** (2 years, renewable) — senior independent research position
+- **구조:** US 501(c)(3) + UK 자회사
+- **연구 주제:** 데이터센터 인프라 정책, 중국 AI 전략, 이중용도 생물학적 역량, AI 에이전트 인프라에서의 정부 역할
+- **프로그램:**
+  - **Summer Fellowship — Research Track** (3개월, 6–8월, London) — GovAI 감독 하 독립 연구, £12,000 스티펜드
+  - **Summer Fellowship — Applied Track** (3개월, 6–8월, London) — 비연구 프로젝트 (커뮤니케이션, 정책 참여, 이벤트), £12,000 스티펜드
+  - **DC Summer Fellowship** (3개월, DC) — 미국 AI 거버넌스/정책, 초당파 참여
+  - **Research Scholar** (1년) — 정책/사회과학/기술 연구
+  - **Research Fellow** (2년, 갱신 가능) — 시니어 독립 연구직
+
+**활용:** AI 거버넌스 분야에서 가장 확립된 연구 조직. 여기 출판물(governance.ai/research)에서 최신 거버넌스 논의를 추적할 수 있다.
 
 ### IAPS (Institute for AI Policy and Strategy)
 
 - **Site:** https://www.iaps.ai/fellowship
-- **Type:** Nonpartisan think tank — AI policy research at the intersection of AI, national security, geopolitics
-- **AI Policy Fellowship 2026:** 3-month program (June–August), mandatory 2-week DC residency
-  - Senior Fellows: $22,000 stipend; Fellows: $15,000 stipend
-  - ~30 fellows per cohort
-  - Projects: policy briefs, government briefings, conferences, op-eds
-  - No technical expertise required
+- **유형:** 초당파 싱크탱크 — AI, 국가안보, 지정학 교차점의 정책 연구
+- **AI Policy Fellowship 2026:** 3개월 (6–8월), DC 2주 필수 거주
+  - Senior Fellows: $22,000; Fellows: $15,000
+  - 코호트 ~30명
+  - 산출물: 정책 브리프, 정부 브리핑, 컨퍼런스, 기고문
+  - 기술 전문성 불요
+
+**활용:** 기술 배경 없이도 AI 정책 연구에 진입할 수 있는 드문 기회.
 
 ### Orion AI Governance Initiative
 
 - **Site:** https://www.orionaigov.org/
-- **Base:** UK-based talent development for AI governance
-- **Programs:**
-  - **AI Policy Accelerator** — 5-week training course (4 hrs/week: lectures, workshops, guest speakers) covering compute governance, model evaluations, international AI governance. Then 4-week research project (10 hrs/week) in small teams with experienced supervisor. For graduating students (Master's, final-year undergrad).
-  - **Internship** — ~3 months over summer, £3,200/month. Placements at think tanks and AI governance organizations (2025: Safe AI Forum, Social Market Foundation).
-  - **Mentorship Programme** — pairing students with AI governance professionals from GovAI, RAND, Ada Lovelace Institute, frontier AI lab policy teams. Availability depends on mentor pool.
+- **기반:** UK, AI 거버넌스 인재 양성
+- **프로그램:**
+  - **AI Policy Accelerator** — 5주 교육 (주 4시간: 강의, 워크숍, 게스트 스피커) + 4주 연구 프로젝트 (주 10시간). Compute governance, model evaluations, 국제 AI 거버넌스. 석사/학부 졸업 예정자 대상.
+  - **Internship** — 여름 ~3개월, £3,200/월. 싱크탱크/거버넌스 조직 배치 (2025: Safe AI Forum, Social Market Foundation).
+  - **Mentorship Programme** — GovAI, RAND, Ada Lovelace Institute, 프론티어 AI 랩 정책팀 전문가와 1:1 매칭.
 
-## Pipeline Map
+**활용:** 짧은 기간(5주+4주)에 AI 거버넌스 연구 경험을 쌓을 수 있어 학기 중에도 병행 가능하다.
 
-The following is the author's interpretive observation of how programs appear to relate to each other, based on stated prerequisites and alumni trajectories. Real career paths are non-linear — individuals skip stages, enter laterally, or follow entirely different routes. This diagram is a simplification for orientation, not an empirically verified pathway.
+---
+
+## Pipeline Map — 정렬 분야 진입 경로
+
+실제 커리어 경로는 비선형적이며 아래는 프로그램 간 관계를 단순화한 것이다.
 
 ```
-Entry (no prerequisites)
-  → BlueDot Future of AI (2 hrs)
-  → ML4Good bootcamp (8 days)
+진입 (전제조건 없음)
+  → BlueDot Future of AI (2시간)
+  → ML4Good bootcamp (8일)
 
-Foundation (some technical/policy background)
-  → BlueDot Technical AI Safety or AI Governance (25-30 hrs)
-  → ARENA bootcamp (4-5 weeks)
-  → Orion Accelerator (5 weeks + 4 weeks research)
+기초 (기술/정책 배경 있음)
+  → BlueDot Technical AI Safety / AI Governance (25-30시간)
+  → ARENA bootcamp (4-5주)
+  → Orion Accelerator (5주 + 4주 연구)
 
-Research (demonstrated ability)
-  → SPAR (3 months part-time, remote)
+연구 (역량 입증)
+  → SPAR (3개월 파트타임, 원격)
   → Apart Research Sprints → Fellowship
-  → LASR Labs (13 weeks, London)
-  → MATS (12 weeks, Berkeley/London)
-  → Anthropic Fellows (2-6 months, SF)
+  → LASR Labs (13주, London)
+  → MATS (12주, Berkeley/London)
+  → Anthropic Fellows (2-6개월, SF)
 
-Governance track
-  → GovAI Fellowship (3 months, London/DC, £12k)
-  → IAPS Fellowship (3 months, DC, $15-22k)
-  → RAND CAST Fellows (rolling)
+거버넌스 트랙
+  → GovAI Fellowship (3개월, London/DC, £12k)
+  → IAPS Fellowship (3개월, DC, $15-22k)
+  → RAND CAST Fellows (상시)
 
-Career destinations
+커리어 목적지
   → Anthropic, DeepMind, OpenAI, UK AISI
   → Apollo Research, Redwood Research, METR
-  → GovAI, RAND, CNAS, government positions
+  → GovAI, RAND, CNAS, 정부 기관
 ```
 
-## Relevance to Business-Context Alignment
+---
 
-These connections are hypothesized based on ecosystem observation, not empirically verified:
+## 이 자료와 비즈니스 정렬 연구의 연결
 
-1. **Research fellowships** (MATS, SPAR, LASR) produce safety techniques (e.g., activation engineering, deception detection) that may inform future enterprise safety tools — though no direct adoption pathway from fellowship output to commercial product has been documented here.
-2. **Training programs** (BlueDot, ARENA, ML4Good) are likely sources of AI safety talent for hiring, given their alumni placement records at major labs. However, the actual hiring flow from these programs to non-lab businesses is not tracked.
-3. **Governance organizations** (GovAI, IAPS, Orion) produce policy research that may influence regulatory frameworks. GovAI's work has been cited in UK and EU policy discussions (per governance.ai), but the pathway from think-tank output to binding regulation is indirect and uncertain.
-4. The **pipeline structure** suggests alignment is professionalizing — relevant for organizations planning to build internal AI governance teams, though the talent supply remains small relative to demand.
+1. **연구 펠로우십** (MATS, SPAR, LASR)에서 나오는 기법(activation engineering, deception detection 등)은 향후 기업용 안전 도구의 기반이 될 수 있다.
+2. **교육 프로그램** (BlueDot, ARENA, ML4Good)은 AI 안전 인재풀의 주요 공급원이다. 채용 시 이 프로그램 출신 여부가 시그널이 된다.
+3. **거버넌스 조직** (GovAI, IAPS, Orion)의 정책 연구가 규제 프레임워크에 영향을 줄 수 있다. GovAI의 연구는 UK/EU 정책 논의에서 인용된 바 있다.
+4. **파이프라인 구조** 자체가 정렬이 전문 직업 분야로 성장하고 있음을 보여준다. 기업 내 AI 거버넌스 팀 구성 시 참고할 수 있다.
 
-## Limitations
+## Notes
 
-- **Self-reported data:** Program outcome statistics (placement rates, publication counts, recommendation rates) are sourced from program websites and are not independently verified.
-- **Selection bias:** Programs included here are primarily English-language, Western-centric, and concentrated in the EA/AI safety community. Corporate training programs, government initiatives, and non-Anglophone programs are underrepresented.
-- **No quality evaluation:** Programs are listed descriptively without quality ranking or comparative assessment. Inclusion does not imply endorsement.
-- **Temporal validity:** Program details (stipends, dates, cohort sizes) are as of 2026-03-26 and change frequently. This is a one-time survey, not a maintained resource.
-- **Missing demand-side analysis:** This directory covers the supply of alignment talent and research but does not analyze which businesses adopt these outputs or how.
-- **Funding concentration:** Many programs listed here are funded by Open Philanthropy or adjacent donors within the Effective Altruism ecosystem. This shapes program design, research agendas, and the talent pipeline in ways that are not analyzed here.
-- **Author positionality:** The author is not affiliated with any program, organization, or lab listed in this survey. No funding was received from any listed entity.
+- 프로그램 통계는 각 프로그램 웹사이트 기반 자기보고 수치이다.
+- EA/AI 안전 커뮤니티 중심으로 조사했으며, 기업 내 교육, 정부 프로그램, 비영어권은 충분히 반영되지 않았다.
+- 모든 데이터는 2026-03-26 기준이다.
