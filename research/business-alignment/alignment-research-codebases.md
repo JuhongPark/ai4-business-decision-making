@@ -1,6 +1,6 @@
-# AI Alignment Research Codebases
+# AI Alignment Research Landscape: Codebases, Programs, and Organizations
 
-A survey of open-source repositories where AI alignment research is conducted through code — training frameworks, interpretability tools, safety evaluation benchmarks, and misalignment studies.
+A survey of the AI alignment research ecosystem — open-source code repositories, fellowship programs, training bootcamps, and governance organizations that collectively form the field's infrastructure.
 
 ## Key Observation
 
@@ -155,6 +155,77 @@ Safety evaluation:
 - Adversarial Red-Teaming Framework for LLM Agents (Dawn Song, UC Berkeley)
 - Jailbreaks for AI Safety — auditing attacks for capable systems (Emil Ryd/Keshav Shenoy, Oxford/Anthropic)
 - Richer Evaluations to Address Eval Awareness and Reward Hacking (Santiago Aranguri, Goodfire/NYU)
+
+### LASR Labs (London AI Safety Research Labs)
+
+- **Site:** https://www.lasrlabs.org/
+- **Format:** 13-week summer program (July–October), teams of 3–4 supervised by experienced researchers
+- **Stipend:** £11,000 + office space, meals, travel
+- **Focus:** Technical AI safety — loss of control scenarios
+- **Research areas:** Multi-agent collusion, RL alignment theory, deception detection, interpretability, automated interpretability, scalable oversight, AI control
+- **Outcomes:** 2024 cohort achieved 100% NeurIPS workshop acceptance; alumni at UK AISI, Apollo Research, Leap Labs, Open Philanthropy
+
+### Apart Research
+
+- **Site:** https://apartresearch.com/fellowships
+- **Programs:**
+  - **Apart Fellowship** (12–24 weeks, 10–30 hrs/week, remote) — develop hackathon ideas into published research
+  - **Partnered Fellowships** (~16 weeks) — work on expert-defined research agendas from partner organizations
+- **Focus:** Technical AI safety — model evaluations, interpretability, multi-agent systems, AI security, formal methods, deception detection
+- **Entry model:** Merit-based via monthly Research Sprints; continuous pipeline rather than fixed cohorts
+
+### ARENA (Alignment Research Engineer Accelerator)
+
+- **Site:** https://www.arena.education/
+- **Format:** 4–5 week in-person bootcamp in London, 2–3 per year; fully funded (travel, visa, accommodation, meals)
+- **Focus:** Technical AI safety engineering skills — Python coding, linear algebra, probability foundations
+- **Curriculum:** Freely available online for independent learners or organizations running their own courses
+- **Alumni outcomes:** Roles at Anthropic, Apollo Research, METR; participation in MATS and LASR
+
+### BlueDot Impact
+
+- **Site:** https://bluedot.org/
+- **Format:** Free AI courses, career support, entrepreneurship acceleration, global events
+- **Scale:** 5,000+ professionals trained since 2022; £35M raised; 6,000+ alumni
+- **Alumni placements:** OpenAI, Anthropic, Google DeepMind, AI Security Institute, UN, NATO, OECD, Stanford HAI, Apple, Harvard Kennedy School
+
+### ML4Good
+
+- **Site:** https://ml4good.org/
+- **Format:** Free 8-day residential bootcamps, two tracks:
+  - **Technical Programme** — for ML engineers, CS graduates, technical researchers
+  - **Governance & Strategy Programme** — for policy/legal professionals, operations, communications
+- **Cost:** Free (food, accommodation, teaching provided; travel reimbursed)
+- **Alumni outcomes:** Roles at MATS Research, Ada Lovelace Institute, UK AISI, SaferAI, CHAI; 98% recommendation rate
+
+## AI Governance Research Organizations
+
+### GovAI (Centre for the Governance of AI)
+
+- **Site:** https://www.governance.ai/
+- **Structure:** US 501(c)(3) nonprofit + UK subsidiary
+- **Focus:** Technical AI governance, AI progress forecasting, threat modeling, labor market impact
+- **Research topics:** Data center infrastructure policy, China's AI strategy, dual-use biological capabilities, government roles in AI agent infrastructure
+- **Programs:** Summer fellowship (research track), open positions
+
+### IAPS (Institute for AI Policy and Strategy)
+
+- **Site:** https://www.iaps.ai/fellowship
+- **Type:** Nonpartisan think tank — AI policy research at the intersection of AI, national security, geopolitics
+- **AI Policy Fellowship 2026:** 3-month program (June–August), mandatory 2-week DC residency
+  - Senior Fellows: $22,000 stipend; Fellows: $15,000 stipend
+  - ~30 fellows per cohort
+  - Projects: policy briefs, government briefings, conferences, op-eds
+  - No technical expertise required
+
+### Orion AI Governance Initiative
+
+- **Site:** https://www.orionaigov.org/
+- **Base:** UK-based talent development for AI governance
+- **Programs:**
+  - **AI Policy Accelerator** — 5-week training course + 4-week research project (10 hrs/week) for graduating students
+  - **Internship** — ~3 months over summer, £3,200/month (2025 placements: Safe AI Forum, Social Market Foundation)
+  - **Mentorship Programme** — pairing students with AI governance professionals from GovAI, RAND, Ada Lovelace Institute, frontier AI lab policy teams
 
 ## Relevance to Business-Context Alignment
 
