@@ -15,6 +15,9 @@ AI alignment research repositories structurally have fewer GitHub stars than gen
 | Safety Research | Alignment faking replication, Bloom, SAELens | https://github.com/safety-research |
 | Center for AI Safety (CAIS) | Benchmarks, evaluation frameworks | https://github.com/orgs/centerforaisafety |
 | PKU Alignment | Safe RLHF, constrained value alignment | https://github.com/PKU-Alignment |
+| MIT NDIF Team | NNsight, nnterp — model interpretability infra | https://github.com/ndif-team |
+| MIT Multimodal Interpretability | MAIA, FIND — automated interpretability | https://github.com/multimodal-interpretability |
+| MIT Algorithmic Alignment Lab | Formal contracts, red-teaming, value alignment | https://github.com/Algorithmic-Alignment-Lab |
 
 ## Alignment Training Frameworks
 
@@ -38,6 +41,48 @@ Interpretability is the verification layer for alignment — without understandi
 | wesg52/sparse-probing-paper | ~66 | Sparse probing research — how model internal representations correspond to human-interpretable concepts. |
 
 Anthropic's primary interpretability research is published at transformer-circuits.pub rather than as GitHub repositories.
+
+## MIT Alignment Research
+
+MIT's alignment research concentrates on interpretability tooling — building instruments to see inside models rather than training aligned models directly.
+
+### NDIF / NNsight (MIT EECS, David Bau Lab)
+
+| Repository | Stars | Description |
+|---|---|---|
+| ndif-team/nnsight | ~870 | Model internals interpretation and manipulation library. Wraps HuggingFace models with a tracing system for interventions. MIT's primary alternative to TransformerLens. |
+| ndif-team/nnterp | ~104 | Unified interface for transformer analysis via NNsight. Supports 50+ model variants across 16 architecture families. |
+| ndif-team/ndif | ~43 | National Deep Inference Fabric — remote deep inference server for large-scale interpretability research. |
+| ndif-team/cookbook | 5 | NNsight implementations of published mechanistic interpretability papers. |
+
+### Multimodal Interpretability (MIT CSAIL, Sarah Schwettmann Lab)
+
+| Repository | Stars | Description |
+|---|---|---|
+| multimodal-interpretability/maia | ~105 | MAIA — Multimodal Automated Interpretability Agent. Uses vision-language models to automatically interpret other models' internals. |
+| multimodal-interpretability/FIND | ~52 | NeurIPS '23. Function Interpretation Benchmark for evaluating interpretability methods. |
+| multimodal-interpretability/nnn | ~20 | Nearest Neighbor Normalization (EMNLP 2024). |
+
+This group launched Transluce (transluce.org) in October 2024 as a nonprofit research lab for open, scalable AI understanding tools.
+
+### Algorithmic Alignment Lab (MIT CSAIL, Dylan Hadfield-Menell Lab)
+
+| Repository | Stars | Description |
+|---|---|---|
+| Algorithmic-Alignment-Lab/contracts | ~19 | Formal contracts for multi-agent reinforcement learning. Theoretical framework for agent coordination under alignment constraints. |
+| Algorithmic-Alignment-Lab/CommonClaim | ~13 | "Explore, Establish, Exploit: Red Teaming Language Models from Scratch." Systematic red-teaming methodology. |
+
+This group focuses more on theory and policy than code — formal frameworks for aligning AI development with human interests and values.
+
+### MIT AI Risk Repository (MIT FutureTech, Peter Slattery)
+
+Not a code repository but a structured research database relevant to alignment:
+
+- **Site:** https://airisk.mit.edu/
+- **Scale:** 1,700+ AI risks extracted from 74 frameworks (Version 4, December 2025)
+- **Taxonomies:** Causal taxonomy (how/when/why risks occur) and Domain taxonomy (7 domains, 24 subdomains)
+- **AI Incident Tracker:** LLM-powered categorization of incidents from the AI Incident Database (AIID)
+- **Paper:** arXiv:2408.12622
 
 ## Safety Evaluation and Red-Teaming
 
@@ -64,6 +109,52 @@ Anthropic publishes alignment research primarily through dedicated sites, not Gi
 - **anthropic.com/research** — Full research index
 
 Code accompaniments, when released, appear under the `anthropic-experimental` or `safety-research` organizations.
+
+## Research Fellowship Programs
+
+Programs that produce alignment research outputs through structured mentorship and collaboration.
+
+### MATS (ML Alignment Theory Scholars)
+
+- **Site:** https://www.matsprogram.org/
+- **Format:** 12-week in-person fellowship (Berkeley and London)
+- **Scale:** 170+ publications, 9,500+ citations from alumni
+- **Research tracks:** Empirical (ML experiments on control, interpretability, oversight), Policy & Strategy, Theory, Technical Governance, Compute Infrastructure
+- **Mentor orgs:** Anthropic, DeepMind, OpenAI, Redwood Research, ARC, UK AISI, LawZero
+- **Alumni outcomes:** 80% work in AI alignment/security; 10% founded organizations (Apollo Research, Timaeus, Center for AI Policy)
+- **Notable outputs:** Sparse autoencoders for interpretability, activation engineering, developmental interpretability, situational awareness evaluation
+- **Code:** qfeuilla/BehaviorEliciationTool (automated red-teaming)
+- **Summer 2026:** Largest cohort — 120 fellows, 100 mentors
+
+### SPAR (Supervised Program for Alignment Research)
+
+- **Site:** https://sparai.org/
+- **Format:** Part-time remote fellowship, 5–40 hours/week, 3 months
+- **Operated by:** Kairos AI Project, Inc. (501(c)(3) nonprofit)
+- **Scale:** 130+ projects for Spring 2026 — largest round of any AI safety research fellowship
+- **Mentor count:** 130+ mentors including Dawn Song (UC Berkeley), Dylan Hadfield-Menell (MIT)
+- **Research areas:** AI Safety, AI Policy, AI Security, Interpretability, Biosecurity, Societal Impacts
+- **Outcomes:** Papers at NeurIPS 2024 and ICML 2025; TIME magazine coverage; job placements at Google AI Safety
+
+**Notable Spring 2026 alignment projects:**
+
+Misalignment detection and control:
+- Pre-Emptive Detection of Agentic Misalignment via Representation Engineering (Dawn Song, UC Berkeley)
+- Disentangling Instruction-Following from Strategic Obfuscation (WEN XING, MATS)
+- Emergent Misalignment via Multi-Model Interactions (LawZero)
+- Shutdown-Bench: Evaluating Shutdownability (Elliott Thornley, MIT)
+- Stress-testing Honesty Training (Daniel Tan/Chloe Li, CLR/Anthropic)
+
+Mechanistic interpretability:
+- Sparse Geometry and Formal Verification for Interpretability (Yuxiao Li)
+- Temporal Crosscoders — new SAE architecture for reasoning models (Dmitry Manning-Coe, MATS)
+- Automating Circuit Interpretability with Agents (Georg Lange)
+- Attribution Methods for LLMs (Uzay Macar, Anthropic Fellows)
+
+Safety evaluation:
+- Adversarial Red-Teaming Framework for LLM Agents (Dawn Song, UC Berkeley)
+- Jailbreaks for AI Safety — auditing attacks for capable systems (Emil Ryd/Keshav Shenoy, Oxford/Anthropic)
+- Richer Evaluations to Address Eval Awareness and Reward Hacking (Santiago Aranguri, Goodfire/NYU)
 
 ## Relevance to Business-Context Alignment
 
