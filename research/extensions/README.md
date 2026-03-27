@@ -9,10 +9,10 @@ This zone holds follow-on workstreams that extend the main thesis without crowdi
 
 ## Tracks
 
-- Three-part study: [three-part-study/three-part-study-plan.md](three-part-study/three-part-study-plan.md)
-- Adaptive governance: [adaptive-governance/adaptive-governance-summary.md](adaptive-governance/adaptive-governance-summary.md)
-- Information structure: [information-structure/information-structure-plan.md](information-structure/information-structure-plan.md)
-- Business alignment: [business-alignment/business-alignment-plan.md](business-alignment/business-alignment-plan.md)
+- Three-part study: [three-part-study/three-part-study-plan.md](three-part-study/three-part-study-plan.md) `status: draft extension sequence`
+- Adaptive governance: [adaptive-governance/adaptive-governance-summary.md](adaptive-governance/adaptive-governance-summary.md) `status: research-complete extension summary`
+- Information structure: [information-structure/information-structure-plan.md](information-structure/information-structure-plan.md) `status: active extension focus`
+- Business alignment: [business-alignment/business-alignment-plan.md](business-alignment/business-alignment-plan.md) `status: draft extension track`
 
 Track guides:
 
