@@ -1,5 +1,7 @@
 # Scenario Template
 
+> Policy note: Keep tracked document body content in English. Only explicitly marked legacy reference notes in approved reference clusters may remain until normalized into English.
+
 scenario_id:
 domain:
 scenario_class:

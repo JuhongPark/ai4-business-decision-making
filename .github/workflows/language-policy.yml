@@ -1,0 +1,15 @@
+name: Language Policy
+
+on:
+  pull_request:
+  push:
+
+jobs:
+  check-language-policy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Enforce repository language policy
+        run: bash scripts/check_language_policy.sh

@@ -50,6 +50,7 @@ Reader-facing and submission-facing outputs:
 
 Process and governance artifacts:
 
+- application materials
 - program planning
 - revision materials
 - expansion planning
@@ -77,6 +78,7 @@ The repository now follows this navigation rule:
 - Prefer context-rich filenames over generic names like `plan.md` or `summary.md`.
 - Prefix review files by phase, zone, or target when parallel review sets exist.
 - Reserve plain `README.md` names for folder guides.
+- New subareas that may accumulate multiple documents should start with a local `README.md` that states scope and boundary rules.
 
 ## Exception Policy
 

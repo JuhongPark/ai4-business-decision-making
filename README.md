@@ -98,6 +98,7 @@ research/
     submission-ready/       finish plan, validation, and freeze materials
     validation/             earlier validation materials
   operations/                 revision, application, and planning materials
+    applications/          application prep materials and submission notes
     thinktank-program/      3-month research program plan
     revision/               revision-stage synthesis and review
     expansion/              expansion and refocus planning
