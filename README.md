@@ -101,6 +101,33 @@ The incident inventory catalogs 71 real-world AI governance failures — cases w
 - Oversight failure — human-in-the-loop was nominal, not effective
 - Fluent hallucination — generated outputs that are confidently wrong
 
+## Methodology
+
+- **Incident analysis**: 71 documented AI governance failures sourced from regulatory actions, court decisions, investigative journalism, and company disclosures (2018-2026)
+- **Framework development**: Iterative taxonomy construction with cross-domain validation across finance, healthcare, hiring, marketing, and operations
+- **Evidence tiering**: All claims labeled as confirmed, estimated, or hypothesis following a 3-tier verification protocol
+- **Failure mode mapping**: Each incident classified by dominant failure mechanism and mapped to alignment failure categories
+
+## Related Work in AI Alignment
+
+This adaptive authority framework connects to several active research threads:
+
+- **Scalable oversight** (Amodei et al., 2016; Bowman et al., 2022) — How to maintain human oversight as AI systems become more capable. The framework's graduated authority levels operationalize this principle by constraining autonomy to what can be meaningfully overseen.
+- **Mechanistic interpretability** (Elhage et al., 2022; Conmy et al., 2023) — Understanding model internals to verify decision quality. The evidence strength dimension creates a concrete demand signal for interpretability research.
+- **Trust calibration** (Lee and See, 2004; Bansal et al., 2021) — Appropriate reliance as the correspondence between trust and actual trustworthiness. The scoring dimensions are proxies for trustworthiness, and the override rules enforce calibration floors.
+- **Specification gaming** (Krakovna et al., 2020) — How AI systems exploit gaps between intended and specified objectives. The framework's graduated authority levels directly manage this risk surface: a system that games its specification at the "assist" level produces a suggestion a human can reject, while the same failure at "automate" level takes action before intervention is possible.
+- **AI governance frameworks** (Schuett et al., 2023) — Institutional structures for responsible AI deployment. The framework bridges technical alignment confidence and operational delegation decisions.
+
+## Open Research Questions
+
+This framework raises several questions that remain open:
+
+1. **Quantifying evidence strength** — Can interpretability methods (feature attribution, probing, circuit analysis) provide objective evidence-strength scores, replacing subjective expert judgment?
+2. **Dynamic delegation** — The current framework evaluates authority statically. How should authority levels adjust in real-time as model confidence and environmental conditions change?
+3. **Cross-domain transfer** — Do failure patterns in one domain (e.g., lending) predict governance needs in another (e.g., hiring)? The incident data suggests partial transferability but needs rigorous validation.
+4. **Interpretability-authority tradeoff** — Is there a formal relationship between model interpretability depth and maximum safe authority level? Can this be expressed as a constraint?
+5. **Scalable oversight bottleneck** — The framework assumes human oversight is available at the "assist" and "recommend" levels, but this assumption may not hold at scale. How should the framework account for oversight capacity constraints?
+
 ## Repository Structure
 
 ```text
@@ -133,6 +160,7 @@ research/
     adaptive-governance/      adaptive governance and market-timing extension
     information-structure/    information shocks and decision-making extension
     business-alignment/       business-context alignment research
+    delegation-as-alignment.md  delegation calibration as alignment problem
     interpretability-bridge.md  interpretability and delegation calibration
 templates/                    reusable templates
 ```
