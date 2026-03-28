@@ -7,7 +7,7 @@ date: 2026-03-27
 
 This repository started with a practical question: under what conditions should organizations let AI systems assist, recommend, or automate business decisions? The answer took the form of a 6-dimensional scoring framework, 7 decision rules, 3 override constraints, and a 71-incident failure inventory.
 
-During the course of this work, a broader realization emerged. The question "how much authority should this AI system receive?" is not only a business governance question. It is an alignment question. The framework already encodes alignment-relevant structure — risk thresholds, fallback triggers, evidence requirements — but the research has not yet made that connection explicit, and the framework itself exists only as prose. Both of these are limitations worth addressing.
+During the course of this work, a broader realization emerged. The question "how much authority should this AI system receive?" is not only a business governance question. It is an alignment question. The framework already encodes alignment-relevant structure — risk thresholds, fallback triggers, evidence requirements — but the research has not yet made that connection explicit or grounded it in the alignment literature.
 
 ## What the Research Already Contains
 
@@ -28,93 +28,85 @@ These parallels are not retrofitted. The framework was built to answer "when sho
 
 The framework's weakest dimension is evidence strength. Currently it relies on external proxies: regulatory validation, peer review, company documentation. These tell you whether other people trust the system, not whether the system's internal reasoning supports the decision.
 
-This is where interpretability becomes necessary — not as a theoretical interest, but as a practical requirement. If a lending model scores high on every other dimension but its reasoning cannot be inspected, the framework forces a one-level authority reduction. Mechanistic interpretability (circuit-level model understanding, feature attribution, sparse autoencoders) would allow evidence strength to be grounded in model internals rather than external reputation.
+This is where interpretability becomes necessary — not as a theoretical interest, but as a practical requirement. If a lending model scores high on every other dimension but its reasoning cannot be inspected, the framework forces a one-level authority reduction. Mechanistic interpretability would allow evidence strength to be grounded in model internals rather than external reputation.
 
-### 2. The framework exists only as prose
+### 2. The incident inventory lacks alignment-theoretic grounding
 
-The scoring sheet, decision tree, and override rules are documented in markdown. They have never been implemented as executable code. This means:
+71 incidents are cataloged and split into general-AI and LLM-specific failure types. The classification was done by sector and failure mechanism, but it has not been mapped to alignment failure mode taxonomies in the literature. Connecting the incident patterns to established concepts (specification gaming, reward hacking, goal misgeneralization, distributional shift) would strengthen both the incident analysis and the framework's theoretical basis.
 
-- The framework cannot be stress-tested against the incident inventory to verify it would have flagged failures before they occurred.
-- The interaction between scoring bands and override rules cannot be explored systematically.
-- Sensitivity analysis (how much does authority change when one dimension shifts?) is not possible.
+### 3. The delegation framework lacks connection to human-AI trust calibration research
 
-### 3. The incident inventory is manually classified
-
-71 incidents are cataloged and split into general-AI and LLM-specific failure types. The classification was done by hand. NLP-based clustering could validate whether the manual groupings hold, discover patterns the manual process missed, and map incident clusters back to framework dimensions.
+The scoring dimensions were derived from case analysis and governance practice. They have not been compared to existing models of human-AI trust, delegation, and reliance from the decision science and AI safety literature. Grounding the framework in this body of work would clarify what the dimensions capture and what they miss.
 
 ## Next Steps
 
-### Step 1: Make the alignment connection explicit
+### Step 1: Make the alignment connection explicit (completed)
 
-The README and research framing should reflect what the research actually is. The project introduction currently reads as a business consulting study. It should state the delegation calibration problem directly: this research addresses when and how much autonomous authority AI systems should receive, evaluated across six contextual dimensions.
+The README and research framing now reflect the delegation calibration problem directly, with sections connecting the framework to AI safety, interpretability, and alignment failure modes.
 
-Add a section connecting the framework to AI safety and alignment:
-- Why delegation calibration is an alignment problem (even well-aligned models should not receive unlimited authority)
-- How the evidence strength dimension creates demand for interpretability
-- How the incident inventory maps to alignment failure modes
+### Step 2: Ground the framework in alignment and trust calibration literature
 
-### Step 2: Implement the framework in Python
+Write a literature bridge note that connects the 6-dimensional framework to relevant published work.
 
-**`notebooks/authority_scorer.ipynb`**
+**`research/extensions/alignment-literature-bridge.md`**
 
-Implement the scoring sheet and decision tree as working code.
+Key literature threads to engage:
 
-- Encode dimension values: `DecisionStructure` (structured=3, semi=2, unstructured=1), `RiskLevel` (low=3, medium=2, high=1), `ScenarioCondition` (baseline=3, stress=2, edge_case=1), `EvidenceStrength` (strong=3, moderate=2, weak=1), `GovernanceReadiness` (strong=3, partial=2, weak=1).
-- Scoring function: sum 5 dimensions (range 5–15) and map to authority bands (5–8 → assist, 9–11 → assist or recommend, 12–13 → recommend, 14–15 → recommend or automate with guardrails).
-- Override rules as hard constraints: high-risk + weak governance → cap at assist; edge-case → cap at assist; weak evidence in consequential decisions → reduce one level.
-- Demonstrate with real scenarios from the research (high-risk lending, low-risk operations, stress-condition healthcare).
-- Visualize dimension scores (radar chart) and authority levels across domain-risk combinations (heatmap).
-- Interpretability gap analysis: for scenarios where evidence strength is weak, simulate the effect of raising it by one level through interpretability.
+1. **Human-AI delegation and trust calibration.** Lee and See (2004) on trust in automation. Dietvorst et al. (2015) on algorithm aversion — already in reading notes. Bansal et al. (2021) on when humans should and should not defer to AI. The framework's authority levels (assist/recommend/automate) should be positioned relative to these models: where does the framework agree, where does it add structure, and where is it missing nuance?
 
-**`notebooks/incident_analysis.ipynb`**
+2. **AI governance frameworks in practice.** NIST AI RMF (2023), EU AI Act risk classification, ISO 42001. The framework's risk level dimension parallels the EU AI Act's risk tiers (unacceptable/high/limited/minimal). Document where the framework's classification converges with and diverges from these regulatory taxonomies.
 
-Apply NLP to the 71-incident inventory.
+3. **Alignment failure mode taxonomies.** Amodei et al. (2016) on concrete problems in AI safety. Krakovna et al. (2020) on specification gaming examples. Ngo et al. (2022) on alignment problem framing. Map the 71 incidents to these established taxonomies rather than inventing a new one.
 
-- Parse incident tables from markdown into a structured DataFrame (date, company, business_use, failure_mechanism, consequence, evidence_type).
-- TF-IDF vectorize failure mechanisms and consequences.
-- K-means clustering (k=4–6) to discover incident groupings and compare against the manually identified failure patterns.
-- PCA or t-SNE visualization of the incident space.
-- Map each cluster to framework dimensions: which dimension failures would have caught each incident type?
-- Map clusters to alignment failure categories: specification gaming, distributional shift, oversight failure, fluent hallucination.
+4. **Interpretability and trust.** Doshi-Velez and Kim (2017) on interpretability desiderata. Lipton (2018) on the mythos of model interpretability. Anthropic's work on sparse autoencoders and circuit-level understanding. Connect these to the evidence strength dimension — what specific interpretability methods would satisfy each evidence strength level?
 
-**`scripts/evaluate.py`**
+### Step 3: Deepen the interpretability bridge with literature grounding
 
-CLI tool for the scoring engine.
+The current `interpretability-bridge.md` describes the evidence strength ceiling and sketches how interpretability tools address it. The next version should:
 
-- Arguments: --domain, --structure, --risk, --scenario, --evidence, --governance.
-- Outputs: authority_level, total_score, active_override_rules, reasoning.
-- Supports --format json and --input batch.csv.
+1. Reference specific interpretability methods and their maturity levels, rather than listing them generically. For each method (feature attribution, probing, SAEs, circuit analysis), cite the key paper and assess whether the method is mature enough to actually grade evidence strength in a deployment context.
 
-### Step 3: Write the interpretability bridge
+2. Engage with critiques of interpretability. Lipton (2018) and Rudin (2019) have different positions on what interpretability means and when it matters. The bridge document should acknowledge these tensions and take a position on which interpretability definition the framework requires.
 
-**`research/extensions/interpretability-bridge.md`**
+3. Connect to the OECD/NIST transparency requirements that already apply to high-risk AI systems. The framework's evidence strength dimension should be positioned as a bridge between technical interpretability research and regulatory explainability requirements.
 
-"Why Mechanistic Interpretability Matters for Delegation Calibration"
+### Step 4: Strengthen the incident analysis with literature-grounded taxonomy
 
-1. The evidence strength limitation — external proxies are insufficient for grounding delegation authority.
-2. What interpretability enables — mechanistic interpretability, feature attribution, probing, and sparse autoencoders each translate into concrete upgrades to evidence strength evaluation.
-3. Concrete scenarios — for lending, clinical support, and hiring, show how authority level changes when interpretability is available vs. absent (using the scoring sheet numerically).
-4. Research directions — treating delegation as dynamic policy optimization (RL framing), connecting incident failure modes to alignment science, building interpretability-aware governance instruments.
+The current incident inventory classifies by sector and failure mechanism. Reanalyze the incidents using an alignment-grounded taxonomy:
 
-### Step 4: Directory structure and dependencies
+1. Apply the Amodei et al. (2016) concrete problems framework: which incidents are reward hacking, side effects, distributional shift, unsafe exploration, or scalable oversight failures?
 
-- Create `notebooks/` directory and `requirements.txt` (pandas, numpy, scikit-learn, matplotlib, seaborn).
-- Update README repository structure to include new directories.
+2. For LLM-specific incidents, apply the Weidinger et al. (2022) taxonomy of LLM risks: which incidents are misinformation, bias, data privacy, malicious use, human-AI interaction failure, or environmental cost?
+
+3. Produce a revised incident classification table that maps each incident to both the framework's 6 dimensions and to alignment failure mode categories from the literature. This creates a testable claim: if the framework had been applied beforehand, which dimensions would have flagged the failure?
+
+### Step 5: Write a research note on delegation as an alignment problem
+
+A standalone note that makes the core argument explicitly, suitable for use in applications or as a paper seed.
+
+**`research/extensions/delegation-as-alignment.md`**
+
+Structure:
+
+1. The delegation calibration problem — what it is, why it matters, how it differs from technical alignment but complements it.
+2. What existing alignment research says about delegation and oversight — synthesize from the literature survey in Step 2.
+3. What the 6-dimensional framework contributes — a concrete, structured instrument for the governance layer that sits between technical alignment and organizational decision-making.
+4. What the framework cannot do without interpretability — the evidence strength ceiling argument.
+5. Open questions — where this line of research leads.
 
 ## Execution Priority
 
 | Order | Step | Effort | Rationale |
 |---|---|---|---|
-| 1 | Step 1: alignment framing | 1 hour | Makes the research legible for what it already is |
-| 2 | Step 2a: authority_scorer.ipynb | 3–4 hours | Validates the framework computationally |
-| 3 | Step 2b: incident_analysis.ipynb | 3–4 hours | Tests whether manual incident classification holds under NLP analysis |
-| 4 | Step 3: interpretability bridge | 2 hours | Addresses the evidence strength ceiling directly |
-| 5 | Step 2c: evaluate.py | 2 hours | Makes the framework usable beyond the notebook |
-| 6 | Step 4: structure | 30 min | Cleanup |
+| 1 | Step 1: alignment framing | Done | README and framing already updated |
+| 2 | Step 2: literature bridge | 3–4 hours | Grounds the framework in published work — this is the highest-value addition |
+| 3 | Step 4: incident reanalysis | 2–3 hours | Makes the incident inventory academically rigorous |
+| 4 | Step 3: interpretability bridge revision | 2 hours | Deepens existing document with literature references |
+| 5 | Step 5: delegation-as-alignment note | 2–3 hours | Crystallizes the core argument into a standalone document |
 
 ## Constraints
 
-- Do not alter existing research content. Add framing and implementations alongside it.
+- Do not alter existing research content. Add new analysis and literature connections alongside it.
 - Do not overstate the alignment connection. This is governance research that borders alignment, not an alignment solution.
-- Code must faithfully implement the existing framework logic. No invented scoring rules.
-- Incident analysis must preserve source attribution and evidence-type classification.
+- Cite specific papers rather than making generic claims about "the literature."
+- Incident reanalysis must preserve source attribution and evidence-type classification.
