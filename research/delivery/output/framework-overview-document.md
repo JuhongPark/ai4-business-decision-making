@@ -4,33 +4,33 @@
 
 ### 1.1 Research Question
 
-The central question of this research is:
+This document addresses a central question in AI deployment:
 
 > When should AI systems be granted autonomous decision-making authority, and when must humans retain control?
 
 While prevailing AI adoption discourse remains trapped in a binary framing — "use AI or do not" — this research reframes AI delegation as a **calibration problem** by synthesizing existing academic frameworks, regulatory guidance, and documented failure cases. The resulting argument is that AI authority must be **adaptively adjusted** according to domain, risk, evidence, and governance conditions.
 
-### 1.2 Methodology
+### 1.2 Approach
 
-This research takes a systematic case synthesis approach. Rather than conducting a single case study or industry-specific analysis, it **collects, classifies, and cross-compares 71 documented AI governance failure cases** using established academic taxonomies, then synthesizes the failure patterns with existing governance literature to produce an adaptive delegation framework.
+This document takes a systematic case synthesis approach. Rather than a single case study or industry-specific analysis, it **collects, classifies, and cross-compares 71 documented AI governance failure cases** using established academic taxonomies, then synthesizes the observed failure patterns with existing governance literature to organize them into an adaptive delegation framework.
 
-**Data Collection Protocol:**
+**Data collection:**
 
-- **Collection period**: 2018–2026
+- **Period**: 2018–2026
 - **Sources**: Regulatory actions (FTC, DOJ, EEOC, SEC, CFPB, FDA), court decisions and sanctions orders, investigative journalism, corporate disclosures and SEC filings, NTSB investigation reports
 - **Inclusion criteria**: An incident is included when at least one of the following holds: (1) clear financial loss, business wind-down, or public product rollback; (2) lawsuit, settlement, sanction, or regulatory action; (3) concrete governance failure with visible customer, worker, or public harm; (4) forced pause, restriction, or redesign of AI deployment; (5) material impact on trust, brand credibility, or internal AI policy
 - **Saturation check**: Collection continued until major failure-type categories began to repeat rather than generate genuinely new incident types
 
-**Classification Frameworks:**
+**Classification frameworks applied:**
 
-Two established academic taxonomies were applied for incident classification:
+Two established academic taxonomies were used for incident classification:
 
 1. **General AI incidents**: Amodei et al. (2016), Five Concrete Problems in AI Safety
 2. **LLM-specific incidents**: Weidinger et al. (2022), Ethical and Social Risks of Harm from Language Models
 
-**Evidence Tiering:**
+**Evidence tiering:**
 
-All claims are labeled according to a 3-tier verification protocol:
+All claims are labeled according to a 3-tier verification protocol adapted from standard evidentiary practice:
 
 - **Tier 1 (confirmed)**: Backed by regulatory or official institutional documentation (CFPB, FTC, SEC, NTSB, court materials)
 - **Tier 2 (estimated)**: Company-reported materials, press releases, investor filings
@@ -72,7 +72,7 @@ All claims are labeled according to a 3-tier verification protocol:
 
 ### 2.3 Additional Domain Representative Cases (8 domains)
 
-Beyond the 20 incident cases above, in-depth representative cases were analyzed across 8 business domains to provide the foundation for framework construction:
+Beyond the 20 incident cases above, representative cases were reviewed across 8 business domains to ground the framework in domain-specific context:
 
 | Domain | Representative Case | Key Lesson |
 |--------|-------------------|------------|
@@ -87,7 +87,7 @@ Beyond the 20 incident cases above, in-depth representative cases were analyzed 
 
 ### 2.4 Additional Domain-Specific Cases
 
-Additional detailed cases across each of the 8 domains complete the 71-case inventory. These include cases from finance (credit underwriting, fraud detection, risk scoring), healthcare (diagnostic support, triage, imaging), hiring (resume screening, interview evaluation), operations (demand forecasting, inventory management, logistics), marketing (targeting, pricing, campaign optimization), and other sectors.
+Additional documented cases across each of the 8 domains complete the 71-case inventory, drawn from finance (credit underwriting, fraud detection, risk scoring), healthcare (diagnostic support, triage, imaging), hiring (resume screening, interview evaluation), operations (demand forecasting, inventory management, logistics), marketing (targeting, pricing, campaign optimization), and other sectors.
 
 ---
 
@@ -107,7 +107,7 @@ Amodei et al. identified five concrete problems in AI safety. Applying this taxo
 | **Distributional shift** | 2 | Zillow, Rite Aid |
 | **Safe exploration** | 1 | Uber |
 
-**Key finding**: The majority of incidents involve reward hacking or side effects — failures of **objective specification**, not model capability. This aligns with Krakovna et al.'s (2020) finding that specification gaming is pervasive.
+**Pattern observed**: The majority of incidents involve reward hacking or side effects — failures of **objective specification**, not model capability. This pattern aligns with Krakovna et al.'s (2020) finding that specification gaming is pervasive across AI systems.
 
 #### Weidinger et al. (2022) — LLM Incident Classification
 
@@ -121,7 +121,7 @@ Weidinger et al. identified six categories of LLM risk:
 | **W2 Information hazards** | 1 | Samsung |
 | **W6 Automation harms** | 1 | CNET |
 
-**Key finding**: 70% of LLM incidents fall under misinformation (W3). This suggests that "fluent hallucination" — a fundamental LLM characteristic — is the single largest governance risk in business contexts.
+**Pattern observed**: 70% of LLM incidents fall under misinformation (W3). This concentration suggests that "fluent hallucination" — a widely documented LLM characteristic (Weidinger et al., 2022) — is the single largest governance risk in business contexts.
 
 ### 3.2 Recurring Failure Patterns
 
@@ -144,7 +144,7 @@ Weidinger et al. identified six categories of LLM risk:
 
 ### 3.3 General AI vs. LLM: Governance Toolkits Must Differ
 
-This distinction goes beyond technical classification — it implies that **the governance toolkit itself must be different**:
+This distinction, consistent with observations in both Amodei et al. (2016) and Weidinger et al. (2022), goes beyond technical classification — it implies that **the governance toolkit itself must be different**:
 
 | Aspect | General AI Governance | LLM Governance |
 |--------|----------------------|---------------|
@@ -158,11 +158,13 @@ This distinction goes beyond technical classification — it implies that **the 
 
 ### 4.1 Core Principle
 
+The framework organizes existing governance concepts around a single principle drawn from Agrawal, Gans, and Goldfarb (2018):
+
 > AI authority should be assigned by **category combination**, not by domain label alone.
 
 This means the question "Can AI be used in finance?" is ill-formed. The correct question is: "For this specific financial decision, at this risk level, under these scenario conditions, with this evidence strength, what level of authority can be granted to AI?"
 
-This approach draws directly from established research:
+The six dimensions synthesize concepts from the following established sources:
 
 - **Agrawal, Gans, and Goldfarb (2018)**: AI understood as a prediction technology, but prediction alone does not produce action — judgment is separately required. Theoretical basis for the "decision structure" and "AI role" dimensions.
 - **Jarrahi (2018)**: Human-AI complementarity is stronger than pure substitution in complex organizations. Justification for defaulting to "assist" and "recommend" over "automate."
@@ -172,7 +174,7 @@ This approach draws directly from established research:
 
 ### 4.2 The Six Dimensions
 
-The framework formula:
+The framework organizes these sources into a combined evaluation formula:
 
 ```
 preferred_AI_role = domain × decision_structure × risk_level × scenario_condition × evidence_strength × governance_readiness
@@ -193,7 +195,7 @@ The business area to which the decision belongs. Each domain has distinct regula
 | Marketing | Structured–Semi | Medium | RECOMMEND | Strong feedback loops |
 | Market Research | Unstructured–Semi | Medium | ASSIST | Interpretation-led |
 
-Academic basis: Brynjolfsson, Hitt, and Kim (2011) showed that data-driven decision-making is associated with stronger firm performance, but the effect depends on organizational practices and data quality. This supports the need for domain-specific defaults.
+This dimension reflects Brynjolfsson, Hitt, and Kim's (2011) finding that data-driven decision-making is associated with stronger firm performance, but that the effect depends on organizational practices and data quality — supporting the need for domain-specific defaults rather than a one-size-fits-all approach.
 
 #### Dimension 2: Decision Structure
 
@@ -211,7 +213,7 @@ Evaluates the potential harm range if the decision fails.
 - **Medium risk**: Revenue, customer relationships → **ASSIST** or **RECOMMEND**
 - **Low risk**: Operational, internal impact → **RECOMMEND** or **AUTOMATE WITH GUARDRAILS**
 
-Academic basis: The NIST AI Risk Management Framework (2023) specifies that governance requirements must be differentiated by risk level. This framework directly connects that principle to decision authority levels.
+This dimension follows the NIST AI Risk Management Framework (2023), which specifies that governance requirements must be differentiated by risk level. The scoring model connects that principle directly to decision authority levels.
 
 #### Dimension 4: Scenario Condition
 
@@ -221,7 +223,7 @@ The same decision warrants different AI roles depending on conditions.
 - **Stress**: Market volatility, operational pressure → assist value increases but automation tolerance decreases
 - **Edge-case**: No precedent or extremely rare situation → default **ASSIST**
 
-Academic basis: Amodei et al.'s (2016) "distributional shift" problem explains how AI fails when deployment conditions differ from training conditions. The Zillow Offers case is a textbook example of a forecasting model developed under normal market conditions failing in a volatile market (stress/edge-case).
+This dimension operationalizes Amodei et al.'s (2016) "distributional shift" problem, which explains how AI fails when deployment conditions differ from training conditions. The Zillow Offers case illustrates this: a forecasting model developed under normal market conditions failed in a volatile market (stress/edge-case).
 
 #### Dimension 5: Evidence Strength
 
@@ -231,9 +233,9 @@ Evaluates the quality and quantity of evidence supporting the AI system's reliab
 - **Moderate**: Documented but lacking independent verification → score holds or one-level reduction
 - **Weak**: Only reported materials or unverifiable → one-level autonomy reduction
 
-Academic basis: This dimension connects directly to the interpretability debate in AI safety research. According to mechanistic interpretability research by Elhage et al. (2022) and Conmy et al. (2023), when a model's internal reasoning cannot be inspected, evidence strength cannot be objectively assessed. The framework forces a one-level authority reduction in this case.
+This dimension connects directly to the interpretability debate in AI safety research. As Elhage et al. (2022) and Conmy et al. (2023) have shown in mechanistic interpretability work, when a model's internal reasoning cannot be inspected, evidence strength cannot be objectively assessed. The scoring model applies a one-level authority reduction in this case.
 
-Furthermore, Vaccaro, Almaatouq, and Malone's (2024) meta-analysis showed that human-AI combinations are more useful in creative tasks than decision tasks. This provides justification for raising evidence strength requirements in high-stakes decision environments.
+Additionally, Vaccaro, Almaatouq, and Malone's (2024) meta-analysis found that human-AI combinations are more useful in creative tasks than decision tasks — supporting higher evidence strength requirements in high-stakes decision environments.
 
 #### Dimension 6: Governance Readiness
 
@@ -243,7 +245,7 @@ Evaluates whether the organization can responsibly manage the proposed autonomy 
 - **Adequate**: Basic review procedures exist → framework score holds
 - **Weak**: Governance absent or nominal → one-level autonomy reduction
 
-Academic basis: Schuett et al. (2023) presented institutional structures for responsible AI deployment. This framework serves as a bridge between technical alignment confidence and operational delegation decisions. De Stefano, Kellogg, Menietti, and Vendraminelli (2022) also showed that worker trust, visibility, and intervention patterns affect the actual performance of algorithmic systems.
+This dimension draws on Schuett et al. (2023), who identified institutional structures for responsible AI deployment, and on De Stefano, Kellogg, Menietti, and Vendraminelli (2022), who showed that worker trust, visibility, and intervention patterns affect the actual performance of algorithmic systems. Together, these sources support the principle that governance readiness is a precondition for safe delegation, not a post-deployment add-on.
 
 ### 4.3 Scoring Model
 
@@ -274,10 +276,10 @@ Three safety rules that apply regardless of score:
 2. **Override 2**: Edge-case scenario → **cap at ASSIST**
 3. **Override 3**: Weak evidence in consequential decision → **reduce one autonomy level**
 
-Academic basis:
-- Override 1 is an operational answer to Amodei et al.'s (2016) "scalable oversight" problem. Granting high authority with insufficient oversight produces the kind of disasters seen in Uber ATG and Workday.
-- Override 2 is the operational application of the distributional shift problem. The Zillow case demonstrates this clearly.
-- Override 3 is grounded in trust calibration research by Lee and See (2004) and Bansal et al. (2021). Appropriate reliance is the correspondence between trust and actual trustworthiness — when evidence is weak, there is no basis for high trust.
+These override rules operationalize three established findings:
+- Override 1 follows from Amodei et al.'s (2016) "scalable oversight" problem. Granting high authority with insufficient oversight produced the kind of disasters seen in Uber ATG and Workday.
+- Override 2 applies the distributional shift concept (Amodei et al., 2016). The Zillow case illustrates this: conditions outside the training distribution led to catastrophic forecast failure.
+- Override 3 follows from trust calibration research by Lee and See (2004) and Bansal et al. (2021). Appropriate reliance requires correspondence between trust and actual trustworthiness — when evidence is weak, there is no basis for high trust.
 
 ### 4.5 Sequential Decision Tree
 
@@ -311,7 +313,7 @@ A 6-step procedure for practical application:
 | **RECOMMEND** | AI provides structured recommendations. Human reviews before action | Reviewer / approver | Moderate structure. Evidence-based but requiring human judgment |
 | **AUTOMATE WITH GUARDRAILS** | AI acts directly within predefined boundaries. Escalates to human on anomaly | Supervisor / exception handler | Highly structured, data-rich, low–medium harm potential, easy to monitor |
 
-Academic basis: This 3-level model operationalizes the scalable oversight concept from Amodei et al. (2016). In response to Bowman et al.'s (2022) question — "How do we maintain human oversight as AI systems become more capable?" — the framework answers by **constraining autonomy to what can be meaningfully overseen**.
+This 3-level structure follows the scalable oversight concept from Amodei et al. (2016). It also responds to the question raised by Bowman et al. (2022) — "How do we maintain human oversight as AI systems become more capable?" — by **constraining autonomy to what can be meaningfully overseen** at each level.
 
 ---
 
@@ -319,7 +321,7 @@ Academic basis: This 3-level model operationalizes the scalable oversight concep
 
 ### 5.1 General AI: 10/10 Detection (100%)
 
-If the framework had been applied before deployment, all 10 general AI incidents would have received a **lower authority recommendation** than the level at which the system was actually operated.
+When retroactively applied to the 10 general AI incidents, the framework would have produced a **lower authority recommendation** than the level at which each system was actually operated.
 
 | Case | Actual Level | Framework Recommendation | Primary Trigger |
 |------|-------------|------------------------|----------------|
@@ -424,11 +426,11 @@ Reasoning verification results are integrated through two mechanisms:
 
 ## 8. Connection to AI Safety and Alignment Research
 
-### 8.1 Delegation Calibration Is an Alignment Problem
+### 8.1 Delegation Calibration as an Alignment Problem
 
-Traditional AI alignment research focuses on whether models behave as intended (value alignment, reward specification). This research addresses a complementary question: **even if a model is well-aligned, should it be granted autonomous authority in a given context?**
+Traditional AI alignment research focuses on whether models behave as intended (value alignment, reward specification). The incident patterns documented here point to a complementary question: **even if a model is well-aligned, should it be granted autonomous authority in a given context?**
 
-The 6-dimensional framework provides a **governance layer that translates technical alignment confidence into operational delegation decisions**.
+The 6-dimensional framework, as synthesized from the literature and case data, offers a **governance layer that connects technical alignment confidence to operational delegation decisions**.
 
 ### 8.2 The Role of Interpretability
 
@@ -437,7 +439,7 @@ The "evidence strength" dimension directly depends on model interpretability:
 - **High interpretability** → evidence strength is verifiable → higher AI authority is justified
 - **Low interpretability** → evidence strength is opaque → human override required regardless of performance
 
-This creates a concrete demand signal for mechanistic interpretability research (Elhage et al., 2022; Conmy et al., 2023).
+This relationship reinforces the demand signal for mechanistic interpretability research identified by Elhage et al. (2022) and Conmy et al. (2023).
 
 ### 8.3 From Incidents to Alignment Failure Modes
 
@@ -454,9 +456,9 @@ The 71-incident inventory maps to the following alignment failure modes:
 
 ### 9.1 Framework Scope Limitations
 
-1. **Individual-level tool use**: The framework evaluates organizational delegation policy, not individual professional AI tool use patterns (the Mata v. Avianca pattern).
-2. **Information security risks**: Data leakage through prompts (the Samsung pattern) is an information security problem, not a delegation calibration failure, and falls outside framework scope.
-3. **Static evaluation**: The current framework evaluates authority levels statically. How authority levels should adjust in real-time as model confidence and environmental conditions change remains unresolved.
+1. **Individual-level tool use**: The framework, as synthesized from organizational governance literature, evaluates organizational delegation policy. Individual professional AI tool use patterns (the Mata v. Avianca pattern) fall outside this scope and require separate treatment.
+2. **Information security risks**: Data leakage through prompts (the Samsung pattern) is an information security problem, not a delegation calibration failure, and falls outside the scope of the governance frameworks drawn upon here (NIST, 2023; Schuett et al., 2023).
+3. **Static evaluation**: The current framework evaluates authority levels statically. How authority levels should adjust in real-time as model confidence and environmental conditions change is an open question not addressed in the source literature.
 
 ### 9.2 Open Research Questions
 
@@ -472,21 +474,23 @@ The 71-incident inventory maps to the following alignment failure modes:
 
 ### 10.1 Central Argument
 
+The recurring pattern across all 71 cases points to a single conclusion, consistent with the adaptive governance principles in NIST (2023) and the scalable oversight framework of Amodei et al. (2016):
+
 > **AI authority must be adaptive — not fixed.**
 
 The most important organizational decision is not whether to adopt AI but **how much authority to delegate to AI under specific conditions**. The second most important decision is **when to reduce that authority**.
 
 ### 10.2 Key Lessons from the 71-Incident Analysis
 
-1. **Most AI failures originate from delegation calibration failure, not technical capability gaps.** The systems did not lack sophistication — they were granted more authority than conditions warranted.
+1. **Most documented AI failures originate from delegation calibration failure, not technical capability gaps.** The systems did not lack sophistication — they were granted more authority than conditions warranted. This pattern is consistent with Krakovna et al.'s (2020) specification gaming findings.
 
-2. **The same AI capability can create value or cause failure depending on context design.** Prediction, ranking, and optimization are not inherently beneficial. Their outcomes depend on training data, objective choice, workflow integration, and the ability of humans to intervene appropriately.
+2. **The same AI capability can create value or cause failure depending on context design.** Prediction, ranking, and optimization are not inherently beneficial. As Agrawal, Gans, and Goldfarb (2018) argued, outcomes depend on the judgment layer — training data, objective choice, workflow integration, and the ability of humans to intervene appropriately.
 
-3. **High-stakes decisions should default to assist or tightly governed recommend.** Predictive capability alone does not justify high-stakes delegation. Human review, accountability, and evidence quality are threshold conditions.
+3. **High-stakes decisions should default to assist or tightly governed recommend.** This follows from NIST (2023) risk differentiation principles and from the trust calibration research of Lee and See (2004). Predictive capability alone does not justify high-stakes delegation.
 
-4. **General AI and LLM governance toolkits must differ fundamentally.** Traditional AI's objective specification and bias testing versus LLM's output verification and data-boundary control require separate governance architectures.
+4. **General AI and LLM governance toolkits must differ fundamentally.** The failure mechanisms documented by Amodei et al. (2016) and Weidinger et al. (2022) require different governance architectures — objective specification and bias testing for traditional AI; output verification and data-boundary control for LLMs.
 
-5. **The framework's override rules are the most powerful protective mechanism.** Mandatory downward adjustments for high risk + weak governance, edge-case scenarios, and weak evidence would have prevented the majority of incidents in advance.
+5. **Override rules, grounded in scalable oversight (Amodei et al., 2016) and trust calibration (Lee and See, 2004; Bansal et al., 2021), are the most effective protective mechanism observed.** Mandatory downward adjustments for high risk + weak governance, edge-case scenarios, and weak evidence would have flagged the majority of the 71 documented incidents in advance.
 
 ---
 
