@@ -9,7 +9,7 @@ Artificial intelligence is reshaping how firms process information, predict outc
 
 This study argues that AI should not be treated as a standalone technical capability. Its value depends on how it is embedded in a broader decision system that includes data quality, workflow design, human judgment, evidence quality, and governance. In some contexts, AI supports speed, consistency, and predictive power. In others, it introduces bias, opacity, overreliance, or weak accountability. As a result, firms need a clearer framework for deciding where AI should assist, recommend, restrict, or only narrowly automate decisions.
 
-The main research question of this study is: Under what conditions should firms use AI to assist, recommend, or automate high-stakes business decisions? To answer this question, the study combines a structured literature review, a narrowed comparative case design centered on finance and hiring plus one lower-risk comparison domain, and synthesis of an analytical framework for responsible AI adoption.
+The main research question of this study is: Under what conditions should firms use AI to assist, recommend, or automate high-stakes business decisions? To answer this question, the study collects and analyzes 71 documented AI governance failures (2018–2026), classifies them using established academic taxonomies — Amodei et al.'s (2016) Five Concrete Problems in AI Safety for general AI incidents and Weidinger et al.'s (2022) six LLM risk categories for language-model incidents — and builds a 6-dimensional adaptive framework grounded in existing governance literature (NIST, 2023; Agrawal et al., 2018; Lee and See, 2004).
 
 ## Literature Review
 

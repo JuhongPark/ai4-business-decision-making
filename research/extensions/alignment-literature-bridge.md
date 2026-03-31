@@ -6,7 +6,7 @@ purpose: Position the 6-dimensional delegation framework relative to published w
 
 ## Why This Note Exists
 
-The delegation framework was built from case analysis and governance practice. It produces structured authority recommendations (assist / recommend / automate with guardrails) based on five scored dimensions plus domain context. But it has not yet been situated within the broader literature on human-AI trust, alignment failure modes, or regulatory risk classification.
+The delegation framework was built grounded in 71 documented AI governance failures (2018–2026) and existing governance research. It produces structured authority recommendations (assist / recommend / automate with guardrails) based on five scored dimensions plus domain context. This note situates the framework within the broader literature on human-AI trust, alignment failure modes, and regulatory risk classification.
 
 This note maps the framework's components to published work — identifying where the framework converges with, diverges from, or extends existing research. The goal is not to claim novelty but to make the intellectual lineage explicit and to identify gaps that the literature exposes.
 

@@ -8,7 +8,7 @@ status: submission_ready_v1
 
 Artificial intelligence is increasingly embedded in business decision processes, but adoption debates remain too broad to guide real institutional design. The central challenge is not whether AI can support decisions in the abstract. The real question is when organizations should use AI to assist, recommend, or automate decisions under different business conditions.
 
-This report argues that AI should be studied by decision role and scenario condition rather than by hype-driven sector generalization. The suitability of AI depends on decision structure, evidence quality, downside risk, and governance burden. As a result, the same domain may tolerate higher AI autonomy under stable conditions but require stronger human control under stress or edge-case conditions.
+This report argues that AI should be studied by decision role and scenario condition rather than by hype-driven sector generalization. It builds a 6-dimensional adaptive framework grounded in 71 documented AI governance failures (2018–2026), established academic taxonomies (Amodei et al., 2016; Weidinger et al., 2022), and existing governance literature (NIST, 2023; Lee and See, 2004). The suitability of AI depends on decision structure, evidence quality, downside risk, and governance burden. As a result, the same domain may tolerate higher AI autonomy under stable conditions but require stronger human control under stress or edge-case conditions.
 
 The central principle of this report is simple: AI authority should be adaptive, not fixed. Organizations need escalation rules for when autonomy can increase and fallback rules for when autonomy must shrink.
 

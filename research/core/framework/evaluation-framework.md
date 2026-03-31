@@ -1,7 +1,7 @@
 # Evaluation Framework
 
 status: completed
-phase_goal: Build a practical framework for evaluating when AI should be used in business decision-making and under what conditions it is likely to improve performance.
+phase_goal: Build a practical evaluation framework, grounded in 71 documented AI governance failures and existing governance research (NIST, 2023; Agrawal et al., 2018), for determining when AI should be used in business decision-making and under what conditions it is likely to improve performance.
 
 ## Core Principle
 

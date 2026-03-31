@@ -6,7 +6,7 @@ purpose: Identify every point in the delegation framework where the logic assume
 
 ## Why This Document Exists
 
-The 6-dimensional delegation framework answers a specific question: given a business decision context, how much authority should AI receive? It answers this through five scored dimensions (decision structure, risk level, scenario stability, evidence strength, governance readiness), three override rules, a decision tree with six sequential steps, and a 7-dimension evaluation framework with restriction defaults.
+The 6-dimensional delegation framework — built grounded in 71 documented AI governance failures and existing governance research (NIST, 2023; Amodei et al., 2016; Lee and See, 2004) — answers a specific question: given a business decision context, how much authority should AI receive? It answers this through five scored dimensions (decision structure, risk level, scenario stability, evidence strength, governance readiness), three override rules, a decision tree with six sequential steps, and a 7-dimension evaluation framework with restriction defaults.
 
 The framework is structurally sound. Its logic is internally consistent: when conditions are unfavorable, authority decreases. When risk is high and governance is weak, override rules cap authority at assist. When evidence is weak in a consequential decision, autonomy drops one level. The incident analysis validates this: applied retroactively, the framework would have recommended lower authority in 12 of 20 documented incidents.
 

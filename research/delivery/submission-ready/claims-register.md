@@ -1,7 +1,7 @@
 # Submission-Ready Claims Register
 
 status: completed
-purpose: Map the report's main claims to the strength and type of supporting evidence.
+purpose: Map the report's main claims to the strength and type of supporting evidence. All claims are grounded in the 71-incident analysis (2018–2026) and the 6-dimensional framework built on Amodei et al. (2016), Weidinger et al. (2022), NIST (2023), and Lee and See (2004).
 
 ## Claims Register
 

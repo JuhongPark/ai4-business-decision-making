@@ -7,7 +7,9 @@ purpose: Classify the ways AI reasoning can fail in business decision-making con
 
 ## Why This Taxonomy Exists
 
-The reasoning verification framework requires a comprehensive map of failure modes before it can specify what to verify. The project's earlier work identified four broad failure types -- logically flawed, normatively deviant, systematically biased, and confidently wrong. These are useful starting points but insufficient for practitioners who need to know exactly what to look for and how to detect it.
+The 71-incident analysis revealed that the 6-dimensional delegation framework addresses when humans should review AI outputs, but not what those humans should look for. In particular, LLM incidents (classified using Weidinger et al., 2022) showed that human-in-the-loop review failed when reviewers could not identify specific reasoning failures. This verification gap motivated the reasoning failure taxonomy.
+
+The project's earlier work identified four broad failure types -- logically flawed, normatively deviant, systematically biased, and confidently wrong. These are useful starting points but insufficient for practitioners who need to know exactly what to look for and how to detect it.
 
 This taxonomy expands those four types into a structured classification organized around where in the reasoning process the failure occurs. Each failure type is defined with clear boundaries so that a given reasoning error maps to one primary type. The categories are designed for business decision-makers and verification practitioners, not for ML researchers.
 

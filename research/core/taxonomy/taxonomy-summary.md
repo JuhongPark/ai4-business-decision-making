@@ -1,7 +1,7 @@
 # Taxonomy Summary
 
 status: completed
-goal: Turn the research into a reusable taxonomy for deciding when and how AI should be used.
+goal: Organize the research findings into a reusable taxonomy for deciding when and how AI should be used, grounded in 71 documented AI governance failures and established governance literature.
 
 ## Main Result
 

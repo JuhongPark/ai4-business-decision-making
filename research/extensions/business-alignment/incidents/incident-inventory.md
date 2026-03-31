@@ -7,6 +7,8 @@ scope: selected public incidents with meaningful business, legal, operational, o
 
 ## Why This Note Exists
 
+This inventory provides the empirical foundation for the 6-dimensional adaptive delegation framework. The 71 cases documented here were classified using Amodei et al. (2016) and Weidinger et al. (2022), and the recurring failure patterns directly informed the framework's dimensions, scoring model, and override rules.
+
 The earlier incident note separated general AI incidents from LLM-specific incidents, but it was still exemplar-based.
 
 This note applies a more repeatable incident-research protocol:

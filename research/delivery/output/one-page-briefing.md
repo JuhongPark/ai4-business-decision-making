@@ -8,7 +8,7 @@ status: completed
 
 ## Core Thesis
 
-AI authority must be adaptive, not fixed. The right level of AI involvement depends on domain risk, scenario condition, evidence quality, and governance readiness. Organizations that treat AI adoption as a binary yes-or-no decision will either over-automate high-risk processes or under-use AI where it is safe and productive.
+AI authority must be adaptive, not fixed. This conclusion is grounded in an analysis of 71 documented AI governance failures (2018–2026) and a 6-dimensional framework built on established governance research (Amodei et al., 2016; NIST, 2023; Lee and See, 2004). The right level of AI involvement depends on domain risk, scenario condition, evidence quality, and governance readiness. Organizations that treat AI adoption as a binary yes-or-no decision will either over-automate high-risk processes or under-use AI where it is safe and productive.
 
 ## The Decision Rule
 

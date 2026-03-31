@@ -2,7 +2,7 @@
 
 status: draft
 date: 2026-03-28
-purpose: Reframe the project's incident inventory through the lens of reasoning trust failure, showing that the common thread across general AI and LLM incidents is unchecked reasoning, not just governance failure.
+purpose: Reframe the project's incident inventory — 71 cases classified using Amodei et al. (2016) and Weidinger et al. (2022) — through the lens of reasoning trust failure, showing that the common thread across general AI and LLM incidents is unchecked reasoning, not just governance failure.
 synthesis-plan-phase: 1.2
 
 ## Why This Reframing Matters

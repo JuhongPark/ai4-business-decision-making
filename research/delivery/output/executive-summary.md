@@ -6,7 +6,7 @@ status: submission_ready_v1
 
 ## Core Message
 
-AI should not be deployed with one fixed autonomy model across all business decisions. The right role for AI depends on domain risk, scenario condition, evidence quality, and governance burden.
+AI should not be deployed with one fixed autonomy model across all business decisions. The right role for AI depends on domain risk, scenario condition, evidence quality, and governance burden. This conclusion is grounded in an analysis of 71 documented AI governance failures (2018–2026), classified using Amodei et al. (2016) and Weidinger et al. (2022), and structured into a 6-dimensional adaptive framework built on established governance research.
 
 The executive rule is simple: AI authority must be adaptive.
 

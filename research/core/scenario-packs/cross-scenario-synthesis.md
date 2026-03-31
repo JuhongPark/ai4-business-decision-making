@@ -6,7 +6,7 @@ comparison_basis: baseline, stress, edge-case conditions across AI role modes
 
 ## Core Pattern
 
-The preferred role of AI is not fixed within a domain. It shifts with scenario conditions.
+The preferred role of AI is not fixed within a domain. It shifts with scenario conditions. This finding is consistent with the 71-incident analysis, where distributional shift (Amodei et al., 2016) was a recurring failure mode — AI systems that performed well under baseline conditions failed under stress or edge-case conditions.
 
 ## Shared Findings
 
