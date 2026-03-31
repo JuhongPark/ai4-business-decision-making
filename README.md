@@ -16,17 +16,62 @@ primary_output: [research/delivery/output/thinktank-report.md](research/delivery
 summary_output: [research/delivery/output/executive-summary.md](research/delivery/output/executive-summary.md)
 extension_output: [research/extensions/information-structure/initial-analysis.md](research/extensions/information-structure/initial-analysis.md)
 
-## Research Position
+## The 71-Incident Analysis and 6-Dimensional Framework
 
-The project argues that AI authority should be assigned by category combination rather than by domain label alone. This positions AI delegation as a calibration problem rather than an adoption problem.
+### What This Research Did
 
-core_dimensions:
-- domain
-- decision structure
-- risk level
-- scenario condition
-- AI role
-- evidence strength
+This project collected and systematically analyzed **71 real-world AI governance failures** (2018–2026), sourced from regulatory actions (FTC, DOJ, EEOC, SEC, CFPB, FDA), court decisions, investigative journalism, and corporate disclosures. Each incident was classified using two established academic taxonomies:
+
+- **General AI incidents** were classified using Amodei et al.'s (2016) Five Concrete Problems in AI Safety — side effects, reward hacking, scalable oversight, safe exploration, and distributional shift.
+- **LLM-specific incidents** were classified using Weidinger et al.'s (2022) six risk categories — discrimination/toxicity, information hazards, misinformation, malicious uses, interaction harms, and automation harms.
+
+The analysis revealed that most failures were not caused by technical incapacity. They were caused by **delegation calibration failure** — organizations granted AI more authority than the conditions warranted. From these patterns, a 6-dimensional adaptive framework was constructed to determine the appropriate level of AI autonomy for a given decision context.
+
+### Key Findings from the Incident Analysis
+
+- **Reward hacking and side effects** dominated general AI failures (Amodei et al., 2016). The problem was objective specification, not model capability. This aligns with Krakovna et al.'s (2020) finding that specification gaming is pervasive.
+- **Misinformation (W3)** dominated LLM failures — 70% of LLM incidents involved fluent hallucination (Weidinger et al., 2022).
+- **General AI and LLM governance toolkits must differ fundamentally.** General AI requires bias testing, objective review, and human override design. LLM requires output verification outside the chat interface, prompt/data-boundary controls, and brand/policy grounding.
+- **Retrospective validation**: When applied against the 20 core incidents, the framework would have recommended a lower authority level in 12/20 cases outright, partially flagged 7/20, and missed 1/20 (an information security risk outside its scope).
+
+### The 6-Dimensional Framework
+
+The framework evaluates AI delegation fitness through six dimensions. The core principle: **AI authority should be assigned by category combination, not by domain label alone** (Agrawal, Gans, and Goldfarb, 2018). This positions AI delegation as a calibration problem rather than an adoption problem.
+
+```
+preferred_AI_role = domain × decision_structure × risk_level × scenario_condition × evidence_strength × governance_readiness
+```
+
+| Dimension | What It Evaluates | Academic Basis |
+|-----------|------------------|---------------|
+| **Domain** | Business area (strategy, operations, finance, healthcare, investment, product, marketing, market research) | Brynjolfsson, Hitt, and Kim (2011) — data-driven performance depends on organizational practices, not model quality alone |
+| **Decision Structure** | Unstructured → semi-structured → structured | Agrawal, Gans, and Goldfarb (2018) — prediction requires separate judgment; structure determines where judgment is needed |
+| **Risk Level** | Low (operational) → medium (revenue/customer) → high (fairness/compliance/safety) | NIST AI Risk Management Framework (2023) — governance requirements must be differentiated by risk level |
+| **Scenario Condition** | Baseline → stress → edge-case | Amodei et al. (2016) — distributional shift causes AI to fail when deployment conditions differ from training |
+| **Evidence Strength** | Weak → moderate → strong | Elhage et al. (2022); Conmy et al. (2023) — without interpretability, evidence strength cannot be objectively assessed |
+| **Governance Readiness** | Weak → adequate → strong | Schuett et al. (2023) — institutional structures for responsible AI deployment |
+
+### Scoring and Authority Levels
+
+Each dimension is scored 1–3. Total score maps to three authority levels:
+
+| Score | Authority Level | Description |
+|-------|----------------|-------------|
+| 5–8 | **ASSIST** | AI provides analysis and drafts; human retains final authority |
+| 9–11 | **ASSIST or RECOMMEND** | AI provides structured recommendations; human reviews before action |
+| 12–15 | **RECOMMEND or AUTOMATE WITH GUARDRAILS** | AI acts within predefined boundaries; human handles exceptions |
+
+Three **override rules** apply regardless of score:
+
+1. High risk + weak governance → cap at ASSIST (grounded in scalable oversight: Amodei et al., 2016)
+2. Edge-case scenario → cap at ASSIST (grounded in distributional shift risk)
+3. Weak evidence in consequential decision → reduce one level (grounded in trust calibration: Lee and See, 2004; Bansal et al., 2021)
+
+### Reasoning Verification Extension
+
+The incident analysis revealed that the delegation framework alone does not sufficiently address LLM output quality. A reasoning verification framework was developed with four complementary methods — source quality assessment, inferential validity, normative assessment, and confidence calibration — integrated into the scoring model through a weakest-link principle and a verification gate.
+
+Full document: [research/delivery/output/framework-overview-document.md](research/delivery/output/framework-overview-document.md)
 
 ## Key Outputs
 
