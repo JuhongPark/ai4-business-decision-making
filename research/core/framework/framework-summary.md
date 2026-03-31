@@ -4,7 +4,7 @@ title: Conditions for Effective AI-Assisted Business Decision-Making
 
 ## Core Claim
 
-The value of AI in business decision-making depends less on model sophistication alone and more on the fit between decision structure, data readiness, oversight design, and governance.
+The value of AI in business decision-making depends less on model sophistication alone and more on the fit between decision structure, data readiness, oversight design, and governance. This claim is grounded in an analysis of 71 documented AI governance failures (2018–2026), where the recurring pattern was delegation calibration failure — not technical incapacity.
 
 ## Summary Formula
 

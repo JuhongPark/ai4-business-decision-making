@@ -10,7 +10,7 @@ AI alignment research asks: how do we ensure that AI systems pursue objectives a
 
 This research asks a complementary question: even if we solve technical alignment perfectly, how much autonomous authority should a given AI system receive in a given context? A model that is value-aligned in the technical sense may still produce harmful outcomes if deployed at an inappropriate authority level — if it automates decisions it should only recommend, or if it operates in conditions outside its validated envelope.
 
-These are not separate problems. They are two faces of the same problem. Technical alignment determines whether the system can be trusted in principle. Delegation calibration determines whether the system should be trusted in practice, given the specific decision context.
+These are not separate problems. They are two faces of the same problem. Technical alignment determines whether the system can be trusted in principle. Delegation calibration determines whether the system should be trusted in practice, given the specific decision context. This argument is validated against 71 documented AI governance failures (2018–2026), where the 6-dimensional framework — built grounded in Amodei et al. (2016), NIST (2023), and Lee and See (2004) — would have recommended lower authority levels in the majority of cases.
 
 ## What Existing Alignment Research Says About Delegation
 
