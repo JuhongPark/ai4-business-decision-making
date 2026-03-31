@@ -1,6 +1,6 @@
 # AI for Business Decision-Making
 
-This research addresses a core question in AI deployment: when should AI systems be granted autonomous decision-making authority, and when must humans retain control? Rather than treating AI delegation as binary (use it or do not), this project synthesizes existing academic literature, regulatory records, and 71 documented AI failure cases into a 6-dimensional adaptive framework that evaluates delegation fitness based on contextual risk, evidence strength, governance maturity, and scenario conditions.
+This research addresses a core question in AI deployment: when should AI systems be granted autonomous decision-making authority, and when must humans retain control? Rather than treating AI delegation as binary (use it or do not), this project builds a 6-dimensional adaptive framework grounded in existing academic literature, regulatory records, and 71 documented AI failure cases that evaluates delegation fitness based on contextual risk, evidence strength, governance maturity, and scenario conditions.
 
 The project originated as a business governance study and has evolved toward the broader alignment problem that underlies it: how to calibrate the boundary between human and AI authority as capabilities change.
 
@@ -25,7 +25,7 @@ This project collected **71 documented AI governance failures** (2018–2026) fr
 - **General AI incidents** were classified using Amodei et al.'s (2016) Five Concrete Problems in AI Safety — side effects, reward hacking, scalable oversight, safe exploration, and distributional shift.
 - **LLM-specific incidents** were classified using Weidinger et al.'s (2022) six risk categories — discrimination/toxicity, information hazards, misinformation, malicious uses, interaction harms, and automation harms.
 
-The analysis revealed that most failures were not caused by technical incapacity. They were caused by **delegation calibration failure** — organizations granted AI more authority than the conditions warranted. Drawing on these failure patterns and existing governance literature (NIST, 2023; Agrawal et al., 2018; Lee and See, 2004), a 6-dimensional adaptive framework was synthesized to evaluate the appropriate level of AI autonomy for a given decision context.
+The analysis revealed that most failures were not caused by technical incapacity. They were caused by **delegation calibration failure** — organizations granted AI more authority than the conditions warranted. Drawing on these failure patterns and existing governance literature (NIST, 2023; Agrawal et al., 2018; Lee and See, 2004), a 6-dimensional adaptive framework was built to evaluate the appropriate level of AI autonomy for a given decision context.
 
 ### Key Findings from the Incident Analysis
 
@@ -36,7 +36,7 @@ The analysis revealed that most failures were not caused by technical incapacity
 
 ### The 6-Dimensional Framework
 
-The framework synthesizes existing research into a practical evaluation structure with six dimensions. The core principle — **AI authority should be assigned by category combination, not by domain label alone** — follows from Agrawal, Gans, and Goldfarb's (2018) distinction between prediction and judgment. This positions AI delegation as a calibration problem rather than an adoption problem.
+The framework is a practical evaluation structure with six dimensions, grounded in established research. The core principle — **AI authority should be assigned by category combination, not by domain label alone** — follows from Agrawal, Gans, and Goldfarb's (2018) distinction between prediction and judgment. This positions AI delegation as a calibration problem rather than an adoption problem.
 
 ```
 preferred_AI_role = domain × decision_structure × risk_level × scenario_condition × evidence_strength × governance_readiness
@@ -69,7 +69,7 @@ Three **override rules** apply regardless of score:
 
 ### Reasoning Verification Extension
 
-The incident analysis revealed that the delegation framework alone does not sufficiently address LLM output quality. Drawing on the failure patterns identified in the 71-case inventory, a reasoning verification framework was synthesized with four complementary methods — source quality assessment, inferential validity, normative assessment, and confidence calibration — integrated into the scoring model through a weakest-link principle and a verification gate.
+The incident analysis revealed that the delegation framework alone does not sufficiently address LLM output quality. Drawing on the failure patterns identified in the 71-case inventory, a reasoning verification framework was built with four complementary methods — source quality assessment, inferential validity, normative assessment, and confidence calibration — integrated into the scoring model through a weakest-link principle and a verification gate.
 
 ### Detailed Materials
 

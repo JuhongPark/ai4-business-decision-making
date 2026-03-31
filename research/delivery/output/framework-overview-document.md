@@ -8,11 +8,11 @@ This document addresses a central question in AI deployment:
 
 > When should AI systems be granted autonomous decision-making authority, and when must humans retain control?
 
-While prevailing AI adoption discourse remains trapped in a binary framing — "use AI or do not" — this research reframes AI delegation as a **calibration problem** by synthesizing existing academic frameworks, regulatory guidance, and documented failure cases. The resulting argument is that AI authority must be **adaptively adjusted** according to domain, risk, evidence, and governance conditions.
+While prevailing AI adoption discourse remains trapped in a binary framing — "use AI or do not" — this research reframes AI delegation as a **calibration problem** by building a structured evaluation framework grounded in existing academic research, regulatory guidance, and documented failure cases. The resulting argument is that AI authority must be **adaptively adjusted** according to domain, risk, evidence, and governance conditions.
 
 ### 1.2 Approach
 
-This document takes a systematic case synthesis approach. Rather than a single case study or industry-specific analysis, it **collects, classifies, and cross-compares 71 documented AI governance failure cases** using established academic taxonomies, then synthesizes the observed failure patterns with existing governance literature to organize them into an adaptive delegation framework.
+This document takes a systematic case synthesis approach. Rather than a single case study or industry-specific analysis, it **collects, classifies, and cross-compares 71 documented AI governance failure cases** using established academic taxonomies, then builds an adaptive delegation framework grounded in the observed failure patterns and existing governance literature.
 
 **Data collection:**
 
@@ -357,7 +357,7 @@ Across all 20 incidents:
 
 ## 6. Reasoning Verification Framework (Extension)
 
-One key finding from the 71-incident analysis is that the delegation framework alone does not sufficiently address LLM **output quality** problems. Accordingly, a reasoning verification framework was synthesized by integrating four complementary assessment methods drawn from epistemology, professional standards, and calibration research.
+One key finding from the 71-incident analysis is that the delegation framework alone does not sufficiently address LLM **output quality** problems. Accordingly, a reasoning verification framework was built by integrating four complementary assessment methods grounded in epistemology, professional standards, and calibration research.
 
 ### 6.1 Reasoning Failure Taxonomy: 6 Categories × 25 Types
 
@@ -430,7 +430,7 @@ Reasoning verification results are integrated through two mechanisms:
 
 Traditional AI alignment research focuses on whether models behave as intended (value alignment, reward specification). The incident patterns documented here point to a complementary question: **even if a model is well-aligned, should it be granted autonomous authority in a given context?**
 
-The 6-dimensional framework, as synthesized from the literature and case data, offers a **governance layer that connects technical alignment confidence to operational delegation decisions**.
+The 6-dimensional framework, built on existing literature and case data, offers a **governance layer that connects technical alignment confidence to operational delegation decisions**.
 
 ### 8.2 The Role of Interpretability
 
@@ -456,7 +456,7 @@ The 71-incident inventory maps to the following alignment failure modes:
 
 ### 9.1 Framework Scope Limitations
 
-1. **Individual-level tool use**: The framework, as synthesized from organizational governance literature, evaluates organizational delegation policy. Individual professional AI tool use patterns (the Mata v. Avianca pattern) fall outside this scope and require separate treatment.
+1. **Individual-level tool use**: The framework, built on organizational governance literature, evaluates organizational delegation policy. Individual professional AI tool use patterns (the Mata v. Avianca pattern) fall outside this scope and require separate treatment.
 2. **Information security risks**: Data leakage through prompts (the Samsung pattern) is an information security problem, not a delegation calibration failure, and falls outside the scope of the governance frameworks drawn upon here (NIST, 2023; Schuett et al., 2023).
 3. **Static evaluation**: The current framework evaluates authority levels statically. How authority levels should adjust in real-time as model confidence and environmental conditions change is an open question not addressed in the source literature.
 
