@@ -1,6 +1,6 @@
 # AI for Business Decision-Making
 
-This research addresses a core question in AI deployment: when should AI systems be granted autonomous decision-making authority, and when must humans retain control? Rather than treating AI delegation as binary (use it or do not), this project develops a 6-dimensional adaptive framework that evaluates delegation fitness based on contextual risk, evidence strength, governance maturity, and scenario conditions — grounded in 71 real-world AI failure cases.
+This research addresses a core question in AI deployment: when should AI systems be granted autonomous decision-making authority, and when must humans retain control? Rather than treating AI delegation as binary (use it or do not), this project synthesizes existing academic literature, regulatory records, and 71 documented AI failure cases into a 6-dimensional adaptive framework that evaluates delegation fitness based on contextual risk, evidence strength, governance maturity, and scenario conditions.
 
 The project originated as a business governance study and has evolved toward the broader alignment problem that underlies it: how to calibrate the boundary between human and AI authority as capabilities change.
 
@@ -20,12 +20,12 @@ extension_output: [research/extensions/information-structure/initial-analysis.md
 
 ### What This Research Did
 
-This project collected and systematically analyzed **71 real-world AI governance failures** (2018–2026), sourced from regulatory actions (FTC, DOJ, EEOC, SEC, CFPB, FDA), court decisions, investigative journalism, and corporate disclosures. Each incident was classified using two established academic taxonomies:
+This project collected **71 documented AI governance failures** (2018–2026) from regulatory actions (FTC, DOJ, EEOC, SEC, CFPB, FDA), court decisions, investigative journalism, and corporate disclosures, then systematically classified them using two established academic taxonomies:
 
 - **General AI incidents** were classified using Amodei et al.'s (2016) Five Concrete Problems in AI Safety — side effects, reward hacking, scalable oversight, safe exploration, and distributional shift.
 - **LLM-specific incidents** were classified using Weidinger et al.'s (2022) six risk categories — discrimination/toxicity, information hazards, misinformation, malicious uses, interaction harms, and automation harms.
 
-The analysis revealed that most failures were not caused by technical incapacity. They were caused by **delegation calibration failure** — organizations granted AI more authority than the conditions warranted. From these patterns, a 6-dimensional adaptive framework was constructed to determine the appropriate level of AI autonomy for a given decision context.
+The analysis revealed that most failures were not caused by technical incapacity. They were caused by **delegation calibration failure** — organizations granted AI more authority than the conditions warranted. Drawing on these failure patterns and existing governance literature (NIST, 2023; Agrawal et al., 2018; Lee and See, 2004), a 6-dimensional adaptive framework was synthesized to evaluate the appropriate level of AI autonomy for a given decision context.
 
 ### Key Findings from the Incident Analysis
 
@@ -36,7 +36,7 @@ The analysis revealed that most failures were not caused by technical incapacity
 
 ### The 6-Dimensional Framework
 
-The framework evaluates AI delegation fitness through six dimensions. The core principle: **AI authority should be assigned by category combination, not by domain label alone** (Agrawal, Gans, and Goldfarb, 2018). This positions AI delegation as a calibration problem rather than an adoption problem.
+The framework synthesizes existing research into a practical evaluation structure with six dimensions. The core principle — **AI authority should be assigned by category combination, not by domain label alone** — follows from Agrawal, Gans, and Goldfarb's (2018) distinction between prediction and judgment. This positions AI delegation as a calibration problem rather than an adoption problem.
 
 ```
 preferred_AI_role = domain × decision_structure × risk_level × scenario_condition × evidence_strength × governance_readiness
@@ -69,9 +69,57 @@ Three **override rules** apply regardless of score:
 
 ### Reasoning Verification Extension
 
-The incident analysis revealed that the delegation framework alone does not sufficiently address LLM output quality. A reasoning verification framework was developed with four complementary methods — source quality assessment, inferential validity, normative assessment, and confidence calibration — integrated into the scoring model through a weakest-link principle and a verification gate.
+The incident analysis revealed that the delegation framework alone does not sufficiently address LLM output quality. Drawing on the failure patterns identified in the 71-case inventory, a reasoning verification framework was synthesized with four complementary methods — source quality assessment, inferential validity, normative assessment, and confidence calibration — integrated into the scoring model through a weakest-link principle and a verification gate.
 
-Full document: [research/delivery/output/framework-overview-document.md](research/delivery/output/framework-overview-document.md)
+### Detailed Materials
+
+All components of the 71-incident analysis and 6-dimensional framework can be accessed directly:
+
+**Overview and synthesis:**
+
+| Document | Description |
+|----------|------------|
+| [framework-overview-document.md](research/delivery/output/framework-overview-document.md) | Full single-document synthesis of the 71-incident analysis, 6-dimensional framework, and reasoning verification extension with all academic references |
+| [thinktank-report.md](research/delivery/output/thinktank-report.md) | Final research report |
+| [executive-summary.md](research/delivery/output/executive-summary.md) | Executive summary |
+
+**Incident analysis:**
+
+| Document | Description |
+|----------|------------|
+| [incident-inventory.md](research/extensions/business-alignment/incidents/incident-inventory.md) | Full 71-case inventory with classification, evidence types, and primary source URLs |
+| [alignment-failure-mapping.md](research/extensions/business-alignment/incidents/alignment-failure-mapping.md) | Each incident mapped to Amodei et al. (2016) and Weidinger et al. (2022) failure modes, with retrospective framework validation |
+| [general-ai-vs-llm-incidents.md](research/extensions/business-alignment/incidents/general-ai-vs-llm-incidents.md) | Comparison of general AI vs. LLM failure mechanisms and governance implications |
+| [cross-case-comparison.md](research/core/cases/cross-case-comparison.md) | Cross-case comparison across domains (Upstart, Amazon hiring, UPS ORION) |
+| [domain-analysis/analysis.md](research/core/domain-analysis/analysis.md) | 8-domain comparative analysis |
+
+**6-dimensional framework and taxonomy:**
+
+| Document | Description |
+|----------|------------|
+| [category-system.md](research/core/taxonomy/category-system.md) | Full 6-dimensional category system definition |
+| [decision-rules.md](research/core/taxonomy/decision-rules.md) | 7 core decision rules derived from the framework |
+| [scoring-sheet.md](research/core/taxonomy/scoring-sheet.md) | Scoring model (5 dimensions × 1–3 scale) with score bands and override rules |
+| [decision-tree.md](research/core/taxonomy/decision-tree.md) | 6-step sequential decision tree for practical application |
+| [evaluation-framework.md](research/core/framework/evaluation-framework.md) | 7-dimension evaluation framework with adoption mode definitions |
+
+**Reasoning verification:**
+
+| Document | Description |
+|----------|------------|
+| [reasoning-failure-taxonomy.md](research/core/framework/reasoning-failure-taxonomy.md) | 6 categories × 25 failure types with risk and detectability matrix |
+| [reasoning-verification-source-quality.md](research/core/framework/reasoning-verification-source-quality.md) | 5-level source quality hierarchy and assessment protocol |
+| [reasoning-verification-inferential-validity.md](research/core/framework/reasoning-verification-inferential-validity.md) | Inference type classification and validity assessment |
+| [reasoning-verification-confidence-calibration.md](research/core/framework/reasoning-verification-confidence-calibration.md) | Confidence vs. evidence alignment assessment |
+| [reasoning-verification-scoring-integration.md](research/core/framework/reasoning-verification-scoring-integration.md) | Integration with delegation framework (weakest-link and verification gate) |
+| [reasoning-verification-pilot-protocol.md](research/core/framework/reasoning-verification-pilot-protocol.md) | 3-phase validation plan (retrospective, prospective, comparative) |
+
+**Literature and sources:**
+
+| Document | Description |
+|----------|------------|
+| [literature-review-summary.md](research/core/literature/literature-review-summary.md) | Core literature review: 6 themes from foundational sources |
+| [sources.md](research/core/literature/sources.md) | Master source tracker with full citations and links |
 
 ## Key Outputs
 

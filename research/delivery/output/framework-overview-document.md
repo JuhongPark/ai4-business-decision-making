@@ -1,4 +1,4 @@
-# Meta-Analysis of 71 AI Governance Failures and the 6-Dimensional Adaptive Delegation Framework
+# Systematic Case Synthesis: 71 AI Governance Failures and the 6-Dimensional Adaptive Delegation Framework
 
 ## 1. Research Overview
 
@@ -8,11 +8,11 @@ The central question of this research is:
 
 > When should AI systems be granted autonomous decision-making authority, and when must humans retain control?
 
-While prevailing AI adoption discourse remains trapped in a binary framing — "use AI or do not" — this research redefines AI delegation as a **calibration problem**. The core argument is that AI authority must be **adaptively adjusted** according to domain, risk, evidence, and governance conditions.
+While prevailing AI adoption discourse remains trapped in a binary framing — "use AI or do not" — this research reframes AI delegation as a **calibration problem** by synthesizing existing academic frameworks, regulatory guidance, and documented failure cases. The resulting argument is that AI authority must be **adaptively adjusted** according to domain, risk, evidence, and governance conditions.
 
 ### 1.2 Methodology
 
-This research takes a meta-analytic approach. Rather than conducting a single case study or industry-specific analysis, it **systematically collects, classifies, and cross-compares 71 real-world AI governance failure cases** to extract failure patterns and construct a framework inductively.
+This research takes a systematic case synthesis approach. Rather than conducting a single case study or industry-specific analysis, it **collects, classifies, and cross-compares 71 documented AI governance failure cases** using established academic taxonomies, then synthesizes the failure patterns with existing governance literature to produce an adaptive delegation framework.
 
 **Data Collection Protocol:**
 
@@ -162,7 +162,7 @@ This distinction goes beyond technical classification — it implies that **the 
 
 This means the question "Can AI be used in finance?" is ill-formed. The correct question is: "For this specific financial decision, at this risk level, under these scenario conditions, with this evidence strength, what level of authority can be granted to AI?"
 
-This approach draws theoretical grounding from established research:
+This approach draws directly from established research:
 
 - **Agrawal, Gans, and Goldfarb (2018)**: AI understood as a prediction technology, but prediction alone does not produce action — judgment is separately required. Theoretical basis for the "decision structure" and "AI role" dimensions.
 - **Jarrahi (2018)**: Human-AI complementarity is stronger than pure substitution in complex organizations. Justification for defaulting to "assist" and "recommend" over "automate."
@@ -355,7 +355,7 @@ Across all 20 incidents:
 
 ## 6. Reasoning Verification Framework (Extension)
 
-One key finding from the 71-incident analysis is that the delegation framework alone does not sufficiently address LLM **output quality** problems. Accordingly, a reasoning verification framework integrating four complementary methods was additionally developed.
+One key finding from the 71-incident analysis is that the delegation framework alone does not sufficiently address LLM **output quality** problems. Accordingly, a reasoning verification framework was synthesized by integrating four complementary assessment methods drawn from epistemology, professional standards, and calibration research.
 
 ### 6.1 Reasoning Failure Taxonomy: 6 Categories × 25 Types
 
@@ -494,51 +494,62 @@ The most important organizational decision is not whether to adopt AI but **how 
 
 ### Academic Literature and Theoretical Foundations
 
-- Agrawal, A., Gans, J., and Goldfarb, A. (2018). Prediction, Judgment and Complexity: A Theory of Decision Making and Artificial Intelligence. *NBER Working Paper 24243*.
-- Amodei, D., Olah, C., Steinhardt, J., Christiano, P., Schulman, J., and Mané, D. (2016). Concrete Problems in AI Safety. *arXiv:1606.06565*.
-- Bansal, G., Wu, T., Zhou, J., Fok, R., Nushi, B., Kamar, E., Ribeiro, M. T., and Weld, D. S. (2021). Does the Whole Exceed its Parts? The Effect of AI Explanations on Complementary Team Performance. *Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems*.
-- Bowman, S. R., Hyun, J., Perez, E., Chen, A., Pettit, C., Heiner, S., Lukosuite, K., Askell, A., Jones, A., Chen, A., et al. (2022). Measuring Progress on Scalable Oversight for Large Language Models. *arXiv:2211.03540*.
-- Brynjolfsson, E., Hitt, L. M., and Kim, H. H. (2011). Strength in Numbers: How Does Data-Driven Decisionmaking Affect Firm Performance? *ICIS 2011 Proceedings*.
-- Brynjolfsson, E., Li, D., and Raymond, L. R. (2023). Generative AI at Work. *NBER Working Paper 31161*.
-- Conmy, A., Mavor-Parker, A. N., Lynch, A., Heimersheim, S., and Garriga-Alonso, A. (2023). Towards Automated Circuit Discovery for Mechanistic Interpretability. *NeurIPS 2023*.
-- De Stefano, V., Kellogg, K. C., Menietti, M., and Vendraminelli, L. (2022). The Tapestry of Work: A Comprehensive Framework for Understanding the Experience of Work in the Age of AI. *SSRN Working Paper*.
-- Dietvorst, B. J., Simmons, J. P., and Massey, C. (2015). Algorithm Aversion: People Erroneously Avoid Algorithms After Seeing Them Err. *Journal of Experimental Psychology: General*, 144(1), 114–126.
-- Elhage, N., Nanda, N., Olsson, C., Henighan, T., Joseph, N., Mann, B., Askell, A., Bai, Y., Chen, A., Conerly, T., et al. (2022). A Mathematical Framework for Transformer Circuits. *Transformer Circuits Thread*.
-- Jarrahi, M. H. (2018). Artificial Intelligence and the Future of Work: Human-AI Symbiosis in Organizational Decision Making. *Business Horizons*, 61(4), 577–586.
-- Krakovna, V., Uesato, J., Mikulik, V., Rahtz, M., Everitt, T., Kumar, R., Kenton, Z., Leike, J., and Legg, S. (2020). Specification Gaming: The Flip Side of AI Ingenuity. *DeepMind Blog*.
-- Lee, J. D., and See, K. A. (2004). Trust in Automation: Designing for Appropriate Reliance. *Human Factors*, 46(1), 50–80.
-- Li, D., Raymond, L. R., and Bergman, P. (2020). Hiring as Exploration. *NBER Working Paper 27736*.
-- Schuett, J., Dreksler, N., Anderljung, M., McCaffary, D., Heim, L., Bluemke, E., and Garfinkel, B. (2023). Towards Best Practices in AGI Safety and Governance. *arXiv:2305.07153*.
-- Vaccaro, M., Almaatouq, A., and Malone, T. W. (2024). When Combinations of Humans and AI Are Useful: A Systematic Review and Meta-Analysis. *Nature Human Behaviour*.
-- Weidinger, L., Mellor, J., Rauh, M., Griffin, C., Uesato, J., Huang, P.-S., Cheng, M., Glaese, M., Balle, B., Kasirzadeh, A., et al. (2022). Ethical and Social Risks of Harm from Language Models. *arXiv:2112.04359*.
+- Agrawal, A., Gans, J., and Goldfarb, A. (2018). Prediction, Judgment and Complexity: A Theory of Decision Making and Artificial Intelligence. *NBER Working Paper 24243*. https://www.nber.org/papers/w24243
+- Amodei, D., Olah, C., Steinhardt, J., Christiano, P., Schulman, J., and Mané, D. (2016). Concrete Problems in AI Safety. *arXiv:1606.06565*. https://arxiv.org/abs/1606.06565
+- Bansal, G., Wu, T., Zhou, J., Fok, R., Nushi, B., Kamar, E., Ribeiro, M. T., and Weld, D. S. (2021). Does the Whole Exceed its Parts? The Effect of AI Explanations on Complementary Team Performance. *Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems*. https://doi.org/10.1145/3411764.3445717
+- Bowman, S. R., Hyun, J., Perez, E., Chen, A., Pettit, C., Heiner, S., Lukosuite, K., Askell, A., Jones, A., Chen, A., et al. (2022). Measuring Progress on Scalable Oversight for Large Language Models. *arXiv:2211.03540*. https://arxiv.org/abs/2211.03540
+- Brynjolfsson, E., Hitt, L. M., and Kim, H. H. (2011). Strength in Numbers: How Does Data-Driven Decisionmaking Affect Firm Performance? *ICIS 2011 Proceedings*. https://aisel.aisnet.org/icis2011/proceedings/economicvalueIS/13/
+- Brynjolfsson, E., Li, D., and Raymond, L. R. (2023). Generative AI at Work. *NBER Working Paper 31161*. https://www.nber.org/papers/w31161
+- Conmy, A., Mavor-Parker, A. N., Lynch, A., Heimersheim, S., and Garriga-Alonso, A. (2023). Towards Automated Circuit Discovery for Mechanistic Interpretability. *NeurIPS 2023*. https://arxiv.org/abs/2304.14997
+- De Stefano, V., Kellogg, K. C., Menietti, M., and Vendraminelli, L. (2022). The Tapestry of Work: A Comprehensive Framework for Understanding the Experience of Work in the Age of AI. *SSRN Working Paper*. https://ssrn.com/abstract=4246077
+- Dietvorst, B. J., Simmons, J. P., and Massey, C. (2015). Algorithm Aversion: People Erroneously Avoid Algorithms After Seeing Them Err. *Journal of Experimental Psychology: General*, 144(1), 114–126. https://pubmed.ncbi.nlm.nih.gov/25401381/
+- Elhage, N., Nanda, N., Olsson, C., Henighan, T., Joseph, N., Mann, B., Askell, A., Bai, Y., Chen, A., Conerly, T., et al. (2022). A Mathematical Framework for Transformer Circuits. *Transformer Circuits Thread*. https://transformer-circuits.pub/2021/framework/index.html
+- Jarrahi, M. H. (2018). Artificial Intelligence and the Future of Work: Human-AI Symbiosis in Organizational Decision Making. *Business Horizons*, 61(4), 577–586. https://doi.org/10.1016/j.bushor.2018.03.007
+- Krakovna, V., Uesato, J., Mikulik, V., Rahtz, M., Everitt, T., Kumar, R., Kenton, Z., Leike, J., and Legg, S. (2020). Specification Gaming: The Flip Side of AI Ingenuity. *DeepMind Blog*. https://deepmind.google/discover/blog/specification-gaming-the-flip-side-of-ai-ingenuity/
+- Lee, J. D., and See, K. A. (2004). Trust in Automation: Designing for Appropriate Reliance. *Human Factors*, 46(1), 50–80. https://doi.org/10.1518/hfes.46.1.50.30392
+- Li, D., Raymond, L. R., and Bergman, P. (2020). Hiring as Exploration. *NBER Working Paper 27736*. https://www.nber.org/papers/w27736
+- Schuett, J., Dreksler, N., Anderljung, M., McCaffary, D., Heim, L., Bluemke, E., and Garfinkel, B. (2023). Towards Best Practices in AGI Safety and Governance. *arXiv:2305.07153*. https://arxiv.org/abs/2305.07153
+- Vaccaro, M., Almaatouq, A., and Malone, T. W. (2024). When Combinations of Humans and AI Are Useful: A Systematic Review and Meta-Analysis. *Nature Human Behaviour*. https://www.nature.com/articles/s41562-024-02024-1
+- Weidinger, L., Mellor, J., Rauh, M., Griffin, C., Uesato, J., Huang, P.-S., Cheng, M., Glaese, M., Balle, B., Kasirzadeh, A., et al. (2022). Ethical and Social Risks of Harm from Language Models. *arXiv:2112.04359*. https://arxiv.org/abs/2112.04359
 
 ### Governance Frameworks and Regulatory Documents
 
-- NIST. (2023). AI Risk Management Framework 1.0.
-- OECD. (2019). OECD AI Principles.
-- U.S. Equal Employment Opportunity Commission. (2023). Assessing Adverse Impact in Software, Algorithms, and Artificial Intelligence Used in Employment Selection Procedures Under Title VII.
-- Consumer Financial Protection Bureau. (2020–2024). Upstart no-action letter materials and termination order.
-- U.S. Food and Drug Administration. (2025). Artificial Intelligence in Software as a Medical Device.
-- U.S. Securities and Exchange Commission. (2017). Investor Bulletin: Robo-Advisers.
+- NIST. (2023). AI Risk Management Framework 1.0. https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-ai-rmf-10
+- OECD. (2019). OECD AI Principles. https://www.oecd.org/en/topics/ai-principles.html
+- U.S. Equal Employment Opportunity Commission. (2023). Assessing Adverse Impact in Software, Algorithms, and Artificial Intelligence Used in Employment Selection Procedures Under Title VII. https://www.eeoc.gov/assessing-adverse-impact-software-algorithms-and-artificial-intelligence-used-employment-selection
+- Consumer Financial Protection Bureau. (2020–2024). Upstart no-action letter materials and termination order. https://www.consumerfinance.gov/about-us/newsroom/cfpb-issues-order-to-terminate-upstart-no-action-letter/
+- U.S. Food and Drug Administration. (2025). Artificial Intelligence in Software as a Medical Device. https://www.fda.gov/medical-devices/software-medical-device-samd/artificial-intelligence-software-medical-device
+- U.S. Securities and Exchange Commission. (2017). Investor Bulletin: Robo-Advisers. https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-45
 
 ### Incident Case Primary Sources
 
-- Zillow investor release and SEC filing (2021)
-- NTSB Tempe investigation — Uber ATG (2018)
-- DOJ complaint and settlement — Meta housing ads (2022)
-- FTC complaint and order — Rite Aid (2023)
-- EEOC suit and settlement — iTutorGroup (2022–2023)
-- Court ruling — Mobley v. Workday (2024)
-- DOJ statement of interest — SafeRent (2023)
-- DOJ complaint — RealPage (2024)
-- FTC complaint and order — FloatMe (2024)
-- Tribunal decision — Air Canada chatbot (2024)
-- Court order — Mata v. Avianca (2023)
-- Court order — AP Electric sanctions (2025)
-- Samsung internal ban reporting — TechCrunch (2023)
-- Google Bard demo error — Reuters (2023)
-- Google Gemini image generation pause — Google Blog (2024)
-- CNET AI content rollout — Futurism (2023)
-- Fake summer reading list — AP (2025)
-- DPD chatbot incident — The Guardian (2024)
-- DOJ settlement — Elegant Enterprise-Wide Solutions (2026)
+#### General AI
+
+- Zillow investor release (2021-11-02). https://investors.zillowgroup.com/investors/news-and-events/news/news-details/2021/Zillow-Group-Reports-Third-Quarter-2021-Financial-Results--Shares-Plan-to-Wind-Down-Zillow-Offers-Operations/default.aspx
+- Zillow SEC filing (2021-11-02). https://www.sec.gov/Archives/edgar/data/1617640/000161764021000085/z-20211102.htm
+- Reuters on Amazon recruiting tool (2018-10-10). https://www.investing.com/news/stock-market-news/amazon-scraps-secret-ai-recruiting-tool-that-showed-bias-against-women-1637988
+- NTSB Tempe investigation — Uber ATG (2018). https://www.ntsb.gov/investigations/Pages/HWY18MH010.aspx
+- DOJ complaint and settlement — Meta housing ads (2022). https://www.justice.gov/crt/case/united-states-v-meta-platforms-inc-fka-facebook-inc-sdny
+- FTC complaint and order — Rite Aid (2023-12-19). https://www.ftc.gov/news-events/news/press-releases/2023/12/rite-aid-banned-using-ai-facial-recognition-after-ftc-says-retailer-deployed-technology-without
+- EEOC suit — iTutorGroup (2022-05-05). https://www.eeoc.gov/newsroom/eeoc-sues-itutorgroup-age-discrimination
+- EEOC settlement — iTutorGroup (2023-09-11). https://www.eeoc.gov/newsroom/itutorgroup-pay-365000-settle-eeoc-discriminatory-hiring-suit
+- Court case page — Mobley v. Workday (2024-07-12). https://cand.uscourts.gov/cases-e-filing/cases/323-cv-00770-rfl/mobley-v-workday-inc
+- Duane Morris summary of Workday ruling. https://www.mondaq.com/unitedstates/employee-rights-labour-relations/1493526/california-federal-court-denies-motion-to-dismiss-artificial-intelligence-employment-discrimination-lawsuit
+- DOJ statement of interest — SafeRent (2023-01-09). https://www.justice.gov/usao-ma/pr/us-attorneys-office-files-statement-interest-fair-housing-act-case-alleging-unlawful
+- DOJ complaint — RealPage (2024-08-23). https://www.justice.gov/opa/pr/justice-department-sues-realpage-algorithmic-pricing-scheme-harms-millions-american-renters
+- FTC complaint and order — FloatMe (2024-01-24). https://www.ftc.gov/news-events/news/press-releases/2024/01/ftc-acts-stop-floatmes-deceptive-free-money-promises-discriminatory-cash-advance-practices-baseless
+
+#### LLM-Specific
+
+- Deeth Williams Wall summary — Air Canada chatbot (2024-02-14). https://www.dww.com/articles/bc-tribunal-finds-air-canada-liable-for-inaccurate-advice-given-by-website-chatbot
+- Court order — Mata v. Avianca (2023-06-22). https://law.justia.com/cases/federal/district-courts/new-york/nysdce/1%3A2022cv01461/575368/54/
+- Court order — AP Electric sanctions (2025-07-28). https://law.justia.com/cases/federal/district-courts/michigan/miedce/4%3A2023cv11342/370246/92/
+- TechCrunch — Samsung ban (2023-05-02). https://techcrunch.com/2023/05/02/samsung-bans-use-of-generative-ai-tools-like-chatgpt-after-april-internal-data-leak/
+- Reuters via Al Jazeera — Google Bard error (2023-02-08). https://www.aljazeera.com/economy/2023/2/8/google-shares-tank-8-as-ai-chatbot-bard-flubs-answer-in-ad
+- Google blog — Gemini image generation pause (2024-02-23). https://blog.google/products/gemini/gemini-image-generation-issue/
+- Futurism — CNET AI article rollout (2023). https://futurism.com/the-byte/cnet-publishing-articles-by-ai
+- Futurism — CNET labeling and disclosure issues (2023). https://futurism.com/cnet-ai-articles-label
+- Futurism — CNET errors and plagiarism concerns (2023). https://futurism.com/red-ventures-knew-errors-plagiarism-deployed-cnet-anyway
+- AP — Fake summer book list (2025-05-21). https://apnews.com/article/fake-book-list-ai-newspaper-summer-reading-fcdf454a5b467dad3adfed6ca1a224d2
+- The Guardian — DPD chatbot incident (2024-01-20). https://www.theguardian.com/technology/2024/jan/20/dpd-ai-chatbot-swears-calls-itself-useless-and-criticises-firm
+- DOJ — Elegant Enterprise-Wide Solutions (2026-02-25). https://www.justice.gov/opa/pr/civil-rights-division-obtains-settlement-company-used-ai-generated-advertisements-excluded
