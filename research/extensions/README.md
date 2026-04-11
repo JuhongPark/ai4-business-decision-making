@@ -31,6 +31,7 @@ Track guides:
 - [delegation-as-alignment.md](delegation-as-alignment.md) — delegation calibration as an alignment problem
 - [interpretability-bridge.md](interpretability-bridge.md) — evidence strength ceiling and mechanistic interpretability
 - [alignment-literature-bridge.md](alignment-literature-bridge.md) — incident taxonomy mapped to alignment failure modes
+- [speculative-futures-governance.md](speculative-futures-governance.md) — SF narratives and scenario methods as governance evidence
 
 ## What Belongs Here
 
