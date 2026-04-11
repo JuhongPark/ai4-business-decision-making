@@ -27,6 +27,7 @@ Track guides:
 ## Cross-Track Documents
 
 - [cross-extension-synthesis.md](cross-extension-synthesis.md) — unified narrative connecting all five tracks and standalone memos
+- [venue-landscape.md](venue-landscape.md) — relevant journals, conferences, special issues, and submission strategy
 - [delegation-as-alignment.md](delegation-as-alignment.md) — delegation calibration as an alignment problem
 - [interpretability-bridge.md](interpretability-bridge.md) — evidence strength ceiling and mechanistic interpretability
 - [alignment-literature-bridge.md](alignment-literature-bridge.md) — incident taxonomy mapped to alignment failure modes
