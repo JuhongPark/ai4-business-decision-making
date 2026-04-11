@@ -7,7 +7,7 @@ This folder is organized by document role, so final outputs, core analysis, and 
 - Read the main report: [delivery/output/thinktank-report.md](delivery/output/thinktank-report.md)
 - Read the executive summary: [delivery/output/executive-summary.md](delivery/output/executive-summary.md)
 - Review the core taxonomy: [core/taxonomy/taxonomy-summary.md](core/taxonomy/taxonomy-summary.md)
-- Review the current extension focus: [extensions/information-structure/initial-analysis.md](extensions/information-structure/initial-analysis.md)
+- Review the current extension focus: [extensions/market-research/README.md](extensions/market-research/README.md)
 - Review the overall project plan: [core/planning/project-research-plan.md](core/planning/project-research-plan.md)
 
 ## If You Want...
@@ -16,7 +16,7 @@ This folder is organized by document role, so final outputs, core analysis, and 
 - Read the main external-facing argument: [delivery/output/thinktank-report.md](delivery/output/thinktank-report.md)
 - Read the shortest version first: [delivery/output/executive-summary.md](delivery/output/executive-summary.md)
 - Understand the core analytical model: [core/taxonomy/taxonomy-summary.md](core/taxonomy/taxonomy-summary.md)
-- See what the project is extending right now: [extensions/information-structure/README.md](extensions/information-structure/README.md)
+- See what the project is extending right now: [extensions/market-research/README.md](extensions/market-research/README.md)
 - Inspect revision and review evidence: [operations/revision/README.md](operations/revision/README.md)
 
 ## Zone Guides
@@ -68,6 +68,7 @@ Use this area for follow-on workstreams that extend the main thesis.
 
 - `three-part-study/`: workflow, infrastructure, and organization extension
 - `adaptive-governance/`: governance timing, market, and implementation extension
+- `market-research/`: reasoning verification applied to AI-autonomous market research for product ideation
 - `information-structure/`: information shocks, consulting persistence, and AI-era decision structure
 - `business-alignment/`: business-context alignment and operating-model implications
 
