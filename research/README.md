@@ -7,6 +7,7 @@ This folder is organized by document role, so final outputs, core analysis, and 
 - Read the main report: [delivery/output/thinktank-report.md](delivery/output/thinktank-report.md)
 - Read the executive summary: [delivery/output/executive-summary.md](delivery/output/executive-summary.md)
 - Review the core taxonomy: [core/taxonomy/taxonomy-summary.md](core/taxonomy/taxonomy-summary.md)
+- Review the practical solution: [extensions/market-research/practical-solution-synthesis.md](extensions/market-research/practical-solution-synthesis.md)
 - Review the current extension focus: [extensions/market-research/README.md](extensions/market-research/README.md)
 - Review the overall project plan: [core/planning/project-research-plan.md](core/planning/project-research-plan.md)
 

@@ -1,10 +1,14 @@
 # Market Research Track Guide
 
-This track tests the reasoning verification framework against a concrete domain: AI-autonomous market research for product ideation. It is the first domain-specific empirical validation of the core reasoning failure taxonomy and verification protocols.
+This track began as a domain-specific test of the reasoning verification framework and evolved into the primary research contribution: a **minimum viable governance approach (3-layer solution)** for AI-assisted business decisions, empirically grounded in sycophancy compounding experiments and supported by 7 converging literature streams.
+
+## Core Contribution
+
+The 3-layer solution: (A) bidirectional prompt design, (B) selective human intervention at judgment boundaries, (C) "own answer first" at judgment points. See [practical-solution-synthesis.md](practical-solution-synthesis.md) for the full argument.
 
 ## Why Market Research
 
-Market research combines low verifiability, high interpretive burden, temporal sensitivity, and sycophancy vulnerability. These properties make it both the hardest test domain for reasoning verification and the domain where verification matters most for practitioners without professional training.
+Market research combines low verifiability, high interpretive burden, temporal sensitivity, and sycophancy vulnerability. These properties make it both the hardest test domain for the governance framework and the domain where the 3-layer solution's impact is most measurable.
 
 ## Canonical Documents
 

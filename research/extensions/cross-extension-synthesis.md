@@ -1,8 +1,9 @@
 # Cross-Extension Synthesis: How the Research Tracks Connect
 
-status: synthesis document
+status: synthesis document (foundational — see practical-solution-synthesis.md for the evolved 3-layer intervention)
 date_created: 2026-04-11
 purpose: tie the five extension tracks and three standalone memos into a unified research narrative that advances the core thesis beyond the original submission
+note: this document maps the theoretical architecture (Why → What → How → Test → Deploy). The research has since converged on a minimum viable governance approach — 3 actionable layers distilled from this architecture. See research/extensions/market-research/practical-solution-synthesis.md for the practical contribution.
 
 ## The Core Thesis
 
