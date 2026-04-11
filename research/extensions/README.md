@@ -4,22 +4,32 @@ This zone holds follow-on workstreams that extend the main thesis without crowdi
 
 ## Current Focus
 
-- Active extension emphasis: [information-structure/information-structure-plan.md](information-structure/information-structure-plan.md)
-- Current analysis entry point: [information-structure/initial-analysis.md](information-structure/initial-analysis.md)
+- Active extension emphasis: [market-research/market-research-plan.md](market-research/market-research-plan.md)
+- Current analysis entry point: [market-research/professional-benchmark.md](market-research/professional-benchmark.md)
+- Research update plan: [../operations/expansion/research-update-plan-2026-04.md](../operations/expansion/research-update-plan-2026-04.md)
 
 ## Tracks
 
-- Three-part study: [three-part-study/three-part-study-plan.md](three-part-study/three-part-study-plan.md) `status: draft extension sequence`
-- Adaptive governance: [adaptive-governance/adaptive-governance-summary.md](adaptive-governance/adaptive-governance-summary.md) `status: research-complete extension summary`
-- Information structure: [information-structure/information-structure-plan.md](information-structure/information-structure-plan.md) `status: active extension focus`
+- Market research: [market-research/market-research-plan.md](market-research/market-research-plan.md) `status: active extension focus`
+- Information structure: [information-structure/information-structure-plan.md](information-structure/information-structure-plan.md) `status: paused, pending integration with market-research`
+- Adaptive governance: [adaptive-governance/adaptive-governance-summary.md](adaptive-governance/adaptive-governance-summary.md) `status: research-complete`
 - Business alignment: [business-alignment/business-alignment-plan.md](business-alignment/business-alignment-plan.md) `status: draft extension track`
+- Three-part study: [three-part-study/three-part-study-plan.md](three-part-study/three-part-study-plan.md) `status: draft, depends on other tracks`
 
 Track guides:
 
-- [three-part-study/README.md](three-part-study/README.md)
-- [adaptive-governance/README.md](adaptive-governance/README.md)
+- [market-research/README.md](market-research/README.md)
 - [information-structure/README.md](information-structure/README.md)
+- [adaptive-governance/README.md](adaptive-governance/README.md)
 - [business-alignment/README.md](business-alignment/README.md)
+- [three-part-study/README.md](three-part-study/README.md)
+
+## Cross-Track Documents
+
+- [cross-extension-synthesis.md](cross-extension-synthesis.md) — unified narrative connecting all five tracks and standalone memos
+- [delegation-as-alignment.md](delegation-as-alignment.md) — delegation calibration as an alignment problem
+- [interpretability-bridge.md](interpretability-bridge.md) — evidence strength ceiling and mechanistic interpretability
+- [alignment-literature-bridge.md](alignment-literature-bridge.md) — incident taxonomy mapped to alignment failure modes
 
 ## What Belongs Here
 
