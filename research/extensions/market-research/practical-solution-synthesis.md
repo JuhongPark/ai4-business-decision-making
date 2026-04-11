@@ -128,7 +128,7 @@ The honest trade-off: the "just let AI do it" approach takes 2 hours but has unk
 | De facto automation literature | "Own answer first" triples detection → Layer C is evidence-backed |
 | Prediction-judgment mapping | 22% prediction / 39% interleaved / 39% judgment → Layer B allocation of human effort |
 | Automation boundary scoring | Judgment tasks should never be automated → Layer B hard boundary |
-| Practitioner simulation | Detection improves from 28% to 59% with tools → the system works (simulated, needs real validation) |
+| Practitioner simulation (Layer 6) | LLM-simulated 30 personas × 6 outputs × 3 conditions. Detection: unassisted 28% → verification suite 54% → full workflow 59%. Note: computational simulation per Lin (2025), not human data. Simulated effect direction consistent with Buçinca 2021 (3x improvement) but magnitude requires real-participant validation. |
 
 ## Limitations
 

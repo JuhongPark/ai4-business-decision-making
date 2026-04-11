@@ -17,6 +17,16 @@ Market research combines low verifiability, high interpretive burden, temporal s
 - Prediction-judgment interleave: [prediction-judgment-interleave.md](prediction-judgment-interleave.md) `status: Track B deliverable`
 - Sycophancy compounding analysis: [sycophancy-compounding-analysis.md](sycophancy-compounding-analysis.md) `status: Track C deliverable`
 - Automation boundary scoring: [automation-boundary-scoring.md](automation-boundary-scoring.md) `status: Track D deliverable`
+- Practical solution synthesis: [practical-solution-synthesis.md](practical-solution-synthesis.md) `status: synthesis`
+- Bidirectional prompt taxonomy: [bidirectional-prompt-taxonomy.md](bidirectional-prompt-taxonomy.md) `status: MVG Track 1`
+- Pipeline cognitive forcing: [pipeline-cognitive-forcing.md](pipeline-cognitive-forcing.md) `status: MVG Track 2`
+- Friction-adoption paradox: [friction-adoption-paradox.md](friction-adoption-paradox.md) `status: MVG Track 3`
+- Minimum absorptive capacity: [minimum-absorptive-capacity.md](minimum-absorptive-capacity.md) `status: MVG Track 4`
+- Shadow AI formalization: [shadow-ai-formalization.md](shadow-ai-formalization.md) `status: MVG Track 5`
+- Adoption barrier implications: [adoption-barrier-implications.md](adoption-barrier-implications.md) `status: analytical memo`
+- MVG literature review: [minimum-viable-governance-literature.md](minimum-viable-governance-literature.md) `status: literature review`
+- Industry landscape: [industry-landscape-ai-governance.md](industry-landscape-ai-governance.md) `status: reference`
+- AI adoption barriers: [ai-adoption-barriers-verified-findings.md](ai-adoption-barriers-verified-findings.md) `status: reference`
 
 ## Recommended Reading Order
 
@@ -29,6 +39,12 @@ Market research combines low verifiability, high interpretive burden, temporal s
 7. [de-facto-automation-countermeasures.md](de-facto-automation-countermeasures.md) — evidence-backed interventions
 8. [sycophancy-compounding-analysis.md](sycophancy-compounding-analysis.md) — how bias accumulates across stages
 9. [automation-boundary-scoring.md](automation-boundary-scoring.md) — predictive tool for automate/do-not-automate decisions
+10. [practical-solution-synthesis.md](practical-solution-synthesis.md) — 3-layer intervention distilled from all findings
+11. [bidirectional-prompt-taxonomy.md](bidirectional-prompt-taxonomy.md) — prompt structures that reduce sycophancy
+12. [pipeline-cognitive-forcing.md](pipeline-cognitive-forcing.md) — where to place human checkpoints
+13. [friction-adoption-paradox.md](friction-adoption-paradox.md) — why effective interventions are rejected and how to fix it
+14. [minimum-absorptive-capacity.md](minimum-absorptive-capacity.md) — minimum knowledge threshold
+15. [shadow-ai-formalization.md](shadow-ai-formalization.md) — protocol for formalizing existing AI use
 
 ## Research Phases
 
