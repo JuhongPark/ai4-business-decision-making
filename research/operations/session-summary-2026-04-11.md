@@ -2,9 +2,9 @@
 
 ## Scope
 
-Single-session research sprint covering: research update planning, market-research extension execution, additional analysis tracks, prototyping, and empirical simulation.
+Single-session research sprint covering: research update planning, market-research extension execution, additional analysis tracks, prototyping, empirical simulation, actual sycophancy experiment, practical solution synthesis, and industry landscape mapping.
 
-## Commits (12 total, 55+ files, ~8,000+ lines)
+## Commits (15 total, 67+ files, ~10,000+ lines)
 
 | # | Hash | Summary |
 | --- | --- | --- |
@@ -117,13 +117,49 @@ The real experiment (locked protocol, actual LLM outputs, honest coding) produce
 5. **Population vulnerability** — risk to children/patients not in generic risk dimension
 6. **Governance Readiness criteria ambiguity** — lowest inter-model agreement (Kappa 0.59)
 
+## Additional Deliverables (Commits 13-15)
+
+| # | Hash | Summary |
+| --- | --- | --- |
+| 13 | 4d9e0dd | Actual sycophancy experiment: locked coding protocol + 6 real LLM outputs + honest coding |
+| 14 | 6b2d4b5 | Practical solution synthesis: 3-layer intervention (bidirectional tasks + selective intervention + own answer first) |
+| 15 | 589f12c | Industry landscape: 14 organizations mapped on AI governance, delegation, reasoning verification |
+
+### Actual Sycophancy Experiment (replacing fabricated data)
+
+The locked-protocol experiment produced results that partially contradicted the earlier fabricated data:
+
+| Finding | Fabricated | Actual |
+| --- | --- | --- |
+| Compounding pattern | Monotonic increase | Non-monotonic (recovery at Stage 4) |
+| Worst stage | Stage 6 (concept) | Stage 5 (market sizing): 100% confirmation, 0% counter-evidence |
+| Stage 2→3 critical | Predicted | Confirmed |
+| Overall compounding | 72% → 96% | 70% → 78-100% (real but messier) |
+
+### Practical Solution: 3-Layer Intervention
+
+The entire research portfolio distills to 3 actionable interventions:
+
+1. **Layer A (AI side)**: Design tasks bidirectionally — force AI to analyze both supporting and challenging evidence. Cost: zero (prompt change). Evidence: Stage 4 structural recovery in actual experiment.
+2. **Layer B (Process side)**: Intervene only at judgment boundaries — 7 of 18 tasks need human judgment; the rest need spot-checks only. Cost: 2.3-4.7 hours vs 4.4-8.1 hours for full verification.
+3. **Layer C (Human side)**: Enforce "own answer first" at judgment points — system blocks AI output until human submits preliminary assessment. Evidence: Buçinca et al. (2021) tripled error detection.
+
+### Industry Landscape
+
+14 organizations mapped across AI labs, big tech enterprise, governance startups, and consulting firms:
+
+- **Critical gap confirmed**: No production tool exists for output-level reasoning verification. The industry governance stack is mature on content filtering and model safety, but absent on reasoning quality and task-level delegation calibration.
+- **Closest work**: Anthropic (reasoning faithfulness research, 25% CoT acknowledgment rate), DeepMind (Intelligent AI Delegation framework, Feb 2026), Microsoft (Agentic AI Maturity Model).
+- **Strongest incident**: OpenAI GPT-4o sycophancy event (April 2025) — user-satisfaction optimization overrode safety signals.
+
 ## What Remains To Do
 
 | Item | Status | Blocker |
 | --- | --- | --- |
-| P3 Conditions 2-3 (checkpoint + adversarial) | Not yet run | Need to run and code |
+| P3 Conditions 2-3 (checkpoint + adversarial) | Not yet run | Need to run and code with locked protocol |
 | Layer 4 with real multi-model API calls | Simulated only | Need GPT-4/Gemini/Llama API access |
 | Layer 5 with real colleagues | Self-inspection only | Need 3-5 colleagues |
 | Layer 6 with real participants | Simulated only | Need 20-30 practitioners + IRB |
 | Governance Readiness criteria refinement | Identified as needed | Need revised rubric + re-validation |
 | Framework v2 with HALT level | Limitation identified | Design decision needed |
+| Independent coding of P3 outputs | Same-model coding bias | Need human coders |
