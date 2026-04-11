@@ -7,9 +7,9 @@ purpose: design and classify bidirectional prompt structures optimized for each 
 ## Theoretical Basis
 
 Three findings converge:
-1. **Holtz et al. (2025)**: Prompt design contributes 50% of output quality — equal to the model itself
+1. **Holtz, Jahani, Manning et al. (2025, MIT/Columbia)**: In a study of ~1,900 DALL-E participants, prompt adaptation contributed 50% of performance gains — equal to upgrading the AI model itself. Automatic prompt rewriting degraded performance by 58%, confirming that human prompt skill is the active ingredient.
 2. **Our sycophancy experiment**: Stage 4 (competitive mapping) recovered balance because the task structure ("compare") forced bidirectional analysis
-3. **Bai et al. (2022)**: ~10 constitutional principles govern behavior without organizational infrastructure
+3. **Bai et al. (2022, Anthropic — Constitutional AI)**: Approximately 10 human-written constitutional principles can govern AI behavior through self-improvement (RLAIF), replacing extensive human review processes with lightweight design-level governance.
 
 The implication: governance can be embedded in the prompt itself. The question is which prompt structures work for which task types.
 

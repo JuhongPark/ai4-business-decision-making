@@ -31,7 +31,7 @@ For the 3-layer solution, the question is: **what does an organization need to k
 - "Does this task require interpreting what data means in context?" → interleaved
 - "Does this task require choosing between options based on values or strategy?" → judgment-dominant
 
-**Can the solution itself teach this?** Partially. The task decomposition for market research (18 tasks pre-classified) serves as both the governance tool AND the knowledge base. A market research practitioner reading the decomposition learns which tasks require their judgment and which don't. The tool teaches the user what they need to know to use the tool.
+**Can the solution itself teach this?** Partially. The task decomposition for market research (18 tasks pre-classified) serves as both the governance tool AND the knowledge base. A market research practitioner reading the decomposition learns which tasks require their judgment and which don't. The tool teaches the user what they need to know to use the tool. The critical intervention point identified in pipeline-cognitive-forcing.md is the Stage 2→3 boundary, where analysis transitions from data synthesis to interpretation — this is where the classification matters most.
 
 For non-market-research domains: a facilitator needs to lead the team through a task classification exercise (~2 hours) to produce the domain-specific decomposition. This is a one-time investment.
 
@@ -101,3 +101,7 @@ This means the lockout condition (Cohen and Levinthal's permanent adoption failu
 The absorptive capacity analysis suggests that **the 3-layer solution's real competitor is not other governance frameworks but organizational willingness**. The knowledge barrier is near-zero (one example + one session + one rule). The remaining barrier is motivational: does the organization want to use AI responsibly, or does it want to use AI fast?
 
 This reframes the adoption challenge from "how do we train people to use the framework?" to "how do we demonstrate in 5 minutes that the framework is worth 5 minutes of effort per task?" The one-example demonstration (sycophantic vs balanced output) is the minimum viable pitch.
+
+## Scope Limitation
+
+This analysis focuses on **knowledge absorption barriers**, which are minimal for the 3-layer solution. However, organizational, professional identity, liability, and psychological adoption barriers documented in adoption-barrier-implications.md may exceed knowledge barriers in practical importance and require separate intervention strategies. The absorptive capacity threshold is necessary but not sufficient — an organization that meets the knowledge threshold may still face resistance from professional identity threat (e.g., analysts who feel demoted to "AI checkers") or liability uncertainty (e.g., who signs off on AI-assisted decisions). These barriers are addressed elsewhere in the research portfolio but are not solvable by the 3-layer solution alone.
