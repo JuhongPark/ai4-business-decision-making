@@ -1,8 +1,9 @@
 # Prototyping Research Plan
 
-status: active
+status: active (prototypes built, validation in progress)
 date_created: 2026-04-11
 purpose: translate the accumulated research assets into working prototypes that validate the delegation framework, reasoning verification protocols, and automation boundary tools through functional implementation and empirical testing
+note: the research direction has evolved toward minimum viable governance (3-layer solution). The prototypes below validate the theoretical foundation; the practical contribution is distilled in practical-solution-synthesis.md
 
 ## Why Prototyping Now
 

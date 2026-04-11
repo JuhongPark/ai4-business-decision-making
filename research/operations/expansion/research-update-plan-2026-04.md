@@ -1,8 +1,9 @@
 # Research Update Plan: April 2026
 
-status: active
+status: superseded by minimum-viable-governance-research-plan.md
 date_created: 2026-04-11
 purpose: sequence remaining research work across all extension tracks, prioritize execution, and identify cross-track connections
+note: this plan was the initial sequencing document. The research direction has since evolved toward minimum viable governance (3-layer solution). See minimum-viable-governance-research-plan.md for the current research direction and practical-solution-synthesis.md for the distilled intervention.
 
 ## Current State Assessment
 

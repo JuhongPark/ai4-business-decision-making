@@ -4,9 +4,10 @@ This zone holds follow-on workstreams that extend the main thesis without crowdi
 
 ## Current Focus
 
-- Active extension emphasis: [market-research/market-research-plan.md](market-research/market-research-plan.md)
-- Current analysis entry point: [market-research/professional-benchmark.md](market-research/professional-benchmark.md)
-- Research update plan: [../operations/expansion/research-update-plan-2026-04.md](../operations/expansion/research-update-plan-2026-04.md)
+- Research direction: minimum viable governance for AI-assisted business decisions (3-layer solution)
+- Practical solution: [market-research/practical-solution-synthesis.md](market-research/practical-solution-synthesis.md)
+- Active extension: [market-research/README.md](market-research/README.md) (21 documents)
+- Current research plan: [../operations/expansion/minimum-viable-governance-research-plan.md](../operations/expansion/minimum-viable-governance-research-plan.md)
 
 ## Tracks
 

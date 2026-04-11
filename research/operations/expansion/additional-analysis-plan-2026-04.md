@@ -1,8 +1,9 @@
 # Additional Analysis Plan: Post-Boundary Analysis
 
-status: active
+status: completed — findings integrated into 3-layer solution and MVG research
 date_created: 2026-04-11
 purpose: sequence additional research prompted by the automation boundary analysis — addressing the gaps between theoretical framework and practical deployment reality
+note: all 4 tracks (countermeasures, interleave mapping, sycophancy compounding, boundary scoring) have been executed. Findings fed into the practical-solution-synthesis.md and the 5-track MVG research plan (minimum-viable-governance-research-plan.md)
 
 ## What the Boundary Analysis Revealed
 
