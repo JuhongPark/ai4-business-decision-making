@@ -2,6 +2,7 @@
 
 date: 2026-03-28
 purpose: Map existing work relevant to the reasoning trust verification research direction
+companion: See `online-discourse-deep-dive-2026-04.md` for the practitioner-facing online discourse survey (community threads, blogs, vendor pages, journalism, real-time researcher debate) that complements this academic landscape.
 
 ## Overview
 
