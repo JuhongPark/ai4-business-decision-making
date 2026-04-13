@@ -30,7 +30,8 @@ The output is not a ranking of tiers. It is a structural decomposition that show
 2. [comparative-matrix.md](comparative-matrix.md) — the 7×10 comparative matrix (tiers × dimensions). The primary compression artefact.
 3. [verification-capacity-curve.md](verification-capacity-curve.md) — the quantitative curve with its breakpoints and public-good threshold.
 4. [framework-portability.md](framework-portability.md) — the 5×7 discipline-by-tier portability table with direct implications for framework revision.
-5. Tier reports, in whatever order best fits the reader's purpose:
+5. [size-speed-resource-tradeoff.md](size-speed-resource-tradeoff.md) — supplementary memo on the classical firm-size literature (speed advantage, resource advantage, middle-market squeeze, liability of smallness / newness, ambidexterity). Independent external validation of Finding 1.
+6. Tier reports, in whatever order best fits the reader's purpose:
    - [s7-international-institutions.md](s7-international-institutions.md)
    - [s6-national-governments.md](s6-national-governments.md)
    - [s5-regulated-professions.md](s5-regulated-professions.md)
