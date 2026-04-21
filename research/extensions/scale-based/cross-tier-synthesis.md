@@ -169,6 +169,12 @@ The threshold below which reasoning verification cannot be produced as a private
 
 ---
 
+### 7.4 Decomposition layer added in `sales-vs-productization-decomposition.md`
+
+The three findings above are refined further in [`sales-vs-productization-decomposition.md`](sales-vs-productization-decomposition.md) (2026-04-21) by decomposing the firm into two skills: **sales skill (sales + investment)** and **productization skill (product implementation only)**. Under the decomposition, Finding 1 becomes "*productization* infrastructure predicts verification *substance*; *sales* infrastructure predicts verification *claims*"; Finding 2 becomes the predicted equilibrium of sales narrative × productization shortfall (jointly producing the 66%/91% overtrust); Finding 3 runs through both skills, with the AI-liability public-good argument (sales-adjacent) and the scale-based public-good argument (productization-adjacent) converging on the same structural conclusion. The decomposition layer is an interpretive refinement, not a replacement — the three findings remain anchored to the tier-report evidence.
+
+---
+
 ## 8. What the synthesis leaves for Wave 4 work
 
 The synthesis is a compression of tier report material, not a substitute for primary fieldwork. Four pieces of work remain for future research cycles.

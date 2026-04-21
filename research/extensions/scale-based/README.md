@@ -31,7 +31,8 @@ The output is not a ranking of tiers. It is a structural decomposition that show
 3. [verification-capacity-curve.md](verification-capacity-curve.md) — the quantitative curve with its breakpoints and public-good threshold.
 4. [framework-portability.md](framework-portability.md) — the 5×7 discipline-by-tier portability table with direct implications for framework revision.
 5. [size-speed-resource-tradeoff.md](size-speed-resource-tradeoff.md) — supplementary memo on the classical firm-size literature (speed advantage, resource advantage, middle-market squeeze, liability of smallness / newness, ambidexterity). Independent external validation of Finding 1.
-6. Tier reports, in whatever order best fits the reader's purpose:
+6. [sales-vs-productization-decomposition.md](sales-vs-productization-decomposition.md) — supplementary memo decomposing the tradeoff memo's three axes (speed, resources, verification quality) into two firm-level skills: sales skill (sales + investment) and productization skill (product implementation only). Names the verification-claim / verification-substance gap and re-expresses the three load-bearing findings under the decomposition.
+7. Tier reports, in whatever order best fits the reader's purpose:
    - [s7-international-institutions.md](s7-international-institutions.md)
    - [s6-national-governments.md](s6-national-governments.md)
    - [s5-regulated-professions.md](s5-regulated-professions.md)
@@ -49,6 +50,8 @@ From the cross-tier synthesis:
 2. **The 66%/91% overtrust finding is the predicted equilibrium, not a failing.** At S4 typical the per-decision verification budget (0-3 minutes) is dramatically smaller than the framework's 10-50 minute baseline. A framework that assumes conditions that do not exist predicts its own failure.
 
 3. **The public-good threshold runs through tiers, not between them.** The boundary below which reasoning verification cannot be produced privately is defined by the co-occurrence of infrastructure absence, verifier compression, and external-compulsion failure. The boundary appears *inside* every tier that has internal variance (S4, S5, S2). Only S1 is uniformly below the boundary.
+
+See [sales-vs-productization-decomposition.md](sales-vs-productization-decomposition.md) for the two-skill reinterpretation that sharpens each finding: Finding 1 becomes "*productization* infrastructure predicts verification *substance*, while *sales* infrastructure predicts verification *claims*"; Finding 2 becomes the joint failure of sales narrative × productization shortfall; Finding 3 runs through both skills, converging the AI-liability and scale-based public-good arguments.
 
 ## Shared instruments used across tier reports
 

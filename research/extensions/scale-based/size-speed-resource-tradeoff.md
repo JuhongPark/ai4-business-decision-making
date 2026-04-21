@@ -167,6 +167,8 @@ The key move: verification quality is not located on the speed-resource trade-of
 
 **The Microsoft / JPMorgan / Anthropic exemplars are the cases where resources were channelled into purpose-built verification infrastructure.** They are the existence proof that the third axis is movable, but they are also the cases that show it takes deliberate design choice, not emergence from scale or speed.
 
+The three-axis framing in this memo is refined further in [`sales-vs-productization-decomposition.md`](sales-vs-productization-decomposition.md) (2026-04-21), which splits the firm into two skills — sales skill (sales + investment) and productization skill (product implementation only) — and shows that the three axes decompose asymmetrically across them. Speed is a small-firm advantage on productization but is category-conditional on sales cycle; resources scale linearly on the sales side but non-monotonically on productization; and verification quality lives almost entirely inside productization skill but is consumed by sales skill as instruments. That memo names the resulting verification-claim / verification-substance gap and uses it to re-read the three load-bearing findings.
+
 ---
 
 ## 9. Direct implications for the paper candidates
