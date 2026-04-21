@@ -38,7 +38,8 @@ The output is not a ranking of tiers. It is a structural decomposition that show
    - [eval-engineering-profession-appendix.md](eval-engineering-profession-appendix.md) — Stream C: eval engineering as a crystallising productization sub-profession.
    - [regulatory-regime-skill-asymmetry-appendix.md](regulatory-regime-skill-asymmetry-appendix.md) — Stream D: 11 regulatory regimes coded by sales-instrument vs productization-substance asymmetry.
    - [vertical-ai-depth-appendix.md](vertical-ai-depth-appendix.md) — Stream E: 21 vertical-AI firms coded by productization depth.
-8. Tier reports, in whatever order best fits the reader's purpose:
+8. [ai-system-design-management-view.md](ai-system-design-management-view.md) — methodological companion (2026-04-21). Reframes the sales-productization decomposition through MIT System Design & Management methodology: system architecture (Crawley form / function / concept), Design Structure Matrix (Eppinger), V-model lifecycle (Forsberg-Mooz), system dynamics (Sterman causal loop diagram), and a classical-literature bridge to Ulrich, Baldwin-Clark, Henderson-Clark, Maier, Hobday, Utterback, Meyer-Lehnerd, Boudreau, Tiwana.
+9. Tier reports, in whatever order best fits the reader's purpose:
    - [s7-international-institutions.md](s7-international-institutions.md)
    - [s6-national-governments.md](s6-national-governments.md)
    - [s5-regulated-professions.md](s5-regulated-professions.md)

@@ -436,6 +436,8 @@ The decomposition lets the compute story be told as a productization-skill const
 - [`regulatory-regime-skill-asymmetry-appendix.md`](regulatory-regime-skill-asymmetry-appendix.md) — Stream D appendix comparing 11 regulatory regimes by sales-instrument vs productization-substance asymmetry (2026-04-21). Discussed in §14.
 - [`vertical-ai-depth-appendix.md`](vertical-ai-depth-appendix.md) — Stream E appendix on 21 vertical-AI firms coded by sales motion, productization depth, and eval publication (2026-04-21). Discussed in §14.
 - [`../../operations/expansion/sales-vs-productization-research-plan.md`](../../operations/expansion/sales-vs-productization-research-plan.md) — the Wave 4 research plan this memo's §14 integrates.
+- [`ai-system-design-management-view.md`](ai-system-design-management-view.md) — the MIT SDM reframe of this memo (2026-04-21). Applies system architecture (form / function / concept), Design Structure Matrix, V-model lifecycle, system dynamics, and classical-literature bridge to translate the capability-level decomposition into subsystem-level architecture and control-loop terms. Companion to §14.
+- [`../../operations/expansion/ai-system-design-management-research-plan.md`](../../operations/expansion/ai-system-design-management-research-plan.md) — the research plan that produced the SDM view.
 
 ---
 
@@ -515,3 +517,17 @@ Three refinements are added to the pre-Wave-4 memo body:
 | F (quadrant distribution) | C/D — indirect inference from aggregated public data | No primary dataset cross-tabulates these axes |
 
 The Wave 4 expansion does not contain A-graded claims that contradict the pre-Wave-4 memo; it produces B- and C-graded refinements that strengthen or soften the existing hypotheses within the grade limits the scale-based track's evidence rubric allows.
+
+### 14.8 SDM methodological reframe (added 2026-04-21)
+
+Alongside the six Wave 4 data streams, a companion memo — [`ai-system-design-management-view.md`](ai-system-design-management-view.md) — reframes the decomposition through MIT System Design & Management methodology. The SDM view treats the AI firm as a socio-technical system with five subsystems (Sales Interface, Productization Engineering, Verification, Governance, Regulatory Interface), applies Crawley's form / function / concept architecture, Eppinger's Design Structure Matrix, the Forsberg-Mooz V-model, Sterman's system dynamics (causal loop diagram for sales-productization drift), and a classical-literature bridge to Ulrich, Baldwin-Clark, Henderson-Clark, Maier, Hobday, Utterback, Meyer-Lehnerd, Boudreau, and Tiwana.
+
+Five refinements the SDM view contributes:
+
+1. **Quadrants as architectural consequences, not skill levels.** A firm's quadrant placement is downstream of its form-level architecture (monolithic / federated / vertical-platform / wrapper). The two "skills" are emergent capabilities, not elementary variables.
+2. **Coupling failures localised to specific DSM cells.** Three recurring failures: V→SI (verification signal not reaching sales commitments), G→PE (governance policy not embedded in productization), PE absent (thin wrappers). Every Stream B incident recodes as a DSM cell failure.
+3. **Verification as feedback control loop, not productization output.** The Q1-Q5 disciplines are right-arm V-model stages; verification quality is the closure of those gates before deployment.
+4. **Governance theatre as the "erosion of goals" system-dynamics archetype.** The R2 reinforcing loop (verification debt accumulating under sales pressure) is Senge/Sterman-classical, and the fix is structural (B2 regulatory gate, B3 insurance pricing) rather than moral.
+5. **Design-rule modularity applied to the V subsystem.** The foundation-model API, MCP, function-calling schemas, and AI Verify Testing Starter Kit are design-rule surfaces. Firms that treat V as a stable, versioned, inspectable design-rule surface scale better than firms that rebuild V internally.
+
+See the SDM memo for full development, incident-by-V-model-stage table, causal loop diagram, 11-theorist bridge table, and five testable predictions for a Wave 6 empirical cycle.
