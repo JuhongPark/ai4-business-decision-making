@@ -430,3 +430,88 @@ The decomposition lets the compute story be told as a productization-skill const
 - [`s5-regulated-professions.md`](s5-regulated-professions.md) — the Big Law vs Solo finding whose productization/sales reading Paper Candidate 2 in §9 updates.
 - [`s1-solo-entrepreneurs.md`](s1-solo-entrepreneurs.md) — the public-good argument whose two-sided structure §7.3 and Paper Candidate 3 in §9 develop.
 - [`../../adaptive-governance/speed-gap-analysis.md`](../../adaptive-governance/speed-gap-analysis.md) — the research-practice temporal gap the sales-cycle-speed findings in §3.1 refine.
+- [`incident-decomposition-recoding.md`](incident-decomposition-recoding.md) — Stream B appendix recoding the 20-incident structured inventory against the decomposition (2026-04-21). Discussed in §14.
+- [`asia-market-decomposition-appendix.md`](asia-market-decomposition-appendix.md) — Stream A appendix populating the matrix with Korean / Japanese / Chinese / Singaporean cases (2026-04-21). Discussed in §14.
+- [`eval-engineering-profession-appendix.md`](eval-engineering-profession-appendix.md) — Stream C appendix documenting eval engineering as an emerging productization sub-skill (2026-04-21). Discussed in §14.
+- [`regulatory-regime-skill-asymmetry-appendix.md`](regulatory-regime-skill-asymmetry-appendix.md) — Stream D appendix comparing 11 regulatory regimes by sales-instrument vs productization-substance asymmetry (2026-04-21). Discussed in §14.
+- [`vertical-ai-depth-appendix.md`](vertical-ai-depth-appendix.md) — Stream E appendix on 21 vertical-AI firms coded by sales motion, productization depth, and eval publication (2026-04-21). Discussed in §14.
+- [`../../operations/expansion/sales-vs-productization-research-plan.md`](../../operations/expansion/sales-vs-productization-research-plan.md) — the Wave 4 research plan this memo's §14 integrates.
+
+---
+
+## 14. Wave 4 cross-stream expansion (2026-04-21)
+
+This section integrates six parallel research streams commissioned under [`sales-vs-productization-research-plan.md`](../../operations/expansion/sales-vs-productization-research-plan.md). Each stream closed a specific gap identified in the research plan. The appendices live as sibling files; this section summarises the findings that bear on the memo's hypotheses.
+
+### 14.1 Six streams and where they land
+
+| Stream | Gap closed | Deliverable | Primary finding |
+|---|---|---|---|
+| **A** | Asia-region evidence | [`asia-market-decomposition-appendix.md`](asia-market-decomposition-appendix.md) | Decomposition holds in Asia with three structural modifications (regional routes into upper-left, different upper-right failure modes, sharper regulatory asymmetry). |
+| **B** | 71-incident recoding | [`incident-decomposition-recoding.md`](incident-decomposition-recoding.md) | 50% of the 20 structured incidents sit in the sales-ahead-of-product quadrant; modal documented failure is exactly the upper-right cell. |
+| **C** | Eval engineering profession | [`eval-engineering-profession-appendix.md`](eval-engineering-profession-appendix.md) | Eval engineering is crystallising as a named profession (dedicated titles, $100M+ tooling market, named curriculum) — productization skill is empirically decomposable into nameable sub-skills. |
+| **D** | Regulatory regime × skill | [`regulatory-regime-skill-asymmetry-appendix.md`](regulatory-regime-skill-asymmetry-appendix.md) | Seven regimes coded; Japan + Korea + US SEC/FTC are sales-instrument regimes; EU AI Act high-risk + FDA + SR 11-7 are productization-forcing; Singapore is the unique productization-substance-as-public-good regime. |
+| **E** | Vertical AI depth | [`vertical-ai-depth-appendix.md`](vertical-ai-depth-appendix.md) | 21 vertical-AI firms coded; firms that train or fine-tune concentrate in upper-left and price at 10× SaaS revenue/FTE; prompt-only wrappers cluster upper-right or fail. |
+| **F** | Quadrant distribution | §14.2 below | Central estimate: upper-left 5–8%, upper-right 8–15%, lower-left 5–15%, lower-right 55–75% of the ~10,000 venture-funded AI startup universe. |
+
+### 14.2 Stream F — Quantitative quadrant distribution
+
+Applying publicly available aggregates from Menlo Ventures, Bessemer, Carta, PitchBook, PwC, MIT, and RSM to the ~10,000 venture-funded AI startup universe, the best-estimate distribution is:
+
+| | **Productization: HIGH** | **Productization: LOW** | **Row total** |
+|---|---|---|---|
+| **Sales: HIGH** | **5–8%** "Balanced frontier" (Anthropic, OpenAI, Harvey, Sierra, Decagon, Cursor, Glean, Abridge, Cresta, Perplexity, Scale AI, Cohere, Mistral, xAI; Cloud-100 AI cohort) | **8–15%** "Sales ahead of product" (Klarna, Humane, Builder.ai, Nate Inc., Presto Voice, Character.AI, Cleo, Rabbit R1, AI-washing enforcement population, sales-led wrappers) | **13–23%** sales-strong |
+| **Sales: LOW** | **5–15%** "Engineering without go-to-market" (pre-commercial labs, eval-tooling startups pre-revenue, government AI testing facilities, acquihire-destined engineering orgs) | **55–75%** "Structurally weak" (pre-revenue wrappers, failed pilots, non-graduating seed, sub-$1M ARR, mid-market with 70% outside-help dependence, thin wrappers) | **60–90%** sales-weak |
+| **Column total** | **10–23%** productization-strong | **63–90%** productization-weak | — |
+
+Central point estimates (midpoints): upper-left 6.5%, upper-right 11.5%, lower-left 10%, lower-right 65%. **The modal firm is lower-right by a factor of 4–6× any other cell.** Confidence: **C/D-graded** — no public dataset directly cross-tabulates these axes at scale; every cell combines observed aggregates with inferred overlap.
+
+**Economic-value-captured distribution is the reverse**: the upper-left 5–8% of firms capture the majority of AI economic gains per PwC 2026, and the top three frontier labs (Anthropic 40%, OpenAI 27%, Google 21% of enterprise LLM spend per Menlo) account for 88% of enterprise LLM revenue. The distribution is a power law — single-peak at lower-right by firm count, single-peak at upper-left by value captured — not the bimodal "missing middle" structure the memo initially implied in §8.
+
+### 14.3 Hypothesis scorecard
+
+| Hypothesis | Verdict | Primary supporting evidence |
+|---|---|---|
+| **H1** PwC 20%-capture pattern is a "both skills" selection | **Supported in a softer form** | PwC top-performer multipliers (1.7× Responsible AI framework, 1.5× cross-functional governance, 1.8–1.9× advanced/autonomous deployment, 2.8× human-out-of-loop decisions) are productization-infrastructure correlates. But the 20% is an enterprise *adopter* figure, not a vendor figure; it overlaps with but is not identical to the ~5–8% upper-left vendor cell. Restate as: "the top 20% is disproportionately upper-left, with a minority upper-right fraction still revenue-productive while productization lags." [Streams F, E] |
+| **H2** Governance theater is a structural skill asymmetry, not an organisational failure | **Strongly supported** | Stream B's 50% sales-ahead-of-product rate in the structured incident sample is the upper-right cell empirically. Stream D's finding that US SEC/FTC target claim-substance gaps (every AI-washing case is a disclosure case, not a defect case) names the enforcement equilibrium. Stream F's 1.7× Responsible AI framework gap between top-20% and non-top quantifies the structural wedge. [Streams B, D, F] |
+| **H3** The S2 AI-native vs AI-using split is primarily a productization-skill split | **Strongly supported** | Stream E's 21-firm coding: 8 training / fine-tuning firms price at the top of their verticals and concentrate in upper-left; 4 RAG-only-or-weaker firms cluster upper-right or acquired. Stream C's confirmation that eval engineering (a productization sub-skill) is the profession-visible marker of AI-native firms. [Streams E, C] |
+| **H4** The middle-market squeeze is two squeezes coinciding | **Partially supported, refined** | Stream F's mid-market data (RSM 91% use GenAI; 62% harder than expected; 70% need outside help) confirms the two-sided pressure. Stream D adds a regulatory dimension — Korean and Japanese mid-market firms face sales-instrument compliance (AI Basic Act, METI guidelines) without proportionate productization mandate, compressing both skills simultaneously via different levers. [Streams D, F] |
+| **H5** S2→S5 single-contract transition is a sales event meeting a productization gap | **Not directly tested; evidence aligned** | No stream directly measured the S2→S5 crossing event. Stream B's 5/5 "both weak" cases clustering at S5 Solo / S1 tiers and Stream E's vertical-AI firms scaling only when they invest in productization both indirectly support the hypothesis. A Wave 5 primary-data study would be required for direct test. [Streams B, E] |
+
+### 14.4 Three findings that do not fit the decomposition cleanly
+
+The streams also surface data that the two-skill decomposition does not cleanly accommodate. Naming them honestly is necessary.
+
+1. **SoftBank's $64.6B into OpenAI is productization-by-acquisition.** The decomposition treats a firm's productization skill as internal capability. SoftBank reaches upper-left status by owning 40% of Stargate and a large OpenAI equity stake, not by building productization. This is a route the memo did not anticipate and suggests productization skill can be instantiated at the corporate-group level rather than the operating-company level. [Stream A]
+
+2. **Apple is further along on title differentiation than frontier labs.** Stream C found five distinct Siri-side evaluation engineering titles at Apple versus one each at Anthropic and OpenAI. The memo's §2.2 implicitly assumed frontier labs crystallise productization sub-skills first; the evidence is that product-layer incumbents with regulated-industry exposure (Apple's consumer AI + GDPR/consumer-protection exposure) force earlier title differentiation than research-heavy labs. [Stream C]
+
+3. **Singapore AI Verify is productization substance built as a public good.** Stream D identified the Singapore regime as uniquely building the testing infrastructure itself rather than requiring private firms to produce it. This is the first working form of the S1 tier report's three infrastructure proposals and demonstrates that productization substance can be produced at state scale, not only firm scale. The decomposition's Finding 3 reinterpretation in §7.3 is consistent with this, but the §4 matrix cells are firm-level and do not encode the state-as-producer case. [Stream D]
+
+### 14.5 Refinements the memo now incorporates
+
+Three refinements are added to the pre-Wave-4 memo body:
+
+- **§2.2 productization is a vector, not a scalar.** Stream B's "both strong" incidents (Meta housing ads, RealPage, Google Gemini) show firms that are strong on most productization sub-dimensions and still fail via a single weak sub-component (fairness audit at Meta; normative specification at RealPage; safety alignment at Gemini). The nine sub-dimensions listed in §2.2 should be read as a vector, not a single skill level.
+- **§4 matrix scope boundary.** Stream B's "not matrix-applicable" cases (Amazon internal recruiting, Samsung ChatGPT ban) identify a boundary: the decomposition applies to firms producing AI products or AI-driven services, not to internal-only AI tooling, employee use of third-party AI, or information-governance incidents. This is added to §11.
+- **§8 H1 softer form.** Stream F's analysis requires H1 to be restated as "the top 20% is disproportionately upper-left, with a minority upper-right fraction" rather than a clean 20%=both-skills identity. The PwC 1.7×–2.8× multipliers are the specific quantitative hook.
+
+### 14.6 What Wave 4 does not resolve
+
+- **Longitudinal movement across quadrants** (Gap 8 in the research plan) remains unaddressed. The expansion is still a snapshot.
+- **Insurance and liability market pricing** (Gap 9) is touched at in Stream C (Armilla AI, Munich Re aiSure, Verisk January 2026 exclusion) but not systematically analysed.
+- **Solo-founder productization ceiling** (Gap 10) remains unbounded. Base44, Cursor, Bolt, Midjourney, Gumloop are existence proofs; where productization through AI coding tools stops being enough is not answered.
+- **Primary interviews or surveys** are out of scope for Wave 4. The scale-based track's own Wave 4 primary-fieldwork list (S1 diary study, FICS-1 expansion, S3 survey, S7 institutional access) would be the natural extension.
+
+### 14.7 Evidence grade mix across streams
+
+| Stream | Dominant evidence grade | Notes |
+|---|---|---|
+| A (Asia) | B majority, A for government filings (Korea AI Basic Act, Japan METI, China CAC, Singapore AI Verify) | Some C for cross-regional population estimates |
+| B (incident recoding) | A/B — inherited from alignment-failure-mapping inventory | C for skill-balance coding where firm-at-time-of-incident data is thin |
+| C (eval engineering) | B — job postings and funding are primary but transient | C for salary comparability estimates |
+| D (regulatory) | A majority — regulatory texts are primary | B for enforcement volume claims |
+| E (vertical AI) | B — private-company ARR and funding data are practitioner-level | C for strategic moat claims |
+| F (quadrant distribution) | C/D — indirect inference from aggregated public data | No primary dataset cross-tabulates these axes |
+
+The Wave 4 expansion does not contain A-graded claims that contradict the pre-Wave-4 memo; it produces B- and C-graded refinements that strengthen or soften the existing hypotheses within the grade limits the scale-based track's evidence rubric allows.
