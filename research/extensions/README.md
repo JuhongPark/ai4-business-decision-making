@@ -17,6 +17,7 @@ This zone holds follow-on workstreams that extend the main thesis without crowdi
 - Business alignment: [business-alignment/business-alignment-plan.md](business-alignment/business-alignment-plan.md) `status: draft extension track`
 - Three-part study: [three-part-study/three-part-study-plan.md](three-part-study/three-part-study-plan.md) `status: draft, depends on other tracks`
 - Scale-based reasoning verification: [scale-based/cross-tier-synthesis.md](scale-based/cross-tier-synthesis.md) `status: waves 1-3 complete`
+- Healthcare and bio AI (special topic): [healthcare-bio-ai/synthesis.md](healthcare-bio-ai/synthesis.md) `status: single-cycle draft complete`
 
 Track guides:
 
@@ -26,6 +27,7 @@ Track guides:
 - [business-alignment/README.md](business-alignment/README.md)
 - [three-part-study/README.md](three-part-study/README.md)
 - [scale-based/README.md](scale-based/README.md)
+- [healthcare-bio-ai/README.md](healthcare-bio-ai/README.md)
 
 ## Cross-Track Documents
 
