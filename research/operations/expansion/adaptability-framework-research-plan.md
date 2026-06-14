@@ -96,6 +96,7 @@ Evidence posture: cite concrete cases, dates, dollar figures, or engineering-mon
 
 > Trace how leading AI-native and AI-forward organizations restructured human-AI collaboration across 2023–2026. Candidate firms:
 > Shopify, Klarna, Stripe, Palantir, Anthropic, OpenAI, Perplexity, Cognition, Harvey, Sierra, Cursor, Replit, McKinsey QuantumBlack, Bain, BCG X.
+> Follow-up watchlist: HurumoAI ([official site](https://hurumo.ai/)) as a low-evidence candidate for AI-agent-led company design, adaptive business agents, and deliberately AI-mediated work patterns. Track only after independent evidence emerges on customers, headcount, operating model, or product usage.
 > For each: team composition shifts, reporting structure changes, hiring profile shifts, promotion criteria changes, layoffs attributed to AI, founder / CEO public positioning.
 > Identify which collaboration models proved resilient across capability shifts versus which required frequent redesign. Distinguish substantive restructuring from public-relations restructuring.
 

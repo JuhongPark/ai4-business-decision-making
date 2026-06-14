@@ -369,6 +369,8 @@ The consulting triad (McKinsey, Bain, BCG) falls into substance on platform adop
 
 **Q7. Negative firms.** Meta's 2025 "Superintelligence Labs" hiring spree, xAI's rapid expansion, and Google DeepMind's internal reorganization were reviewed and excluded — they are frontier-lab variants of patterns already captured. Apple is deliberately not in scope because its AI collaboration model is not publicly legible as of 2026-04. **Documented exclusions.**
 
+**Q8. Follow-up watchlist: HurumoAI.** HurumoAI ([official site](https://hurumo.ai/)) should be tracked as a low-evidence candidate for AI-agent-led company design and adaptive business-agent positioning. Its public site presents an AI-agent-cofounded / AI-agent-led company narrative, a Sloth Surf beta product, and adaptive agents for business workflows, but no independent evidence was reviewed here on customers, headcount, operating model, or product usage. **Monitoring required; not yet a firm slot.**
+
 ---
 
 ## 7. Feedback to three-pillar adaptability frame
